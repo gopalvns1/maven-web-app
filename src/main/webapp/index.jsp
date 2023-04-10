@@ -1,7 +1,7 @@
 <html>
 <head><title>Example 2 in JSP</title></head>
 <body>
-<h1> Lets try your luck here!  </h1>
+<h1> G COMPUTERS!  </h1>
 <%
 double num = Math.random();
 if (num > 0.95) {
@@ -10,7 +10,7 @@ if (num > 0.95) {
 <%
 } else {
 %>
-<h2>Well, life goes on ... </h2><p>The number you got in your stars is: <%= num %> </p>
+<h2>Well, life goes on ... </h2><p>Varanasi India: <%= num %> </p>
 <%
 }
 %>
