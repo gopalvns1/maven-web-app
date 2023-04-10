@@ -6,7 +6,7 @@
 double num = Math.random();
 if (num > 0.95) {
 %>
-<h2>You'll have a lucky day!</h2><p>The number you got in your stars is: <%= num %> </p>
+<h2>You'll have a lucky day!</h2><p>Gcomputers pvt Ltd: <%= num %> </p>
 <%
 } else {
 %>
