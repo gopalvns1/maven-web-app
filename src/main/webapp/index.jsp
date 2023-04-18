@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 <!-- The SEO Framework by Sybre Waaijer -->
 <meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
-<meta name="description" content="Varanasi, India &#x2d;Gopal Yadav - 9560392026." />
+<meta name="description" content="Varanasi, India &#x2d;Gopal Yadav-9560392026." />
 <meta property="og:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -30,7 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:url" content="https://cloudfix.aurea.com/" />
 <meta property="og:site_name" content="CloudFix" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Nonstop AWS cost savings with CloudFix" />
+<meta name="twitter:title" content="Good Job Gopal !! you Build Deployment Succes You are Live now" />
 <meta name="twitter:description" content="Nice Gopal your Build Succses, you live now...&#x2d; ." />
 <meta name="twitter:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
 <meta name="theme-color" content="#ed8705" />
