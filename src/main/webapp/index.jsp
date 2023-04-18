@@ -10,7 +10,7 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TJXM2T7');</script><title>G Computers pvt.ltd Varanasi INDIA</title>
+})(window,document,'script','dataLayer','GTM-TJXM2T7');</script><title>G Computers pvt.ltd</title>
 <meta name="cs-utms" data-utms="eyJnY2xpZCI6WyJnY2xpZCIsImdjbGlkX19jIl0sInV0bV9hZGdyb3VwIjpbInV0bV9hZGdyb3VwIiwidXRtQWRncm91cCJdLCJ1dG1fY2FtcGFpZ24iOlsidXRtX2NhbXBhaWduIiwidXRtQ2FtcGFpZ24iXSwidXRtX2NvbnRlbnQiOlsidXRtX2NvbnRlbnQiLCJ1dG1Db250ZW50Il0sInV0bV9tZWRpdW0iOlsidXRtX21lZGl1bSIsInV0bU1lZGl1bSJdLCJ1dG1fc291cmNlIjpbInV0bV9zb3VyY2UiLCJ1dG1Tb3VyY2UiXSwidXRtX3Rlcm0iOlsidXRtX3Rlcm0iLCJ1dG1UZXJtIl19" />
 <script src='https://www.google.com/recaptcha/api.js?render=6LdvveIkAAAAAHZTtEUwgCkLWSOamPRqqUAb83t5&onload=onloadCallback' async defer></script><script>let captchaPassed = sessionStorage.getItem('recaptcha');</script>  <!-- Calendly scripts begin -->
   <link href='https://assets.calendly.com/assets/external/widget.css' rel='stylesheet'>
@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 <!-- The SEO Framework by Sybre Waaijer -->
 <meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
-<meta name="description" content="CloudFix is the automatic, always&#x2d;running way to optimize AWS cost and performance." />
+<meta name="description" content="Varanasi, India &#x2d;Gopal Yadav - 9560392026." />
 <meta property="og:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
