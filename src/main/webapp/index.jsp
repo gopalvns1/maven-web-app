@@ -31,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:site_name" content="CloudFix" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Nonstop AWS cost savings with CloudFix" />
-<meta name="twitter:description" content="CloudFix is the automatic, always&#x2d;running way to optimize AWS cost and performance." />
+<meta name="twitter:description" content="Nice Gopal your Build Succses, you live now...&#x2d; ." />
 <meta name="twitter:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
 <meta name="theme-color" content="#ed8705" />
 <link rel="canonical" href="https://cloudfix.aurea.com/" />
