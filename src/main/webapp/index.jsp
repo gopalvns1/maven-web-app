@@ -30,7 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:url" content="https://cloudfix.aurea.com/" />
 <meta property="og:site_name" content="CloudFix" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Good Job Gopal !! you Build Deployment Succes You are Live now" />
+<meta name="twitter:title" content="Good Job Gopal !!! you Build Deployment Succes You are Live now" />
 <meta name="twitter:description" content="Nice Gopal your Build Succses, you live now...&#x2d; ." />
 <meta name="twitter:image" content="https://cloudfix.wpengine.com/wp-content/uploads/CloudFix-Social.png" />
 <meta name="theme-color" content="#ed8705" />
